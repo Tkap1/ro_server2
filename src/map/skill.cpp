@@ -17265,6 +17265,9 @@ int skill_vfcastfix(struct block_list *bl, double time, uint16 skill_id, uint16 
 	struct map_session_data *sd = BL_CAST(BL_PC,bl);
 	int fixed = skill_get_fixed_cast(skill_id, skill_lv), fixcast_r = 0, varcast_r = 0, reduce_cast_rate = 0;
 	uint8 flag = skill_get_castnodex(skill_id);
+	
+	time = (int)(time * 0.7); // Tkap: Reduced base variable cast time of all skills by 30%
+	fixed = (int)(fixed * 0.7); // Tkap: Reduced base fixed cast time of all skills by 30%
 
 	nullpo_ret(bl);
 
@@ -17277,8 +17280,9 @@ int skill_vfcastfix(struct block_list *bl, double time, uint16 skill_id, uint16 
 	if (fixed < 0) // no fixed cast time
 		fixed = 0;
 	else if (fixed == 0) {
-		fixed = (int)time * battle_config.default_fixed_castrate / 100; // fixed time
-		time = time * (100 - battle_config.default_fixed_castrate) / 100; // variable time
+		// Tkap: commented the 2 lines below to avoid the variable/fixed auto split
+		// fixed = (int)time * battle_config.default_fixed_castrate / 100; // fixed time
+		// time = time * (100 - battle_config.default_fixed_castrate) / 100; // variable time
 	}
 	// Else, use fixed cast time from database (when default_fixed_castrate is set to 0)
 
