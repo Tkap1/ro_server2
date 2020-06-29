@@ -1,0 +1,103 @@
+
+prontera,146,188,4	script	P2W Coin Exchanger	4_DOG01,{
+	callsub(on_talk);
+	end;
+	
+OnInit:
+	
+	// P2W items
+	setarray(.p2w_items[0],
+	1837,
+	2192,
+	2198,
+	2202,
+	2576,
+	2589,
+	5208,	// Rideword hat
+	5361,
+	5564,
+	5898,
+	5902,	// Harvester Hat
+	5906,	// Oni horns
+	5966,
+	5973,
+	15072,
+	15169,
+	18539,
+	18563,
+	18564,
+	18603,
+	18611,
+	18666,	// CD in mouth
+	18754,	// Blood sucker
+	18793,	// Sorc Night Cap
+	18813,
+	18908,	// Isabella Red Ear
+	19020,  // Survive_Circlet
+	19139,	// Survivor's Orb
+	20783,
+	20799,
+	20813,	// Cloak of Survival
+	22138,
+	22170,	// Survival Shoes
+	28377,
+	28502,	// Mob Scarf
+	28507,
+	28565,	// Perverse Demon Mask
+	28910
+	);
+	
+	.menu$ = "";
+	for(.@i = 0; .@i < getarraysize(.p2w_items); .@i++)
+	{
+		.menu$ += getitemname(.p2w_items[.@i]) + ":";
+	}
+	.menu$ += "Nevermind";
+	
+	.npc_name$ = "[ ^990099P2W Coin Exchanger^000000 ]";
+	
+end;
+	
+on_talk:
+
+
+	disable_items();
+	
+	mes(.npc_name$);
+	mes("I can give you an item for 1 P2W coin");
+	.@choice = select(.menu$);
+	
+	if(.@choice == getarraysize(.p2w_items) + 1)
+	{
+		mes("Okay, bye!");
+		close();
+	}
+	else
+	{
+		do
+		{
+			if(countitem(30000) > 0)
+			{
+				delitem(30000, 1);
+				getitem(.p2w_items[.@choice - 1], 1);
+				mesclear();
+				mes(.npc_name$);
+				mes("There you go!");
+			}
+			else
+			{
+				mes("You don't have enough P2W coins!");
+				close();
+			}
+		} while(select("Give me antoher one!:Exit") == 1);
+		
+		mesclear();
+		mes(.npc_name$);
+		mes("Okay, bye!");
+		close();
+	}
+	
+	
+end;		
+		
+}

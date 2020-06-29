@@ -1,0 +1,39 @@
+  
+prontera,148,167,4	script	Advanced Exchanger	4_M_DWARF,{
+	callsub(on_talk);
+	end;
+	
+OnInit:
+
+	.oridecon_id = 984;
+	.elunium_id = 985;
+	.carnium_id = 6223;
+	.bradium_id = 6224;
+	
+end;
+	
+on_talk:
+	
+	if((.@oridecon_count = countitem(.oridecon_id)) >= 6) // Oridecon for bradium exchange
+	{
+		.@exchanges = .@oridecon_count / 5;
+		if((.@exchanges -= 1))
+		{
+			delitem(.oridecon_id, .@exchanges * 5);
+			getitem(.bradium_id, .@exchanges);
+		}
+	}
+	
+	if((.@elunium_count = countitem(.elunium_id)) >= 6) // Elunium for carnium exchange
+	{
+		.@exchanges = .@elunium_count / 5;
+		if((.@exchanges -= 1))
+		{
+			delitem(.elunium_id, .@exchanges * 5);
+			getitem(.carnium_id, .@exchanges);
+		}
+	}
+	
+end;
+
+}

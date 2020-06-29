@@ -1,0 +1,295 @@
+// function	script	foo	{
+// 	setarray($@nums[0],1,2,3,4);
+// 	return;
+// }
+
+-	script	chest_spawns	FAKE_NPC,1,1,{
+	
+OnInit:
+	
+	setarray(.ids[0],
+	1324,
+	1325,
+	1326,
+	1327,
+	1328,
+	1329,
+	1330,
+	1331,
+	1332,
+	1333,
+	1334,
+	1335,
+	1336,
+	1337,
+	1338,
+	1339,
+	1340,
+	1341,
+	1342,
+	1343,
+	1344,
+	1345,
+	1346,
+	1347,
+	1348,
+	1349,
+	1350,
+	1351,
+	1352,
+	1353,
+	1354,
+	1355,
+	1356,
+	1357,
+	1358,
+	1359,
+	1360,
+	1361,
+	1362,
+	1363,
+	1938,
+	1939,
+	1940,
+	1941,
+	1942,
+	1943,
+	1944,
+	1945,
+	1946
+	);
+	
+	setarray(.materials[0],
+	756,	// Rough oridecon
+	757,	// Rough elunium
+	984,	// Oridecon
+	985, 	// Elunium
+	6223,	// Carnium
+	6224	// Bradium
+	);
+	
+	setarray(.materials_chance_multiplier[0],
+	25,	// Rough oridecon
+	25,	// Rough elunium
+	5,	// Oridecon
+	5,	// Elunium
+	3,	// Carnium
+	3	// Bradium
+	);
+	
+	.chance = 10000000;
+	.chest_chance_multiplier = 3;
+	.p2w_chance_multiplier = 1;
+	.mora_coin_multiplier = 1;
+	.bloody_branch_divisor = 30;
+	
+end;
+
+OnNPCKillEvent:
+	
+	.@mob_hp = getunitdata(killedgid, UDT_MAXHP);
+	
+	// Get the party members
+	getpartymember(getcharid(CHAR_ID_PARTY), 0);
+	copyarray(@names$[0], $@partymembername$[0], $@partymembercount);
+	
+	if($@partymembercount == 0)
+	{
+		@is_on_party = false;
+		player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
+	}
+	
+	else
+	{
+		@is_on_party = true;
+		getpartymember(getcharid(CHAR_ID_PARTY), 1);
+		copyarray(@char_ids[0], $@partymembercid[0], $@partymembercount);
+		getpartymember(getcharid(CHAR_ID_PARTY), 2);
+		copyarray(@account_ids[0], $@partymemberaid[0], $@partymembercount);
+		
+		@party_member_count = $@partymembercount;
+		@killer_map$ = strcharinfo(PC_MAP);
+		
+		// For each party member, if they are online and in the same map add to their "player_kill_score"
+		for(.@i = 0; .@i < @party_member_count; .@i++)
+		{
+			if(isloggedin(@account_ids[.@i], @char_ids[.@i]))
+			{
+				@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@i]);
+				if(@killer_map$ == @party_member_map$)
+				{
+					@value_before = getvar(player_kill_score, @account_ids[.@i]);
+					@new_value = max(@value_before, @value_before + .@mob_hp / 10000);
+					set(getvar(player_kill_score, @account_ids[.@i]), @new_value);
+				}
+			}
+		}
+	}
+	
+	freeloop(true);
+	// Chest spawn roll
+	.@temp_chance = .@mob_hp * .chest_chance_multiplier;
+	// if(rand(1, .chance) <= .@temp_chance)
+	while((.@temp_chance -= rand(1, .chance)) >= 0)
+	{
+		.@mob_to_spawn_id = .ids[rand(0, getarraysize(.ids) - 1)];
+		.@mob_to_spawn_name$ = getmonsterinfo(.@mob_to_spawn_id, MOB_NAME);
+		monster("this", -1, -1, .@mob_to_spawn_name$, .@mob_to_spawn_id, 1);
+		specialeffect(EF_COIN, AREA, playerattached());
+	}
+	
+	// Materials roll
+	for(.@i = 0; .@i < getarraysize(.materials); .@i++)
+	{
+		.@temp_chance = .@mob_hp * .materials_chance_multiplier[.@i];
+		.@item_count = 0;
+		// if(rand(1, .chance) <= .@temp_chance)
+		while((.@temp_chance -= rand(1, .chance)) >= 0)
+		{
+			.@item_count += 1;
+		}
+		if(.@item_count)
+		{
+			if(@is_on_party)
+			{
+				@candidate_count = 0;
+				for(.@j = 0; .@j < @party_member_count; .@j++)
+				{
+					if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
+					{
+						@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
+						if(@killer_map$ == @party_member_map$)
+						{
+							// Add this id to an array of party members online and on the same map
+							@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
+							@candidate_count += 1;
+						}
+					}
+				}
+				// Give the item to a random one candidate
+				getitem(.materials[.@i], .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
+			}
+			else
+			{
+				getitem(.materials[.@i], .@item_count);
+			}
+		}
+	}
+	
+	// P2W coins roll
+	.@temp_chance = .@mob_hp * .p2w_chance_multiplier;
+	.@item_count = 0;
+	// if(rand(1, .chance) <= .@temp_chance)
+	while((.@temp_chance -= rand(1, .chance)) >= 0)
+	{
+		.@item_count += 1;
+	}
+	if(.@item_count)
+	{
+		if(@is_on_party)
+		{
+			@candidate_count = 0;
+			for(.@j = 0; .@j < @party_member_count; .@j++)
+			{
+				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
+				{
+					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
+					if(@killer_map$ == @party_member_map$)
+					{
+						// Add this id to an array of party members online and on the same map
+						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
+						@candidate_count += 1;
+					}
+				}
+			}
+			// Give the item to a random one candidate
+			getitem(30000, .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
+		}
+		else
+		{
+			getitem(30000, .@item_count);
+		}
+	}
+	
+	// Akuma's mora coins xq llora
+	.@temp_chance = .@mob_hp * .mora_coin_multiplier;
+	.@item_count = 0;
+	// if(rand(1, .chance) <= .@temp_chance)
+	while((.@temp_chance -= rand(1, .chance)) >= 0)
+	{
+		.@item_count += 1;
+	}
+	if(.@item_count)
+	{
+		if(@is_on_party)
+		{
+			@candidate_count = 0;
+			for(.@j = 0; .@j < @party_member_count; .@j++)
+			{
+				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
+				{
+					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
+					if(@killer_map$ == @party_member_map$)
+					{
+						// Add this id to an array of party members online and on the same map
+						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
+						@candidate_count += 1;
+					}
+				}
+			}
+			// Give the item to a random one candidate
+			getitem(6380, .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
+		}
+		else
+		{
+			getitem(6380, .@item_count);
+		}
+	}
+	
+	// Oso bloody branches xq llora
+	.@temp_chance = .@mob_hp / .bloody_branch_divisor;
+	.@item_count = 0;
+	// if(rand(1, .chance) <= .@temp_chance)
+	while((.@temp_chance -= rand(1, .chance)) >= 0)
+	{
+		.@item_count += 1;
+	}
+	if(.@item_count)
+	{
+		if(@is_on_party)
+		{
+			@candidate_count = 0;
+			for(.@j = 0; .@j < @party_member_count; .@j++)
+			{
+				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
+				{
+					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
+					if(@killer_map$ == @party_member_map$)
+					{
+						// Add this id to an array of party members online and on the same map
+						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
+						@candidate_count += 1;
+					}
+				}
+			}
+			// Give the item to a random one candidate
+			@temp_roll = rand(0, @candidate_count - 1);
+			getitem(12103, .@item_count, @ids_to_share_items_with[@temp_roll]);
+			announce(sprintf("Hey, %s just got %d Bloody Branch!", strcharinfo(PC_NAME, @ids_to_share_items_with[@temp_roll]), .@item_count), bc_blue|bc_all);
+		}
+		else
+		{
+			getitem(12103, .@item_count);
+			announce(sprintf("Hey, %s just got %d Bloody Branch!", strcharinfo(PC_NAME), .@item_count), bc_blue|bc_all);
+		}
+	}
+	freeloop(false);
+	
+end;
+
+OnPCDieEvent:
+	player_kill_score = 0;
+	player_died = true;
+end;
+	
+}

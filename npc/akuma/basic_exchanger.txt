@@ -1,0 +1,39 @@
+
+prontera,148,170,4	script	Basic Exchanger	4_M_DWARF,{
+	callsub(on_talk);
+	end;
+	
+OnInit:
+
+	.rough_oridecon_id = 756;
+	.rough_elunium_id = 757;
+	.oridecon_id = 984;
+	.elunium_id = 985;
+	
+end;
+	
+on_talk:
+	
+	if((.@rough_oridecon_count = countitem(.rough_oridecon_id)) >= 6) // Rough oridecon
+	{
+		.@exchanges = .@rough_oridecon_count / 5;
+		if((.@exchanges -= 1))
+		{
+			delitem(.rough_oridecon_id, .@exchanges * 5);
+			getitem(.oridecon_id, .@exchanges);
+		}
+	}
+	
+	if((.@rough_elunium_id = countitem(.rough_elunium_id)) >= 6) // Rough elunium
+	{
+		.@exchanges = .@rough_elunium_id / 5;
+		if((.@exchanges -= 1))
+		{
+			delitem(.rough_elunium_id, .@exchanges * 5);
+			getitem(.elunium_id, .@exchanges);
+		}
+	}
+	
+end;
+
+}

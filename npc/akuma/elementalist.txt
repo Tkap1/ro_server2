@@ -1,0 +1,97 @@
+// eAthena Script / Rathena Script
+// Created: Rosemount
+// Current Version: 1.0
+// Tested : Latest Version Rathena
+// Description: This script allows all characters changed element weapon.Only one element is allowed.More than one element automatically buff reset.
+
+prontera,159,188,3	script	Elementalist	4_M_BUDDHIST,{
+	callsub(on_talk);
+	end;
+	
+OnInit:
+	.price = 10000;
+	.duration = 18000000;
+	.last_choice = 0;
+
+	setarray(.elements$[0],
+	"Earth",
+	"Wind",
+	"Water",
+	"Fire",
+	"Ghost",
+	"Shadow",
+	"Holy"
+	);
+
+	setarray(.elements_sc[0],
+	99,
+	98,
+	97,
+	96,
+	146,
+	144,
+	37
+	);
+end;
+
+on_talk:
+
+	mes "Choose an element";
+	.@menu$ = "Last choice (" + .elements$[last_choice] + "):~ ^990000Earth^000000:~ ^99FF00Wind^000000:~ ^0033FFWater^000000:~ ^FF3300Fire^000000:~ ^333333Ghost^000000:~ ^999999Shadow^000000:~ ^CCCCFFHoly^000000:~ Cancel";
+	.@choice = select("Last choice (" + .elements$[last_choice] + "):~ ^990000Earth^000000:~ ^99FF00Wind^000000:~ ^0033FFWater^000000:~ ^FF3300Fire^000000:~ ^333333Ghost^000000:~ ^999999Shadow^000000:~ ^CCCCFFHoly^000000:~ Cancel");
+	
+	// If the player chooses cancel
+	if(.@choice == 9)
+	{
+		close;
+	}
+	
+	// If the player chooses the last choice;
+	if (.@choice == 1)
+	{
+		if (Zeny >= .price)
+		{
+			if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
+			sc_start .elements_sc[last_choice], .duration, 1;
+			Zeny -= .price;
+			close;
+		}
+		else
+		{
+			mes "You don't have enough zeny!";
+			close;
+		}
+	}
+
+	// If the player chooses an element
+	else
+	{
+		if (Zeny >= .price)
+		{
+			if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
+			sc_start .elements_sc[.@choice - 2], .duration, 1;
+			Zeny -= .price;
+			last_choice = .@choice-2;
+			close;
+		}
+		else
+		{
+			mes "You don't have enough zeny!";
+			close;
+		}
+	}
+	
+end;
+
+L_remove:
+	sc_end 37; 
+	sc_end 99;
+	sc_end 98;
+	sc_end 97;
+	sc_end 146;
+	sc_end 144;
+end;
+}
+
+
+	
