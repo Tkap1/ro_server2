@@ -65,7 +65,7 @@
 		}
 	}
 
-	specialeffect(EF_HEAL2, AREA, playerattached()); percentheal 100,100;
+	specialeffect(EF_HEAL2, AREA, playerattached()); percentheal 100,100; 
 	specialeffect(EF_INCAGILITY, AREA, playerattached()); sc_start SC_INCREASEAGI,.buff_duration,10;
 	specialeffect(EF_BLESSING, AREA, playerattached()); sc_start SC_BLESSING,.buff_duration,10;
 	.@spirit = 0;
