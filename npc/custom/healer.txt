@@ -49,12 +49,12 @@
 			if(player_kill_score >= .food_tiers[.@i])
 			{
 				.@food_value = .@i + 1;
-				sc_start SC_FOOD_STR,.buff_duration,.@food_value;
-				sc_start SC_FOOD_AGI,.buff_duration,.@food_value;
-				sc_start SC_FOOD_VIT,.buff_duration,.@food_value;
-				sc_start SC_FOOD_INT,.buff_duration,.@food_value;
-				sc_start SC_FOOD_DEX,.buff_duration,.@food_value;
-				sc_start SC_FOOD_LUK,.buff_duration,.@food_value;
+				sc_start SC_FOOD_STR_CASH,.buff_duration,.@food_value;
+				sc_start SC_FOOD_AGI_CASH,.buff_duration,.@food_value;
+				sc_start SC_FOOD_VIT_CASH,.buff_duration,.@food_value;
+				sc_start SC_FOOD_INT_CASH,.buff_duration,.@food_value;
+				sc_start SC_FOOD_DEX_CASH,.buff_duration,.@food_value;
+				sc_start SC_FOOD_LUK_CASH,.buff_duration,.@food_value;
 				
 				if(.@food_value >= 10)
 				{
@@ -66,7 +66,7 @@
 	}
 
 	specialeffect(EF_HEAL2, AREA, playerattached()); percentheal 100,100;
-	specialeffect(EF_INCAGILITY, AREA, playerattached()); sc_start SC_INC_AGI,.buff_duration,10;
+	specialeffect(EF_INCAGILITY, AREA, playerattached()); sc_start SC_INCREASEAGI,.buff_duration,10;
 	specialeffect(EF_BLESSING, AREA, playerattached()); sc_start SC_BLESSING,.buff_duration,10;
 	.@spirit = 0;
 	if (BaseJob == Job_Alchemist) .@spirit = 445; 
@@ -85,7 +85,7 @@
 	if (BaseJob == Job_Hunter) .@spirit = 460;
 	if (BaseJob == Job_Soul_Linker) .@spirit = 461;
 
-	if (.@spirit) sc_start4 SC_SOULLINK, .buff_duration, 5, .@spirit,0,0;
+	if (.@spirit) sc_start4 SC_SPIRIT, .buff_duration, 5, .@spirit,0,0;
 	
 	if(.@food_value > 0)
 	{
