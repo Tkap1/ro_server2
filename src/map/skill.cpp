@@ -17393,6 +17393,7 @@ int skill_delayfix(struct block_list *bl, uint16 skill_id, uint16 skill_lv)
 {
 	int delaynodex = skill_get_delaynodex(skill_id);
 	int time = skill_get_delay(skill_id, skill_lv);
+	time = (int)(time * 0.5); // Tkap: Reduce base delay by 50%
 	struct map_session_data *sd;
 	struct status_change *sc = status_get_sc(bl);
 
