@@ -6208,6 +6208,7 @@ int pc_get_skillcooldown(struct map_session_data *sd, uint16 skill_id, uint16 sk
 	}
 
 	int cooldown = skill_get_cooldown(skill_id, skill_lv);
+	cooldown = (int)(cooldown * 0.5);
 
 	if (cooldown == 0)
 		return 0;
