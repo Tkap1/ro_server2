@@ -18057,6 +18057,14 @@ Body:
     SplashArea:
       - Level: 1
         Area: 3
+      - Level: 2
+        Area: 3
+      - Level: 3
+        Area: 4
+      - Level: 4
+        Area: 4
+      - Level: 5
+        Area: 5
     CopyFlags:
       Skill:
         Reproduce: true
