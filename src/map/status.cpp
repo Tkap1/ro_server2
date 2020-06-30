@@ -4196,7 +4196,8 @@ int status_calc_pc_sub(struct map_session_data* sd, enum e_status_calc_opt opt)
 
 	sd->bonus.double_rate += sd->bonus.double_add_rate;
 	sd->bonus.perfect_hit += sd->bonus.perfect_hit_add;
-	sd->bonus.splash_range += sd->bonus.splash_add_range;
+	// sd->bonus.splash_range += sd->bonus.splash_add_range;
+	sd->bonus.splash_range += sd->bonus.splash_add_range + 1; // Tkap: Basic attacks now have splash
 
 	// Damage modifiers from weapon type
 	std::shared_ptr<s_sizefix_db> right_weapon = size_fix_db.find(sd->weapontype1);
