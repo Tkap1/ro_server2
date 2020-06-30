@@ -87,203 +87,28 @@ end;
 
 OnNPCKillEvent:
 	
-	.@mob_hp = getunitdata(killedgid, UDT_MAXHP);
+	getunitdata(killedgid, .@enemy_data);
+	.@mob_hp = .@enemy_data[UMOB_MAXHP];
+	player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
 	
-	// Get the party members
-	getpartymember(getcharid(CHAR_ID_PARTY), 0);
-	copyarray(@names$[0], $@partymembername$[0], $@partymembercount);
-	
-	if($@partymembercount == 0)
-	{
-		@is_on_party = false;
-		player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
-	}
-	
-	else
-	{
-		@is_on_party = true;
-		getpartymember(getcharid(CHAR_ID_PARTY), 1);
-		copyarray(@char_ids[0], $@partymembercid[0], $@partymembercount);
-		getpartymember(getcharid(CHAR_ID_PARTY), 2);
-		copyarray(@account_ids[0], $@partymemberaid[0], $@partymembercount);
-		
-		@party_member_count = $@partymembercount;
-		@killer_map$ = strcharinfo(PC_MAP);
-		
-		// For each party member, if they are online and in the same map add to their "player_kill_score"
-		for(.@i = 0; .@i < @party_member_count; .@i++)
-		{
-			if(isloggedin(@account_ids[.@i], @char_ids[.@i]))
-			{
-				@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@i]);
-				if(@killer_map$ == @party_member_map$)
-				{
-					@value_before = getvar(player_kill_score, @account_ids[.@i]);
-					@new_value = max(@value_before, @value_before + .@mob_hp / 10000);
-					set(getvar(player_kill_score, @account_ids[.@i]), @new_value);
-				}
-			}
-		}
-	}
-	
-	freeloop(true);
-	// Chest spawn roll
-	.@temp_chance = .@mob_hp * .chest_chance_multiplier;
-	// if(rand(1, .chance) <= .@temp_chance)
-	while((.@temp_chance -= rand(1, .chance)) >= 0)
-	{
-		.@mob_to_spawn_id = .ids[rand(0, getarraysize(.ids) - 1)];
-		.@mob_to_spawn_name$ = getmonsterinfo(.@mob_to_spawn_id, MOB_NAME);
-		monster("this", -1, -1, .@mob_to_spawn_name$, .@mob_to_spawn_id, 1);
-		specialeffect(EF_COIN, AREA, playerattached());
-	}
-	
-	// Materials roll
-	for(.@i = 0; .@i < getarraysize(.materials); .@i++)
+	setarray(.@temp_materials[0], 0,0,0,0,0,0);
+	for(.@i = 0; .@i < 6; .@i++)
 	{
 		.@temp_chance = .@mob_hp * .materials_chance_multiplier[.@i];
-		.@item_count = 0;
-		// if(rand(1, .chance) <= .@temp_chance)
 		while((.@temp_chance -= rand(1, .chance)) >= 0)
 		{
-			.@item_count += 1;
+			.@temp_materials[.@i] += 1;
 		}
-		if(.@item_count)
+	}
+	for(.@i = 0; .@i < 6; .@i++)
+	{
+		if(.@temp_materials[.@i] > 0)
 		{
-			if(@is_on_party)
-			{
-				@candidate_count = 0;
-				for(.@j = 0; .@j < @party_member_count; .@j++)
-				{
-					if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
-					{
-						@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
-						if(@killer_map$ == @party_member_map$)
-						{
-							// Add this id to an array of party members online and on the same map
-							@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
-							@candidate_count += 1;
-						}
-					}
-				}
-				// Give the item to a random one candidate
-				getitem(.materials[.@i], .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
-			}
-			else
-			{
-				getitem(.materials[.@i], .@item_count);
-			}
+			getitem(.materials[.@i], .@temp_materials[.@i]);
 		}
 	}
 	
-	// P2W coins roll
-	.@temp_chance = .@mob_hp * .p2w_chance_multiplier;
-	.@item_count = 0;
-	// if(rand(1, .chance) <= .@temp_chance)
-	while((.@temp_chance -= rand(1, .chance)) >= 0)
-	{
-		.@item_count += 1;
-	}
-	if(.@item_count)
-	{
-		if(@is_on_party)
-		{
-			@candidate_count = 0;
-			for(.@j = 0; .@j < @party_member_count; .@j++)
-			{
-				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
-				{
-					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
-					if(@killer_map$ == @party_member_map$)
-					{
-						// Add this id to an array of party members online and on the same map
-						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
-						@candidate_count += 1;
-					}
-				}
-			}
-			// Give the item to a random one candidate
-			getitem(30000, .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
-		}
-		else
-		{
-			getitem(30000, .@item_count);
-		}
-	}
 	
-	// Akuma's mora coins xq llora
-	.@temp_chance = .@mob_hp * .mora_coin_multiplier;
-	.@item_count = 0;
-	// if(rand(1, .chance) <= .@temp_chance)
-	while((.@temp_chance -= rand(1, .chance)) >= 0)
-	{
-		.@item_count += 1;
-	}
-	if(.@item_count)
-	{
-		if(@is_on_party)
-		{
-			@candidate_count = 0;
-			for(.@j = 0; .@j < @party_member_count; .@j++)
-			{
-				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
-				{
-					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
-					if(@killer_map$ == @party_member_map$)
-					{
-						// Add this id to an array of party members online and on the same map
-						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
-						@candidate_count += 1;
-					}
-				}
-			}
-			// Give the item to a random one candidate
-			getitem(6380, .@item_count, @ids_to_share_items_with[rand(0, @candidate_count - 1)]);
-		}
-		else
-		{
-			getitem(6380, .@item_count);
-		}
-	}
-	
-	// Oso bloody branches xq llora
-	.@temp_chance = .@mob_hp / .bloody_branch_divisor;
-	.@item_count = 0;
-	// if(rand(1, .chance) <= .@temp_chance)
-	while((.@temp_chance -= rand(1, .chance)) >= 0)
-	{
-		.@item_count += 1;
-	}
-	if(.@item_count)
-	{
-		if(@is_on_party)
-		{
-			@candidate_count = 0;
-			for(.@j = 0; .@j < @party_member_count; .@j++)
-			{
-				if(isloggedin(@account_ids[.@j], @char_ids[.@j]))
-				{
-					@party_member_map$ = strcharinfo(PC_MAP, @account_ids[.@j]);
-					if(@killer_map$ == @party_member_map$)
-					{
-						// Add this id to an array of party members online and on the same map
-						@ids_to_share_items_with[@candidate_count] = @account_ids[.@j];
-						@candidate_count += 1;
-					}
-				}
-			}
-			// Give the item to a random one candidate
-			@temp_roll = rand(0, @candidate_count - 1);
-			getitem(12103, .@item_count, @ids_to_share_items_with[@temp_roll]);
-			announce(sprintf("Hey, %s just got %d Bloody Branch!", strcharinfo(PC_NAME, @ids_to_share_items_with[@temp_roll]), .@item_count), bc_blue|bc_all);
-		}
-		else
-		{
-			getitem(12103, .@item_count);
-			announce(sprintf("Hey, %s just got %d Bloody Branch!", strcharinfo(PC_NAME), .@item_count), bc_blue|bc_all);
-		}
-	}
-	freeloop(false);
 	
 end;
 
