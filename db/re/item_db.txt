@@ -17,7 +17,7 @@
 509,White_Herb,White Herb,0,120,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal rand(75,115),0; },{},{}
 510,Blue_Herb,Blue Herb,0,60,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal 0,rand(15,30); },{},{}
 511,Green_Herb,Green Herb,0,10,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ sc_end SC_POISON; },{},{}
-512,Apple,Apple,0,15,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal rand(16,22),0; },{},{}
+512,Apple,Apple,0,15,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ 		getitem("Apple", 1); getmapxy(.@map_name$, .@player_x, .@player_y); .@range = 18; .@count = getmapunits(BL_MOB, .@map_name$, false, .@map_name$, (.@player_x - .@range), (.@player_y + .@range), (.@player_x + .@range), (.@player_y - .@range), .@units);	for(.@i = 0; .@i < .@count; .@i++) { .@new_mode = getunitdata(.@units[.@i],UMOB_MODE) | MSS_ANGRY; setunitdata(.@units[.@i],UMOB_MODE, .@new_mode); } },{},{}
 513,Banana,Banana,0,15,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal rand(17,21),0; },{},{}
 514,Grape,Grape,0,200,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal 0,rand(10,15); },{},{}
 515,Carrot,Carrot,0,15,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemheal rand(18,20),0; },{},{}
