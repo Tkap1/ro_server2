@@ -18607,7 +18607,7 @@ Body:
         Time: 5000
       - Level: 5
         Time: 6000
-    AfterCastActDelay: 1000
+    AfterCastActDelay: 500
     Duration1: 100
     Duration2:
       - Level: 1
@@ -18620,7 +18620,7 @@ Body:
         Time: 120000
       - Level: 5
         Time: 135000
-    Cooldown: 10000
+    Cooldown: 7000
     FixedCastTime: 2000
     Requires:
       SpCost:
