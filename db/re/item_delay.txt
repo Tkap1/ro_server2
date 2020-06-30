@@ -18,6 +18,9 @@
 //     delay group and the delay will be stored in character's
 //     data that has limit set in src/map/itemdb.hpp as MAX_ITEMDELAYS.
 
+501,5000	// Red potion
+502,5000	// Orange potion
+
 // SC_REUSE_REFRESH
 12725,120000,SC_REUSE_REFRESH	//Runstone_Nosiege
 
