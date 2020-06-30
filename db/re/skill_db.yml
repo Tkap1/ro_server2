@@ -9958,25 +9958,25 @@ Body:
     Requires:
       SpCost:
         - Level: 1
-          Amount: 14
+          Amount: 35
         - Level: 2
-          Amount: 18
+          Amount: 40
         - Level: 3
-          Amount: 22
+          Amount: 45
         - Level: 4
-          Amount: 26
-        - Level: 5
-          Amount: 30
-        - Level: 6
-          Amount: 34
-        - Level: 7
-          Amount: 38
-        - Level: 8
-          Amount: 42
-        - Level: 9
-          Amount: 46
-        - Level: 10
           Amount: 50
+        - Level: 5
+          Amount: 55
+        - Level: 6
+          Amount: 60
+        - Level: 7
+          Amount: 65
+        - Level: 8
+          Amount: 70
+        - Level: 9
+          Amount: 75
+        - Level: 10
+          Amount: 80
   - Id: 367
     Name: PA_PRESSURE
     Description: Gloria Domini
@@ -18082,6 +18082,7 @@ Body:
         Time: 4000
     AfterCastActDelay: 1000
     Duration1: 40000
+    Duration2: 10000
     Cooldown: 4000
     FixedCastTime: 500
     Requires:
@@ -18409,7 +18410,7 @@ Body:
         Reproduce: true
     CastCancel: true
     CastTime: 5000
-    AfterCastActDelay: 2000
+    AfterCastActDelay: 500
     Duration1: 5000
     Cooldown: 5000
     FixedCastTime: 1000
@@ -18431,32 +18432,46 @@ Body:
     MaxLevel: 5
     Type: Magic
     TargetType: Attack
+    DamageFlags:
+      Splash: true
     Flags:
       AlterRangeRadius: true
     Range: 11
     Hit: Single
     HitCount: 1
     Element: Fire
+    SplashArea:
+      - Level: 1
+        Area: 1
+      - Level: 2
+        Area: 1
+      - Level: 3
+        Area: 1
+      - Level: 4
+        Area: 2
+      - Level: 5
+        Area: 2
     CopyFlags:
       Skill:
         Reproduce: true
     CastCancel: true
     CastTime: 3000
-    AfterCastActDelay: 1000
+    AfterCastActDelay: 500
     Duration1: 15000
+    Cooldown: 3000
     FixedCastTime: 1000
     Requires:
       SpCost:
         - Level: 1
-          Amount: 35
+          Amount: 64
         - Level: 2
-          Amount: 40
+          Amount: 70
         - Level: 3
-          Amount: 45
+          Amount: 76
         - Level: 4
-          Amount: 50
+          Amount: 82
         - Level: 5
-          Amount: 55
+          Amount: 88
   - Id: 2213
     Name: WL_COMET
     Description: Comet
@@ -18469,8 +18484,8 @@ Body:
       AlterRangeRadius: true
     Range: 11
     Hit: Multi_Hit
-    HitCount: -20
-    SplashArea: 9
+    HitCount: -10
+    SplashArea: 6
     Knockback: 2
     CopyFlags:
       Skill:
@@ -18478,45 +18493,32 @@ Body:
     CastCancel: true
     CastTime:
       - Level: 1
-        Time: 10000
+        Time: 6000
       - Level: 2
-        Time: 11000
+        Time: 7000
       - Level: 3
-        Time: 12000
+        Time: 8000
       - Level: 4
-        Time: 13000
+        Time: 9000
       - Level: 5
-        Time: 14000
-    AfterCastActDelay: 2000
+        Time: 10000
+    AfterCastActDelay: 1500
     Duration1: 100
     Duration2: 42000
-    Cooldown: 60000
-    FixedCastTime:
-      - Level: 1
-        Time: 1000
-      - Level: 2
-        Time: 1500
-      - Level: 3
-        Time: 2000
-      - Level: 4
-        Time: 2500
-      - Level: 5
-        Time: 3000
+    Cooldown: 20000
+    FixedCastTime: 2000
     Requires:
       SpCost:
         - Level: 1
-          Amount: 480
+          Amount: 70
         - Level: 2
-          Amount: 560
+          Amount: 90
         - Level: 3
-          Amount: 640
+          Amount: 110
         - Level: 4
-          Amount: 720
+          Amount: 130
         - Level: 5
-          Amount: 800
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 2
+          Amount: 150
     Unit:
       Id: Dummyskill
       Range: 9
@@ -18801,7 +18803,7 @@ Body:
   - Id: 2222
     Name: WL_SUMMONFB
     Description: Summon Fire Ball
-    MaxLevel: 5
+    MaxLevel: 2
     Type: Magic
     TargetType: Self
     DamageFlags:
@@ -18814,17 +18816,7 @@ Body:
         Reproduce: true
     CastCancel: true
     CastTime: 2000
-    Duration1:
-      - Level: 1
-        Time: 120000
-      - Level: 2
-        Time: 160000
-      - Level: 3
-        Time: 200000
-      - Level: 4
-        Time: 240000
-      - Level: 5
-        Time: 280000
+    Duration1: 280000
     FixedCastTime: -1
     Requires:
       SpCost:
@@ -18841,7 +18833,7 @@ Body:
   - Id: 2223
     Name: WL_SUMMONBL
     Description: Summon Lightning Ball
-    MaxLevel: 5
+    MaxLevel: 2
     Type: Magic
     TargetType: Self
     DamageFlags:
@@ -18854,17 +18846,7 @@ Body:
         Reproduce: true
     CastCancel: true
     CastTime: 2000
-    Duration1:
-      - Level: 1
-        Time: 120000
-      - Level: 2
-        Time: 160000
-      - Level: 3
-        Time: 200000
-      - Level: 4
-        Time: 240000
-      - Level: 5
-        Time: 280000
+    Duration1: 280000
     FixedCastTime: -1
     Requires:
       SpCost:
@@ -18881,7 +18863,7 @@ Body:
   - Id: 2224
     Name: WL_SUMMONWB
     Description: Summon Water Ball
-    MaxLevel: 5
+    MaxLevel: 2
     Type: Magic
     TargetType: Self
     DamageFlags:
@@ -18894,17 +18876,7 @@ Body:
         Reproduce: true
     CastCancel: true
     CastTime: 2000
-    Duration1:
-      - Level: 1
-        Time: 120000
-      - Level: 2
-        Time: 160000
-      - Level: 3
-        Time: 200000
-      - Level: 4
-        Time: 240000
-      - Level: 5
-        Time: 280000
+    Duration1: 280000
     FixedCastTime: -1
     Requires:
       SpCost:
@@ -18985,7 +18957,7 @@ Body:
   - Id: 2229
     Name: WL_SUMMONSTONE
     Description: Summon Stone
-    MaxLevel: 5
+    MaxLevel: 2
     Type: Magic
     TargetType: Self
     DamageFlags:
@@ -18998,17 +18970,7 @@ Body:
         Reproduce: true
     CastCancel: true
     CastTime: 2000
-    Duration1:
-      - Level: 1
-        Time: 120000
-      - Level: 2
-        Time: 160000
-      - Level: 3
-        Time: 200000
-      - Level: 4
-        Time: 240000
-      - Level: 5
-        Time: 280000
+    Duration1: 280000
     FixedCastTime: -1
     Requires:
       SpCost:
@@ -19044,19 +19006,7 @@ Body:
     Name: WL_READING_SB
     Description: Reading Spellbook
     MaxLevel: 1
-    Type: Magic
-    TargetType: Self
-    DamageFlags:
-      NoDamage: true
-    Hit: Single
-    HitCount: 1
-    CastCancel: true
-    CastTime: 5000
-    AfterCastActDelay: 500
     Duration1: 30000
-    FixedCastTime: 1000
-    Requires:
-      SpCost: 40
   - Id: 2232
     Name: WL_FREEZE_SP
     Description: Freeze Spell
@@ -33460,6 +33410,14 @@ Body:
     Name: NV_TRANSCENDENCE
     Description: Transcendence
     MaxLevel: 5
+  - Id: 5078
+    Name: WL_READING_SB_READING
+    Description: Reading Spellbook
+    MaxLevel: 10
+    TargetType: Self
+    CastTime: 5000
+    AfterCastActDelay: 500
+    FixedCastTime: 1000
   - Id: 8001
     Name: HLIF_HEAL
     Description: Healing Touch

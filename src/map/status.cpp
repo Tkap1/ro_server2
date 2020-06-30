@@ -851,9 +851,7 @@ void initChangeTables(void)
 	set_sc( WL_RECOGNIZEDSPELL	, SC_RECOGNIZEDSPELL	, EFST_RECOGNIZEDSPELL	, SCB_MATK);
 	add_sc( WL_SIENNAEXECRATE   , SC_STONE		  );
 	set_sc( WL_STASIS			, SC_STASIS		, EFST_STASIS		, SCB_NONE );
-	add_sc( WL_CRIMSONROCK      , SC_STUN         );
-	set_sc( WL_HELLINFERNO      , SC_BURNING         , EFST_BURNT           , SCB_MDEF );
-	set_sc( WL_COMET            , SC_BURNING         , EFST_BURNT           , SCB_MDEF );
+	set_sc_with_vfx( WL_COMET   , SC_MAGIC_POISON	, EFST_MAGIC_POISON	, SCB_NONE );
 	set_sc( WL_TELEKINESIS_INTENSE	, SC_TELEKINESIS_INTENSE, EFST_TELEKINESIS_INTENSE, SCB_MATK );
 
 	/* Ranger */
@@ -1384,6 +1382,7 @@ void initChangeTables(void)
 	StatusIconChangeTable[SC_ADD_ATK_DAMAGE] = EFST_ADD_ATK_DAMAGE;
 	StatusIconChangeTable[SC_ADD_MATK_DAMAGE] = EFST_ADD_MATK_DAMAGE;
 	StatusIconChangeTable[SC_ENSEMBLEFATIGUE] = EFST_ENSEMBLEFATIGUE;
+	StatusIconChangeTable[SC_MISTY_FROST] = EFST_MISTY_FROST;
 
 	// Battleground Queue
 	StatusIconChangeTable[SC_ENTRY_QUEUE_APPLY_DELAY] = EFST_ENTRY_QUEUE_APPLY_DELAY;
@@ -1562,6 +1561,7 @@ void initChangeTables(void)
 
 	StatusChangeFlagTable[SC_ANCILLA] |= SCB_REGEN;
 	StatusChangeFlagTable[SC_ENSEMBLEFATIGUE] |= SCB_SPEED|SCB_ASPD;
+	StatusChangeFlagTable[SC_MISTY_FROST] |= SCB_NONE;
 
 #ifdef RENEWAL
 	// renewal EDP increases your weapon atk
@@ -1608,6 +1608,8 @@ void initChangeTables(void)
 	StatusDisplayType[SC_SPRITEMABLE]     = BL_PC;
 	StatusDisplayType[SC_SV_ROOTTWIST]    = BL_PC;
 	StatusDisplayType[SC_HELLS_PLANT]     = BL_PC;
+	StatusDisplayType[SC_MISTY_FROST]     = BL_PC;
+	StatusDisplayType[SC_MAGIC_POISON]    = BL_PC;
 
 	// Costumes
 	StatusDisplayType[SC_MOONSTAR] = BL_PC;
@@ -10315,7 +10317,11 @@ int status_change_start(struct block_list* src, struct block_list* bl,enum sc_ty
 		case SC_MAGICPOWER:
 			// val1: Skill lv
 			val2 = 1; // Lasts 1 invocation
-			val3 = 5*val1; // Matk% increase
+#ifdef RENEWAL
+			val3 = 10 * val1; // Matk% increase
+#else
+			val3 = 5 * val1; // Matk% increase
+#endif
 			val4 = 0; // 0 = ready to be used, 1 = activated and running
 			break;
 		case SC_SACRIFICE:
@@ -11905,6 +11911,10 @@ int status_change_start(struct block_list* src, struct block_list* bl,enum sc_ty
 			val2 = 10 + val1 * 5; // Def/Mdef
 			tick = INFINITE_TICK;
 			break;
+			
+		case SC_MAGIC_POISON:
+			val2 = 50; // Attribute Reduction
+			break;
 
 		/* Rebellion */
 		case SC_B_TRAP:
@@ -12238,6 +12248,7 @@ int status_change_start(struct block_list* src, struct block_list* bl,enum sc_ty
 		case SC_CROSSBOWCLAN:
 		case SC_JUMPINGCLAN:
 		case SC_DRESSUP:
+		case SC_MISTY_FROST:
 			val_flag |= 1;
 			break;
 		// Start |1|2 val_flag setting
