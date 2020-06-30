@@ -18101,23 +18101,24 @@ Body:
     Description: Jack Frost
     MaxLevel: 5
     Type: Magic
-    TargetType: Self
+    TargetType: Attack
     DamageFlags:
       Splash: true
+    Range: 11
     Hit: Multi_Hit
     HitCount: -5
     Element: Water
     SplashArea:
       - Level: 1
-        Area: 5
+        Area: 3
       - Level: 2
-        Area: 6
+        Area: 3
       - Level: 3
-        Area: 7
+        Area: 4
       - Level: 4
-        Area: 8
+        Area: 4
       - Level: 5
-        Area: 9
+        Area: 5
     CopyFlags:
       Skill:
         Reproduce: true
@@ -18145,6 +18146,7 @@ Body:
         Time: 27500
       - Level: 5
         Time: 32500
+    Cooldown: 4000
     FixedCastTime: 1000
     Requires:
       SpCost:
