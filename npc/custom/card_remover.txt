@@ -96,7 +96,8 @@ prt_in,28,73,4	script	Wise Old Woman#eAcustom	78,{
 		// Second value = Partial failure chance (one or the other is destroyed, player decides which one is safe)
 		// Third value = Harmless failure chance (all that's lost is your investment)
 
-		set .@failchance,rand(100);
+		//set .@failchance,rand(100);
+		set .@failchance,99; // Tkap: Always succeed
 		if (.faildestroy==1) {
 			if(.@failchance < 2) {
 				next;
