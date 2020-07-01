@@ -10372,7 +10372,7 @@ Body:
       NoDamage: true
     Hit: Single
     HitCount: 1
-    Duration1: 30000
+    Duration1: 360000
     Requires:
       SpCost:
         - Level: 1
