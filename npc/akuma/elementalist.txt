@@ -9,7 +9,6 @@ prontera,159,188,3	script	Elementalist	4_M_BUDDHIST,{
 	end;
 	
 OnInit:
-	.price = 10000;
 	.duration = 18000000;
 	.last_choice = 0;
 
@@ -49,36 +48,18 @@ on_talk:
 	// If the player chooses the last choice;
 	if (.@choice == 1)
 	{
-		if (Zeny >= .price)
-		{
-			if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
-			sc_start .elements_sc[last_choice], .duration, 1;
-			Zeny -= .price;
-			close;
-		}
-		else
-		{
-			mes "You don't have enough zeny!";
-			close;
-		}
+		if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
+		sc_start .elements_sc[last_choice], .duration, 1;
+		close;
 	}
 
 	// If the player chooses an element
 	else
 	{
-		if (Zeny >= .price)
-		{
-			if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
-			sc_start .elements_sc[.@choice - 2], .duration, 1;
-			Zeny -= .price;
-			last_choice = .@choice-2;
-			close;
-		}
-		else
-		{
-			mes "You don't have enough zeny!";
-			close;
-		}
+		if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
+		sc_start .elements_sc[.@choice - 2], .duration, 1;
+		last_choice = .@choice-2;
+		close;
 	}
 	
 end;
