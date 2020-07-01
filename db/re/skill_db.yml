@@ -5502,8 +5502,8 @@ Body:
     Hit: Single
     HitCount: 1
     CastCancel: true
-    Duration1: 300000
-    FixedCastTime: 5000
+    Duration1: 3600000
+    FixedCastTime: 500
     Requires:
       SpCost: 30
   - Id: 158
