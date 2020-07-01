@@ -530,9 +530,6 @@ Body:
           Amount: 40
         - Level: 10
           Amount: 40
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Safetywall
       Interval: -1
@@ -807,9 +804,6 @@ Body:
           Amount: 17
         - Level: 10
           Amount: 16
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 1
   - Id: 17
     Name: MG_FIREBALL
     Description: Fire Ball
@@ -1372,9 +1366,6 @@ Body:
           Amount: 29
         - Level: 4
           Amount: 26
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Warp_Active
       AlternateId: Warp_Waiting
@@ -2075,9 +2066,6 @@ Body:
         Time: -1
     Requires:
       SpCost: 60
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 55
     Name: KN_SPEARMASTERY
     Description: Spear Mastery
@@ -2528,9 +2516,6 @@ Body:
           Amount: 39
         - Level: 10
           Amount: 42
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Sanctuary
       Layout: -1
@@ -2857,9 +2842,6 @@ Body:
           Amount: 56
         - Level: 10
           Amount: 58
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Magnus
       Layout: -1
@@ -5146,9 +5128,6 @@ Body:
     Duration2: 20000
     Requires:
       SpCost: 20
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 1
     Unit:
       Id: Venomdust
       Layout: -1
@@ -6573,9 +6552,6 @@ Body:
     Duration1: 180000
     Requires:
       SpCost: 15
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 1
     Unit:
       Id: Graffiti
       Interval: -1
@@ -8056,9 +8032,6 @@ Body:
           Amount: 42
         - Level: 5
           Amount: 40
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Volcano
       Layout: 3
@@ -8106,9 +8079,6 @@ Body:
           Amount: 42
         - Level: 5
           Amount: 40
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Deluge
       Layout: 3
@@ -8156,9 +8126,6 @@ Body:
           Amount: 42
         - Level: 5
           Amount: 40
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
     Unit:
       Id: Violentgale
       Layout: 3
@@ -8203,11 +8170,6 @@ Body:
           Amount: 54
         - Level: 5
           Amount: 50
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
-        - Item: Yellow_Gemstone
-          Amount: 1
     Unit:
       Id: Landprotector
       Layout:
@@ -8247,9 +8209,6 @@ Body:
     FixedCastTime: 400
     Requires:
       SpCost: 1
-      ItemCost:
-        - Item: Yellow_Gemstone
-          Amount: 1
   - Id: 290
     Name: SA_ABRACADABRA
     Description: Hocus-pocus
@@ -8263,9 +8222,6 @@ Body:
     CastCancel: true
     Requires:
       SpCost: 50
-      ItemCost:
-        - Item: Yellow_Gemstone
-          Amount: 2
   - Id: 291
     Name: SA_MONOCELL
     Description: Monocell
@@ -13236,11 +13192,6 @@ Body:
     FixedCastTime: 3000
     Requires:
       SpCost: 40
-      ItemCost:
-        - Item: Yellow_Gemstone
-          Amount: 1
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 484
     Name: HW_GRAVITATION
     Description: Gravitation Field
@@ -18292,9 +18243,6 @@ Body:
           Amount: 38
         - Level: 5
           Amount: 40
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 2
   - Id: 2208
     Name: WL_RADIUS
     Description: Radius
@@ -19547,9 +19495,6 @@ Body:
     Requires:
       SpCost: 30
       SpRateCost: -10
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 2040
     Name: AB_ADORAMUS
     Description: Adoramus
@@ -19655,9 +19600,6 @@ Body:
           Amount: 70
         - Level: 10
           Amount: 76
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 2041
     Name: AB_CLEMENTIA
     Description: Crementia
@@ -26597,9 +26539,6 @@ Body:
           Amount: 70
         - Level: 5
           Amount: 78
-      ItemCost:
-        - Item: Red_Gemstone
-          Amount: 2
     Unit:
       Id: Cloud_Kill
       Range: 3
@@ -26999,9 +26938,6 @@ Body:
           Amount: 45
         - Level: 5
           Amount: 50
-      ItemCost:
-        - Item: Yellow_Gemstone
-          Amount: 1
   - Id: 2456
     Name: SO_EL_CONTROL
     Description: Spirit Control
@@ -31868,9 +31804,6 @@ Body:
     Requires:
       SpCost: 120
       State: Elementalspirit2
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 5009
     Name: SR_FLASHCOMBO
     Description: Flash Combo
@@ -33367,9 +33300,6 @@ Body:
           Amount: 92
         - Level: 5
           Amount: 78
-      ItemCost:
-        - Item: Blue_Gemstone
-          Amount: 1
   - Id: 5073
     Name: AB_CONVENIO
     Description: Convenio
