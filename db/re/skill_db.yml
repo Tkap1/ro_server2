@@ -2602,7 +2602,7 @@ Body:
     CastCancel: true
     CastTime: 1600
     AfterCastActDelay: 2000
-    Duration1: 120000
+    Duration1: 1200000
     FixedCastTime: 400
     Requires:
       SpCost:
