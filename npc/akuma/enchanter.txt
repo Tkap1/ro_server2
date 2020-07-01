@@ -1,0 +1,411 @@
+
+function	script	roll_item	{
+	
+	freeloop(1);
+	.@equip_index = getarg(0, -1);
+	.@allow_reroll = getarg(1, false);
+	.@keep_old_mods = getarg(2, false); // For re-rolling values
+	if(.@equip_index == -1)
+	{
+		dispbottom "ERROR: .@equip_index is -1";
+		return -1;
+	}
+	
+	$@result_str$ = "";
+	$@options_added = 0;
+	for (.@i = 0; .@i < MAX_ITEM_RDM_OPT; ++.@i)
+	{
+		.@opt = getequiprandomoption(.@equip_index,.@i,ROA_ID));
+		.@old_value = getequiprandomoption(.@equip_index,.@i,ROA_VALUE))
+		if(.@allow_reroll || .@opt <= 0)
+		{
+			.@option_array_index = .@keep_old_mods ? $@option_id_to_my_index[.@opt] : rand(0, getarraysize($@options$) - 1);
+			.@option_index = $@option_constants[.@option_array_index];
+			.@value = $@start_values[.@option_array_index];
+			.@decrement = $@decrements[.@option_array_index];
+			.@increment = $@stat_increments[.@option_array_index];
+			.@chance = 10000;
+			
+			while(true)
+			{
+				.@chance = .@chance - (.@chance * .@decrement / 100);
+				if(rand(1, 10000) > .@chance)
+				{
+					if(.@keep_old_mods)
+					{
+						.@temp_color_start$ = (.@old_value == .@value) ? "" : (.@old_value > .@value ? "^b80f0a" : "^50c878");
+						.@temp_color_end$ = (.@old_value == .@value) ? "" : (.@old_value > .@value ? "^000000" : "^000000");
+						$@result_str$ += sprintf("%s%s: %d -> %d%s\n", .@temp_color_start$, $@options$[.@option_array_index], .@old_value, .@value, .@temp_color_end$);
+					}
+					else
+					{
+						$@result_str$ += "You got +" + .@value + " " + $@options$[.@option_array_index] + "\n";
+					}
+					break;
+				}
+				.@value = .@value + .@increment;
+			}
+			setrandomoption(.@equip_index,.@i,.@option_index,.@value,0);
+			$@options_added++;
+		}
+	}
+	freeloop(0);
+	
+	return 0;
+}
+
+-	script	Enchanter	FAKE_NPC,{
+
+	if(!.init)
+	{
+		.init = true;
+		.reroll_price = 100000;
+		.reroll_values_price = 1000000;
+		
+		setarray($@options$[0],
+		"Max HP",
+		"Max SP",
+		"STR",
+		"AGI",
+		"VIT",
+		"INT",
+		"DEX",
+		"LUK",
+		"Max SP %",
+		"Max HP %",
+		"ATK %",
+		"MATK %",
+		"ASPD %",
+		"ATK",
+		"HIT",
+		"MATK",
+		"DEF",
+		"MDEF",
+		"Flee",
+		"CRIT",
+		"Perfect Dodge",
+		"CRIT ATK",
+		"VCT %",
+		"ACD %");
+		
+		setarray($@option_constants[0],
+		RDMOPT_VAR_MAXHPAMOUNT,
+		RDMOPT_VAR_MAXSPAMOUNT,
+		RDMOPT_VAR_STRAMOUNT,
+		RDMOPT_VAR_AGIAMOUNT,
+		RDMOPT_VAR_VITAMOUNT,
+		RDMOPT_VAR_INTAMOUNT,
+		RDMOPT_VAR_DEXAMOUNT,
+		RDMOPT_VAR_LUKAMOUNT,
+		RDMOPT_VAR_MAXSPPERCENT,
+		RDMOPT_VAR_MAXHPPERCENT,
+		RDMOPT_VAR_ATKPERCENT,
+		RDMOPT_VAR_MAGICATKPERCENT,
+		RDMOPT_VAR_PLUSASPDPERCENT,
+		RDMOPT_VAR_ATTPOWER,
+		RDMOPT_VAR_HITSUCCESSVALUE,
+		RDMOPT_VAR_ATTMPOWER,
+		RDMOPT_VAR_ITEMDEFPOWER,
+		RDMOPT_VAR_MDEFPOWER,
+		RDMOPT_VAR_AVOIDSUCCESSVALUE,
+		RDMOPT_VAR_CRITICALSUCCESSVALUE,
+		RDMOPT_VAR_PLUSAVOIDSUCCESSVALUE,
+		RDMOPT_DAMAGE_CRI_TARGET,
+		RDMOPT_DEC_SPELL_CAST_TIME,
+		RDMOPT_DEC_SPELL_DELAY_TIME);
+		
+		setarray($@start_values[0],
+		100,	// Max HP
+		100,	// Max SP
+		1,		// STR
+		1,		// AGI		
+		1,		// VIT
+		1,		// INT
+		1,		// DEX
+		1,		// LUK
+		3,		// Max SP %
+		3,		// Max HP %
+		1,		// ATK %
+		1,		// MATK %
+		3,		// ASPD %
+		10,		// ATK
+		10,		// HIT
+		10,		// MATK
+		5,		// DEF
+		5,		// MDEF
+		3,		// FLEE
+		1,		// CRIT
+		1,		// Perfect Dodge
+		5,		// CRIT ATK
+		3,		// VCT
+		3);		// After cast delay
+		
+		// Tkap: Treated as percentages
+		setarray($@decrements[0],
+		1,		// Max HP
+		1,		// Max SP
+		30,		// STR
+		30,		// AGI		
+		30,		// VIT
+		30,		// INT
+		30,		// DEX
+		30,		// LUK
+		30,		// Max SP %
+		30,		// Max HP %
+		40,		// ATK %
+		40,		// MATK %
+		30,		// ASPD %
+		10,		// ATK
+		5,		// HIT
+		10,		// MATK
+		20,		// DEF
+		20,		// MDEF
+		20,		// FLEE
+		30,		// CRIT
+		99,		// Perfect Dodge
+		20,		// CRIT ATK
+		40,		// VCT
+		40);		// After cast delay
+		
+		setarray($@stat_increments[0],
+		10,	// Max HP
+		10,	// Max SP
+		1,		// STR
+		1,		// AGI		
+		1,		// VIT
+		1,		// INT
+		1,		// DEX
+		1,		// LUK
+		1,		// Max SP %
+		1,		// Max HP %
+		1,		// ATK %
+		1,		// MATK %
+		1,		// ASPD %
+		5,		// ATK
+		5,		// HIT
+		5,		// MATK
+		2,		// DEF
+		2,		// MDEF
+		2,		// FLEE
+		1,		// CRIT
+		1,		// Perfect Dodge
+		1,		// CRIT ATK
+		1,		// VCT
+		1);		// After cast delay
+		
+		set $@option_id_to_my_index[0], 1;
+		$@option_id_to_my_index[RDMOPT_VAR_MAXHPAMOUNT] 				= 0;
+		$@option_id_to_my_index[RDMOPT_VAR_MAXSPAMOUNT] 				= 1;
+		$@option_id_to_my_index[RDMOPT_VAR_STRAMOUNT] 					= 2;
+		$@option_id_to_my_index[RDMOPT_VAR_AGIAMOUNT] 					= 3;
+		$@option_id_to_my_index[RDMOPT_VAR_VITAMOUNT] 					= 4;
+		$@option_id_to_my_index[RDMOPT_VAR_INTAMOUNT] 					= 5;
+		$@option_id_to_my_index[RDMOPT_VAR_DEXAMOUNT] 					= 6;
+		$@option_id_to_my_index[RDMOPT_VAR_LUKAMOUNT] 					= 7;
+		$@option_id_to_my_index[RDMOPT_VAR_MAXSPPERCENT] 				= 8;
+		$@option_id_to_my_index[RDMOPT_VAR_MAXHPPERCENT] 				= 9;
+		$@option_id_to_my_index[RDMOPT_VAR_ATKPERCENT] 					= 10;
+		$@option_id_to_my_index[RDMOPT_VAR_MAGICATKPERCENT] 			= 11;
+		$@option_id_to_my_index[RDMOPT_VAR_PLUSASPDPERCENT] 			= 12;
+		$@option_id_to_my_index[RDMOPT_VAR_ATTPOWER] 					= 13;
+		$@option_id_to_my_index[RDMOPT_VAR_HITSUCCESSVALUE] 			= 14;
+		$@option_id_to_my_index[RDMOPT_VAR_ATTMPOWER] 					= 15;
+		$@option_id_to_my_index[RDMOPT_VAR_ITEMDEFPOWER] 				= 16;
+		$@option_id_to_my_index[RDMOPT_VAR_MDEFPOWER] 					= 17;
+		$@option_id_to_my_index[RDMOPT_VAR_AVOIDSUCCESSVALUE] 			= 18;
+		$@option_id_to_my_index[RDMOPT_VAR_CRITICALSUCCESSVALUE] 		= 19;
+		$@option_id_to_my_index[RDMOPT_VAR_PLUSAVOIDSUCCESSVALUE] 		= 20;
+		$@option_id_to_my_index[RDMOPT_DAMAGE_CRI_TARGET] 				= 21;
+		$@option_id_to_my_index[RDMOPT_DEC_SPELL_CAST_TIME] 			= 22;
+		$@option_id_to_my_index[RDMOPT_DEC_SPELL_DELAY_TIME] 			= 23;
+		
+		.npc_name$ = "[ ^990099Enchanter^000000 ]";
+		.last_choice = 0;
+	
+	}
+	
+	disable_items();
+	mes(.npc_name$);
+	mes("What do you want?");
+	.@choice = select("Enchant:Re-roll:Re-roll values");
+	
+	if(.@choice == 1) // Roll mods
+	{
+		clear();
+		mes(.npc_name$);
+		mes("Select which item to enchant");
+
+		// Build the Menu.
+		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
+		.@menu$ = "";
+		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		for (.@i = 0; .@i < 10; ++.@i)
+		{
+			if(getequipisequiped(.@i))
+			{
+				.@menu$ += "[" + .@position$[.@i] + "] - " + getequipname(.@i) + ":";
+			}
+			else
+			{
+				.@menu$ += "^ff0000[" + .@position$[.@i] + "] - " + "Empty" + "^000000:";
+			}
+		}
+		
+		// Select the part.
+		.@temp_choice = select(.@menu$);
+		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
+		.last_choice = .@equip_index;
+		
+		// Check if it's worn.
+		if (!getequipisequiped(.@equip_index)) {
+			mes("Your item isn't equipped.");
+			close();
+		}
+
+		callfunc("roll_item", .@equip_index, false, false);
+		if($@options_added > 0)
+		{
+			clear();
+			mes($@result_str$);
+		}
+		else
+		{
+			mes("That item already has 5 modifiers!");
+		}
+		close();
+	}
+	
+	if(.@choice == 2) // Reroll mods
+	{
+		clear();
+		mes(.npc_name$);
+		mes("Select which item to re-roll");
+		mes(sprintf("Price is %d zeny", .reroll_price));
+
+		// Build the Menu.
+		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
+		.@menu$ = "";
+		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		for (.@i = 0; .@i < 10; ++.@i)
+		{
+			if(getequipisequiped(.@i))
+			{
+				.@menu$ += "[" + .@position$[.@i] + "] - " + getequipname(.@i) + ":";
+			}
+			else
+			{
+				.@menu$ += "^ff0000[" + .@position$[.@i] + "] - " + "Empty" + "^000000:";
+			}
+		}
+		
+		// Select the part.
+		.@temp_choice = select(.@menu$);
+		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
+		.last_choice = .@equip_index;
+		
+		while(true)
+		{
+			if(Zeny >= .reroll_price)
+			{
+				Zeny -= .reroll_price;
+			}
+			else
+			{
+				clear();
+				mes("You dont have enough Zeny!");
+				close();
+			}
+			
+			// Check if it's worn.
+			if (!getequipisequiped(.@equip_index)) {
+				mes("Your item isn't equipped.");
+				close();
+			}
+
+			callfunc("roll_item", .@equip_index, true, false);
+			if($@options_added > 0)
+			{
+				clear();
+				mes($@result_str$);
+				if(select("Again:Exit") == 2){ close(); }
+			}
+			else
+			{
+				mes("Something went wrong, report to Tkap");
+				close();
+			}
+		}
+	}
+	
+	if(.@choice == 3) // Reroll values
+	{
+		clear();
+		mes(.npc_name$);
+		mes("Select which item to re-roll the values of");
+		mes(sprintf("Price is %d zeny", .reroll_values_price));
+
+		// Build the Menu.
+		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
+		.@menu$ = "";
+		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		for (.@i = 0; .@i < 10; ++.@i)
+		{
+			if(getequipisequiped(.@i))
+			{
+				.@menu$ += "[" + .@position$[.@i] + "] - " + getequipname(.@i) + ":";
+			}
+			else
+			{
+				.@menu$ += "^ff0000[" + .@position$[.@i] + "] - " + "Empty" + "^000000:";
+			}
+		}
+		
+		// Select the part.
+		.@temp_choice = select(.@menu$);
+		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
+		.last_choice = .@equip_index;
+		
+		while(true)
+		{
+			if(Zeny >= .reroll_values_price)
+			{
+				Zeny -= .reroll_values_price;
+			}
+			else
+			{
+				clear();
+				mes("You dont have enough Zeny!");
+				close();
+			}
+			
+			// Check if it's worn.
+			if (!getequipisequiped(.@equip_index)) {
+				mes("Your item isn't equipped.");
+				close();
+			}
+
+			callfunc("roll_item", .@equip_index, true, true);
+			if($@options_added > 0)
+			{
+				clear();
+				mes($@result_str$);
+				if(select("Again:Exit") == 2){ close(); }
+			}
+			else
+			{
+				mes("Something went wrong, report to Tkap");
+				close();
+			}
+		}
+	}
+	
+}
+
+
+prontera,153,180,6	duplicate(Enchanter)	Enchanter#prt	4_DOG01
