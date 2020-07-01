@@ -7922,6 +7922,61 @@ ACMD_FUNC(whodrops)
 	return 0;
 }
 
+// Tkap: Not working
+ACMD_FUNC(whodropsmin)
+{
+	struct item_data *item_data, *item_array[MAX_SEARCH];
+	int i,j, count = 1;
+	char item_name[64];
+	int min;
+	
+	if(sscanf(message, "%s %d", &item_name, &min) != 2)
+	{
+		clif_displaymessage(fd, "Incorrect usage"); // Please enter item name/ID (usage: @whodrops <item name/ID>).
+		return -1;
+	}
+
+	count = itemdb_searchname_array(item_array, MAX_SEARCH, item_name);
+
+	if (!count) {
+		clif_displaymessage(fd, msg_txt(sd,19));	// Invalid item ID or name.
+		return -1;
+	}
+
+	if (count == MAX_SEARCH) {
+		sprintf(atcmd_output, msg_txt(sd,269), MAX_SEARCH); // Displaying first %d matches
+		clif_displaymessage(fd, atcmd_output);
+	}
+	for (i = 0; i < count; i++) {
+		item_data = item_array[i];
+		sprintf(atcmd_output, msg_txt(sd,1285), item_data->jname, item_data->slot, item_data->nameid); // Item: '%s'[%d] (ID:%hu)
+		clif_displaymessage(fd, atcmd_output);
+
+		if (item_data->mob[0].chance == 0) {
+			strcpy(atcmd_output, msg_txt(sd,1286)); //  - Item is not dropped by mobs.
+			clif_displaymessage(fd, atcmd_output);
+		} else {
+			sprintf(atcmd_output, msg_txt(sd,1287), MAX_SEARCH); //  - Common mobs with highest drop chance (only max %d are listed):
+			clif_displaymessage(fd, atcmd_output);
+
+			for (j=0; j < MAX_SEARCH && item_data->mob[j].chance > min; j++)
+			{
+				int dropchance = item_data->mob[j].chance;
+
+#ifdef RENEWAL_DROP
+				if( battle_config.atcommand_mobinfo_type )
+					dropchance = dropchance * pc_level_penalty_mod(mob_db(item_data->mob[j].id)->lv - sd->status.base_level, mob_db(item_data->mob[j].id)->status.class_, mob_db(item_data->mob[j].id)->status.mode, 2) / 100;
+#endif
+				if (pc_isvip(sd)) // Display item rate increase for VIP
+					dropchance += (dropchance * battle_config.vip_drop_increase) / 100;
+				sprintf(atcmd_output, "- %s (%d): %02.02f%%", mob_db(item_data->mob[j].id)->jname, item_data->mob[j].id, dropchance/100.);
+				clif_displaymessage(fd, atcmd_output);
+			}
+		}
+	}
+	return 0;
+}
+
 ACMD_FUNC(whereis)
 {
 	uint16 mob_ids[MAX_SEARCH] = {0};
@@ -10443,6 +10498,7 @@ void atcommand_basecommands(void) {
 		ACMD_DEF(rates),
 		ACMD_DEF(iteminfo),
 		ACMD_DEF(whodrops),
+		ACMD_DEF(whodropsmin),
 		ACMD_DEF(whereis),
 		ACMD_DEF(mapflag),
 		ACMD_DEF(me),
