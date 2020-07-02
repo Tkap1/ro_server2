@@ -80,10 +80,10 @@ OnInit:
 	3	// Bradium
 	);
 	
-	.chance = 10000000;
+	.chance = 10000000; // 10 million
 	.chest_chance_multiplier = 10;
-	.p2w_chance_multiplier = 1;
-	.mora_coin_multiplier = 1;
+	//.p2w_chance_multiplier = 1;
+	//.mora_coin_multiplier = 1;
 	.bloody_branch_divisor = 20;
 	
 end;
@@ -115,16 +115,25 @@ OnNPCKillEvent:
 	.@temp_chance = .@mob_hp * .chest_chance_multiplier;
 	.@treasure_chest_spawn_count = 0;
 	if(.@temp_chance < 0) { .@temp_chance = 2147483647; }
-	dispbottom(sprintf("%d", .@temp_chance));
 	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@treasure_chest_spawn_count++; }
 	if(.@treasure_chest_spawn_count > 0)
 	{
 		.@mob_to_spawn_id = .treasure_chest_ids[rand(0, getarraysize(.treasure_chest_ids) - 1)];
 		.@mob_to_spawn_name$ = getmonsterinfo(.@mob_to_spawn_id, MOB_NAME);
 		monster("this", -1, -1, .@mob_to_spawn_name$, .@mob_to_spawn_id, .@treasure_chest_spawn_count);
-		specialeffect(EF_COIN, AREA, playerattached());
+		specialeffect2(EF_COIN, AREA);
 	}
 	
+	// Bloody branch roll
+	.@temp_chance = .@mob_hp / .bloody_branch_divisor;
+	.@bloody_branch_count = 0;
+	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@bloody_branch_count++; }
+	if(.@bloody_branch_count > 0)
+	{
+		getitem(12103, .@bloody_branch_count);
+		.@bloody_branch_str$ = .@bloody_branch_count > 1 ? "Bloody Branches": "Bloody Branch";
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@bloody_branch_count, .@bloody_branch_str$), bc_blue|bc_all);
+	}
 	
 	
 end;

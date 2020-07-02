@@ -50,6 +50,7 @@ on_talk:
 	{
 		if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
 		sc_start .elements_sc[last_choice], .duration, 1;
+		specialeffect2(EF_FIREBALL, AREA);
 		close;
 	}
 
@@ -59,6 +60,7 @@ on_talk:
 		if ( getstatus ( 37 || 99 || 98 || 97 || 146 || 144)) goto L_remove; 
 		sc_start .elements_sc[.@choice - 2], .duration, 1;
 		last_choice = .@choice-2;
+		specialeffect2(EF_FIREBALL, AREA);
 		close;
 	}
 	

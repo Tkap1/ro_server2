@@ -14,6 +14,7 @@ end;
 	
 on_talk:
 	
+	.@any_exchange = false;
 	if((.@rough_oridecon_count = countitem(.rough_oridecon_id)) >= 6) // Rough oridecon
 	{
 		.@exchanges = .@rough_oridecon_count / 5;
@@ -21,6 +22,7 @@ on_talk:
 		{
 			delitem(.rough_oridecon_id, .@exchanges * 5);
 			getitem(.oridecon_id, .@exchanges);
+			.@any_exchange = true;
 		}
 	}
 	
@@ -31,8 +33,11 @@ on_talk:
 		{
 			delitem(.rough_elunium_id, .@exchanges * 5);
 			getitem(.elunium_id, .@exchanges);
+			.@any_exchange = true;
 		}
 	}
+	
+	if(.@any_exchange) { specialeffect2(EF_COIN, AREA); }
 	
 end;
 

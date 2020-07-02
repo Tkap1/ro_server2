@@ -267,6 +267,7 @@ function	script	roll_item	{
 		callfunc("roll_item", .@equip_index, false, false);
 		if($@options_added > 0)
 		{
+			specialeffect2(EF_REFINEOK, AREA);
 			clear();
 			mes($@result_str$);
 		}
@@ -329,6 +330,7 @@ function	script	roll_item	{
 			callfunc("roll_item", .@equip_index, true, false);
 			if($@options_added > 0)
 			{
+				specialeffect2(EF_REFINEOK, AREA);
 				clear();
 				mes($@result_str$);
 				if(select("Again:Exit") == 2){ close(); }
@@ -393,6 +395,7 @@ function	script	roll_item	{
 			callfunc("roll_item", .@equip_index, true, true);
 			if($@options_added > 0)
 			{
+				specialeffect2(EF_REFINEOK, AREA);
 				clear();
 				mes($@result_str$);
 				if(select("Again:Exit") == 2){ close(); }
