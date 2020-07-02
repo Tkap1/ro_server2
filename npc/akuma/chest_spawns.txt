@@ -91,20 +91,20 @@ OnNPCKillEvent:
 	.@mob_hp = .@enemy_data[UMOB_MAXHP];
 	player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
 	
-	setarray(.@temp_materials[0], 0,0,0,0,0,0);
+	setarray(.@material_count_to_receive[0], 0,0,0,0,0,0);
 	for(.@i = 0; .@i < 6; .@i++)
 	{
-		.@temp_chance = .@mob_hp * .materials_chance_multiplier[.@i];
+		.@temp_chance = max(.@mob_hp, .@mob_hp * .materials_chance_multiplier[.@i]);
 		while((.@temp_chance -= rand(1, .chance)) >= 0)
 		{
-			.@temp_materials[.@i] += 1;
+			.@material_count_to_receive[.@i] += 1;
 		}
 	}
 	for(.@i = 0; .@i < 6; .@i++)
 	{
-		if(.@temp_materials[.@i] > 0)
+		if(.@material_count_to_receive[.@i] > 0)
 		{
-			getitem(.materials[.@i], .@temp_materials[.@i]);
+			getitem(.materials[.@i], .@material_count_to_receive[.@i]);
 		}
 	}
 	
