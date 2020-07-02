@@ -49,12 +49,12 @@
 			if(player_kill_score >= .food_tiers[.@i])
 			{
 				.@food_value = .@i + 1;
-				sc_start SC_FOOD_STR_CASH,.buff_duration,.@food_value;
-				sc_start SC_FOOD_AGI_CASH,.buff_duration,.@food_value;
-				sc_start SC_FOOD_VIT_CASH,.buff_duration,.@food_value;
-				sc_start SC_FOOD_INT_CASH,.buff_duration,.@food_value;
-				sc_start SC_FOOD_DEX_CASH,.buff_duration,.@food_value;
-				sc_start SC_FOOD_LUK_CASH,.buff_duration,.@food_value;
+				sc_start SC_STRFOOD,.buff_duration,.@food_value;
+				sc_start SC_AGIFOOD,.buff_duration,.@food_value;
+				sc_start SC_VITFOOD,.buff_duration,.@food_value;
+				sc_start SC_INTFOOD,.buff_duration,.@food_value;
+				sc_start SC_DEXFOOD,.buff_duration,.@food_value;
+				sc_start SC_LUKFOOD,.buff_duration,.@food_value;
 				
 				if(.@food_value >= 10)
 				{
