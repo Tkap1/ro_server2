@@ -133,6 +133,7 @@ OnNPCKillEvent:
 		getitem(12103, .@bloody_branch_count);
 		.@bloody_branch_str$ = .@bloody_branch_count > 1 ? "Bloody Branches": "Bloody Branch";
 		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@bloody_branch_count, .@bloody_branch_str$), bc_blue|bc_all);
+		specialeffect2(EF_BLOODDRAIN, AREA);
 	}
 	
 	// Mora coin
@@ -144,6 +145,7 @@ OnNPCKillEvent:
 		getitem(6380, .@mora_coin_count);
 		.@mora_coin_str$ = .@mora_coin_count > 1 ? "Mora Coins": "Mora Coin";
 		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@mora_coin_count, .@mora_coin_str$), bc_blue|bc_all);
+		specialeffect2(EF_STEALCOIN, AREA);
 	}
 	
 	
