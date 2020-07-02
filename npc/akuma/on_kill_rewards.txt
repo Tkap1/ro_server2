@@ -89,7 +89,7 @@ OnInit:
 end;
 
 OnNPCKillEvent:
-	
+
 	getunitdata(killedgid, .@enemy_data);
 	.@mob_hp = .@enemy_data[UMOB_MAXHP];
 	player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
