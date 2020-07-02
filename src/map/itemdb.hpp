@@ -80,6 +80,11 @@ enum item_itemid
 	ITEMID_PAINT_BRUSH					= 6122,
 	ITEMID_MAGIC_GEAR_FUEL				= 6146,
 	ITEMID_STRANGE_EMBRYO				= 6415,
+	
+	
+	// Tkap: Warlock book stuff
+	ITEMID_WL_MB_SG						= 6192,
+	
 	ITEMID_STONE						= 7049,
 	ITEMID_FIRE_BOTTLE					= 7135,
 	ITEMID_ACID_BOTTLE					= 7136,
@@ -113,7 +118,6 @@ enum item_itemid
 	ITEMID_WOB_RACHEL					= 14584,
 	ITEMID_WOB_LOCAL					= 14585,
 	ITEMID_SIEGE_TELEPORT_SCROLL		= 14591,
-	ITEMID_WL_MB_SG						= 100065,
 };
 
 ///Rune Knight

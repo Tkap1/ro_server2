@@ -31,6 +31,30 @@
 665,2 //Gift_Box_2
 666,2 //Gift_Box_3
 667,2 //Gift_Box_4
+
+
+// Tkap: Warlock book stuff
+// This is so that the given items with the given IDs are not consumed when used
+6189,32
+6190,32
+6191,32
+6192,32
+6193,32
+6194,32
+6195,32
+6196,32
+6197,32
+6198,32
+6199,32
+6200,32
+6201,32
+6202,32
+6203,32
+6204,32
+6205,32
+
+
+
 12023,2 //Giftbox_China
 12025,2 //Egg_Boy
 12026,2 //Egg_Girl

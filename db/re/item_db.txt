@@ -4289,23 +4289,49 @@
 6186,Monkey_Wrench,Monkey Wrench,3,500,,0,,,,,,,,,,,,,{},{},{}
 6187,Blank_Card,Blank Card,3,20,,0,,,,,,,,,,,,,{},{},{}
 6188,Slot_Coupon,Slotting Advertisement,3,20,,0,,,,,,,,,,,,,{},{},{}
+
+//6189,Magic_Book_FB,Spell Book (Fire Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6190,Magic_Book_CB,Spell Book (Cold Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6191,Magic_Book_LB,Spell Book (Lightening Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6192,Magic_Book_SG,Spell Book (Storm Gust),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6193,Magic_Book_LOV,Spell Book (Lord Of Vermilion),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6194,Magic_Book_MS,Spell Book (Meteor Storm),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6195,Magic_Book_CM,Spell Book (Comet),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6196,Magic_Book_TV,Spell Book (Tetra Vortex),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6197,Magic_Book_TS,Spell Book (Thunder Storm),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6198,Magic_Book_JT,Spell Book (Jupitel Thunder),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6199,Magic_Book_WB,Spell Book (Water Ball),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6200,Magic_Book_HD,Spell Book (Heaven's Drive),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6201,Magic_Book_ES,Spell Book (Earth Spike),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6202,Magic_Book_ES_,Spell Book (Earth Strain),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6203,Magic_Book_CL,Spell Book (Chain Lightning),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6204,Magic_Book_CR,Spell Book (Crimson Rock),3,0,,0,,,,,,,,,,,,,{},{},{}
+//6205,Magic_Book_DL,Spell Book (Drain Life),3,0,,0,,,,,,,,,,,,,{},{},{}
+
 6189,Magic_Book_FB,Spell Book (Fire Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
 6190,Magic_Book_CB,Spell Book (Cold Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
 6191,Magic_Book_LB,Spell Book (Lightening Bolt),3,0,,0,,,,,,,,,,,,,{},{},{}
-6192,Magic_Book_SG,Spell Book (Storm Gust),3,0,,0,,,,,,,,,,,,,{},{},{}
-6193,Magic_Book_LOV,Spell Book (Lord Of Vermilion),3,0,,0,,,,,,,,,,,,,{},{},{}
-6194,Magic_Book_MS,Spell Book (Meteor Storm),3,0,,0,,,,,,,,,,,,,{},{},{}
-6195,Magic_Book_CM,Spell Book (Comet),3,0,,0,,,,,,,,,,,,,{},{},{}
-6196,Magic_Book_TV,Spell Book (Tetra Vortex),3,0,,0,,,,,,,,,,,,,{},{},{}
+6192,Magic_Book_SG,Spell Book (Storm Gust),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",1; },{},{}
+6193,Magic_Book_LOV,Spell Book (Lord Of Vermilion),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",2; },{},{}
+6194,Magic_Book_MS,Spell Book (Meteor Storm),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",3; },{},{}
+6195,Magic_Book_CM,Spell Book (Comet),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",4; },{},{}
+6196,Magic_Book_TV,Spell Book (Tetra Vortex),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",5; },{},{}
 6197,Magic_Book_TS,Spell Book (Thunder Storm),3,0,,0,,,,,,,,,,,,,{},{},{}
 6198,Magic_Book_JT,Spell Book (Jupitel Thunder),3,0,,0,,,,,,,,,,,,,{},{},{}
 6199,Magic_Book_WB,Spell Book (Water Ball),3,0,,0,,,,,,,,,,,,,{},{},{}
 6200,Magic_Book_HD,Spell Book (Heaven's Drive),3,0,,0,,,,,,,,,,,,,{},{},{}
 6201,Magic_Book_ES,Spell Book (Earth Spike),3,0,,0,,,,,,,,,,,,,{},{},{}
-6202,Magic_Book_ES_,Spell Book (Earth Strain),3,0,,0,,,,,,,,,,,,,{},{},{}
-6203,Magic_Book_CL,Spell Book (Chain Lightning),3,0,,0,,,,,,,,,,,,,{},{},{}
-6204,Magic_Book_CR,Spell Book (Crimson Rock),3,0,,0,,,,,,,,,,,,,{},{},{}
-6205,Magic_Book_DL,Spell Book (Drain Life),3,0,,0,,,,,,,,,,,,,{},{},{}
+6202,Magic_Book_ES_,Spell Book (Earth Strain),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",11; },{},{}
+6203,Magic_Book_CL,Spell Book (Chain Lightning),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",12; },{},{}
+6204,Magic_Book_CR,Spell Book (Crimson Rock),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",13; },{},{}
+6205,Magic_Book_DL,Spell Book (Drain Life),11,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{ itemskill "WL_READING_SB_READING",14; },{},{}
+
+
+
+
+
+
+
 6206,I_Love_You,I Love You,3,0,,0,,,,,,,,,,,,,{},{},{}
 6207,Thank_You,Thank You,3,0,,0,,,,,,,,,,,,,{},{},{}
 6208,I_Respect_You,I Respect You,3,0,,0,,,,,,,,,,,,,{},{},{}
