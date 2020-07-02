@@ -83,7 +83,7 @@ OnInit:
 	.chance = 10000000; // 10 million
 	.chest_chance_multiplier = 10;
 	//.p2w_chance_multiplier = 1;
-	//.mora_coin_multiplier = 1;
+	.mora_coin_divisor = 20;
 	.bloody_branch_divisor = 20;
 	
 end;
@@ -133,6 +133,17 @@ OnNPCKillEvent:
 		getitem(12103, .@bloody_branch_count);
 		.@bloody_branch_str$ = .@bloody_branch_count > 1 ? "Bloody Branches": "Bloody Branch";
 		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@bloody_branch_count, .@bloody_branch_str$), bc_blue|bc_all);
+	}
+	
+	// Mora coin
+	.@temp_chance = .@mob_hp / .mora_coin_divisor;
+	.@mora_coin_count = 0;
+	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@mora_coin_count++; }
+	if(.@mora_coin_count > 0)
+	{
+		getitem(6380, .@mora_coin_count);
+		.@mora_coin_str$ = .@mora_coin_count > 1 ? "Mora Coins": "Mora Coin";
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@mora_coin_count, .@mora_coin_str$), bc_blue|bc_all);
 	}
 	
 	
