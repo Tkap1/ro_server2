@@ -220,7 +220,7 @@ function	script	roll_item	{
 		$@option_id_to_my_index[RDMOPT_DEC_SPELL_DELAY_TIME] 			= 23;
 		
 		.npc_name$ = "[ ^990099Enchanter^000000 ]";
-		.last_choice = 0;
+		last_enchanter_choice = 0;
 	
 	}
 	
@@ -238,9 +238,9 @@ function	script	roll_item	{
 		// Build the Menu.
 		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
 		.@menu$ = "";
-		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
-		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
-		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		.@color_start$ = getequipisequiped(last_enchanter_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(last_enchanter_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[last_enchanter_choice], .@color_end$);
 		for (.@i = 0; .@i < 10; ++.@i)
 		{
 			if(getequipisequiped(.@i))
@@ -255,8 +255,8 @@ function	script	roll_item	{
 		
 		// Select the part.
 		.@temp_choice = select(.@menu$);
-		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
-		.last_choice = .@equip_index;
+		.@equip_index = (.@temp_choice - 1 == 0) ? last_enchanter_choice : .@temp_choice - 2;
+		last_enchanter_choice = .@equip_index;
 		
 		// Check if it's worn.
 		if (!getequipisequiped(.@equip_index)) {
@@ -288,9 +288,9 @@ function	script	roll_item	{
 		// Build the Menu.
 		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
 		.@menu$ = "";
-		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
-		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
-		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		.@color_start$ = getequipisequiped(last_enchanter_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(last_enchanter_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[last_enchanter_choice], .@color_end$);
 		for (.@i = 0; .@i < 10; ++.@i)
 		{
 			if(getequipisequiped(.@i))
@@ -305,8 +305,8 @@ function	script	roll_item	{
 		
 		// Select the part.
 		.@temp_choice = select(.@menu$);
-		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
-		.last_choice = .@equip_index;
+		.@equip_index = (.@temp_choice - 1 == 0) ? last_enchanter_choice : .@temp_choice - 2;
+		last_enchanter_choice = .@equip_index;
 		
 		while(true)
 		{
@@ -353,9 +353,9 @@ function	script	roll_item	{
 		// Build the Menu.
 		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
 		.@menu$ = "";
-		.@color_start$ = getequipisequiped(.last_choice) ? "" : "^ff0000";
-		.@color_end$ = getequipisequiped(.last_choice) ? "" : "^000000";
-		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[.last_choice], .@color_end$);
+		.@color_start$ = getequipisequiped(last_enchanter_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(last_enchanter_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[last_enchanter_choice], .@color_end$);
 		for (.@i = 0; .@i < 10; ++.@i)
 		{
 			if(getequipisequiped(.@i))
@@ -370,8 +370,8 @@ function	script	roll_item	{
 		
 		// Select the part.
 		.@temp_choice = select(.@menu$);
-		.@equip_index = (.@temp_choice - 1 == 0) ? .last_choice : .@temp_choice - 2;
-		.last_choice = .@equip_index;
+		.@equip_index = (.@temp_choice - 1 == 0) ? last_enchanter_choice : .@temp_choice - 2;
+		last_enchanter_choice = .@equip_index;
 		
 		while(true)
 		{
