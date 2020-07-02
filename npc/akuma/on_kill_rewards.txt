@@ -7,7 +7,7 @@
 	
 OnInit:
 	
-	setarray(.ids[0],
+	setarray(.treasure_chest_ids[0],
 	1324,
 	1325,
 	1326,
@@ -48,15 +48,18 @@ OnInit:
 	1361,
 	1362,
 	1363,
-	1938,
-	1939,
-	1940,
-	1941,
-	1942,
-	1943,
-	1944,
-	1945,
-	1946
+	
+	2452,
+	2453,
+	2454,
+	2455,
+	2456,
+	2457,
+	2458,
+	2459,
+	2460,
+	2461,
+	2462
 	);
 	
 	setarray(.materials[0],
@@ -78,10 +81,10 @@ OnInit:
 	);
 	
 	.chance = 10000000;
-	.chest_chance_multiplier = 3;
+	.chest_chance_multiplier = 10;
 	.p2w_chance_multiplier = 1;
 	.mora_coin_multiplier = 1;
-	.bloody_branch_divisor = 30;
+	.bloody_branch_divisor = 20;
 	
 end;
 
@@ -106,6 +109,20 @@ OnNPCKillEvent:
 		{
 			getitem(.materials[.@i], .@material_count_to_receive[.@i]);
 		}
+	}
+	
+	// Chest spawn roll
+	.@temp_chance = .@mob_hp * .chest_chance_multiplier;
+	.@treasure_chest_spawn_count = 0;
+	if(.@temp_chance < 0) { .@temp_chance = 2147483647; }
+	dispbottom(sprintf("%d", .@temp_chance));
+	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@treasure_chest_spawn_count++; }
+	if(.@treasure_chest_spawn_count > 0)
+	{
+		.@mob_to_spawn_id = .treasure_chest_ids[rand(0, getarraysize(.treasure_chest_ids) - 1)];
+		.@mob_to_spawn_name$ = getmonsterinfo(.@mob_to_spawn_id, MOB_NAME);
+		monster("this", -1, -1, .@mob_to_spawn_name$, .@mob_to_spawn_id, .@treasure_chest_spawn_count);
+		specialeffect(EF_COIN, AREA, playerattached());
 	}
 	
 	
