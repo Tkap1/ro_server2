@@ -112,6 +112,7 @@ on_talk:
 		
 		.@success_chance = getequippercentrefinery(.@equip_index);
 		.@material_count_on_safe_fail = ((.@refine_count + 1) * 2) * (.@refine_count + 1) * (.@weapon_level == 0 ? 4 : .@weapon_level) + 10;
+		if(.@refine_count >= 10) {.@material_count_on_safe_fail = .@material_count_on_safe_fail / 4; }
 	
 		clear();
 		mes(.npc_name$);
