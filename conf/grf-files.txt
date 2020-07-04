@@ -10,3 +10,7 @@
 // Use the base folder, not the data\ path.
 //-----------------------------------------
 //data_dir: C:\Program Files\Gravity\RO\
+
+//grf: C:\Users\PakT\Downloads\RO_Server\client\rdata.grf
+//grf: C:\Users\PakT\Downloads\RO_Server\client\data.grf
+//data_dir: C:\Users\PakT\Downloads\RO_Server\client\

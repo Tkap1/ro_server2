@@ -1,0 +1,53 @@
+
+-	script	X Warper	FAKE_NPC,{
+	
+	if(!.init)
+	{
+		.init = true;
+		
+		setarray(.options$[0],
+			"Payon cave 1",
+			"Payon cave 2",
+			"Payon cave 3",
+			"Payon cave 4",
+			"Payon cave 5",
+			"Cancel"
+		);
+		setarray(.map_name$[0],
+			"pay_dun00x",
+			"pay_dun01x",
+			"pay_dun02x",
+			"pay_dun03x",
+			"pay_dun04x"
+		);
+		setarray(.map_coords[0],
+			21,183,
+			19,33,
+			19,63,
+			155,159,
+			201,204
+		);
+		.name$ = "^00ff00X Warper^000000";
+		.select_menu$ = "";
+		for(.@i = 0; .@i < getarraysize(.options$); .@i++)
+		{
+			.select_menu$ += .options$[.@i] + ":";
+		}
+	}
+	
+	mes(.name$);
+	mes("Hey! I can warp you to special dungeons");
+	mes("Where do you want to go?");
+	.@warp_index = select(.select_menu$) - 1;
+	if(.@warp_index == getarraysize(.options$) - 1) // Pressed "Cancel"
+	{
+		end;
+	}
+	else
+	{
+		warp .map_name$[.@warp_index], .map_coords[.@warp_index * 2], .map_coords[.@warp_index * 2 + 1];
+	}
+	
+}
+
+prontera,161,184,3	duplicate(X Warper)	X Warper#prt	1_M_INNKEEPER

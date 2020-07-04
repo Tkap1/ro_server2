@@ -148,3 +148,144 @@ pay_dun04,0,0	monster	Red Plant	1078,10,180000,90000
 pay_dun04,107,206,5,5	monster	White Plant	1082,2,180000,90000
 pay_dun04,28,110,10,10	monster	White Plant	1082,2,180000,90000
 pay_dun04,190,207,5,5	monster	White Plant	1082,2,180000,90000
+
+
+//==================================================
+/// pay_dun00x - Payon Cave
+//==================================================
+pay_dun00x,0,0	monster	Zombie	21123,40,5000
+pay_dun00x,0,0	monster	Skeleton	21178,35,5000
+pay_dun00x,0,0	monster	Familiar	21114,15,5000
+pay_dun00x,0,0	monster	Poporing	21135,15,5000
+
+//==================================================
+// pay_dun01x - Payon Cave
+//==================================================
+pay_dun01x,0,0	monster	Soldier Skeleton	21132,50,5000
+pay_dun01x,0,0	monster	Archer Skeleton	21124,30,5000
+pay_dun01x,0,0	monster	Eggyra	21209,15,5000
+pay_dun01x,0,0	monster	Drainliar	21205,5,5000
+
+//==================================================
+// pay_dun02x - Payon Cave
+//==================================================
+pay_dun02x,0,0	monster	Soldier Skeleton	21132,45,5000
+pay_dun02x,0,0	monster	Munak	21131,40,5000
+pay_dun02x,0,0	monster	Bongun	21271,30,5000
+pay_dun02x,0,0	monster	Archer Skeleton	21124,20,5000
+pay_dun02x,0,0	monster	Poporing	21135,10,5000
+pay_dun02x,0,0	monster	Nine Tail	21267,1,5000
+pay_dun02x,117,200	monster	Hydra	21171,1,275000,100000
+pay_dun02x,118,192	monster	Hydra	21171,1,285000,100000
+pay_dun02x,119,199	monster	Hydra	21171,1,300000,100000
+pay_dun02x,120,194	monster	Hydra	21171,1,300000,100000
+pay_dun02x,122,200	monster	Hydra	21171,1,300000,100000
+pay_dun02x,110,190	monster	Hydra	21171,1,300000,100000
+pay_dun02x,110,194	monster	Hydra	21171,1,300000,100000
+pay_dun02x,117,191	monster	Hydra	21171,1,300000,100000
+pay_dun02x,109,193	monster	Hydra	21171,1,300000,100000
+pay_dun02x,118,201	monster	Hydra	21171,1,300000,100000
+pay_dun02x,113,193	monster	Hydra	21171,1,300000,100000
+pay_dun02x,116,196	monster	Hydra	21171,1,300000,100000
+pay_dun02x,112,192	monster	Hydra	21171,1,300000,100000
+pay_dun02x,111,191	monster	Hydra	21171,1,300000,100000
+pay_dun02x,229,183	monster	Mandragora	21127,1,300000,100000
+pay_dun02x,227,184	monster	Mandragora	21127,1,300000,100000
+pay_dun02x,227,185	monster	Mandragora	21127,1,300000,100000
+pay_dun02x,120,203	monster	Hydra	21171,1,300000,100000
+pay_dun02x,117,206	monster	Hydra	21171,1,302000,100000
+pay_dun02x,120,200	monster	Hydra	21171,1,303000,100000
+pay_dun02x,116,199	monster	Hydra	21171,1,306000,100000
+pay_dun02x,118,198	monster	Hydra	21171,1,312000,100000
+pay_dun02x,117,197	monster	Hydra	21171,1,314000,100000
+pay_dun02x,119,196	monster	Hydra	21171,1,315000,100000
+pay_dun02x,113,194	monster	Hydra	21171,1,319000,100000
+pay_dun02x,107,190	monster	Hydra	21171,1,320000,100000
+pay_dun02x,122,197	monster	Hydra	21171,1,321000,100000
+pay_dun02x,119,205	monster	Hydra	21171,1,324000,100000
+pay_dun02x,116,190	monster	Hydra	21171,1,326000,100000
+pay_dun02x,108,191	monster	Hydra	21171,1,332000,100000
+pay_dun02x,118,207	monster	Hydra	21171,1,332000,100000
+pay_dun02x,121,200	monster	Hydra	21171,1,333000,100000
+pay_dun02x,116,205	monster	Hydra	21171,1,345000,100000
+pay_dun02x,109,192	monster	Hydra	21171,1,374000,100000
+
+
+//==================================================
+// pay_dun03x - Payon Cave
+//==================================================
+pay_dun03x,0,0	monster	Sohee	21260,70,5000
+pay_dun03x,0,0	monster	Greatest General	21348,3,5000
+pay_dun03x,0,0	monster	Bongun	21271,3,5000
+pay_dun03x,0,0	monster	Munak	21131,3,5000
+pay_dun03x,0,0	monster	Nine Tail	21267,2,5000
+pay_dun03x,126,135	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,126,134	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,126,133	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,126,132	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,126,131	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,179,133	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,179,132	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,179,134	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,179,131	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,179,130	monster	Mandragora	21127,1,300000,100000
+pay_dun03x,71,67	monster	Hydra	21171,1,600000,300000
+pay_dun03x,62,67	monster	Hydra	21171,1,600000,300000
+pay_dun03x,57,65	monster	Hydra	21171,1,600000,300000
+pay_dun03x,64,66	monster	Hydra	21171,1,600000,300000
+pay_dun03x,66,65	monster	Hydra	21171,1,600000,300000
+pay_dun03x,59,64	monster	Hydra	21171,1,600000,300000
+pay_dun03x,68,64	monster	Hydra	21171,1,600000,300000
+pay_dun03x,71,64	monster	Hydra	21171,1,600000,300000
+pay_dun03x,66,63	monster	Hydra	21171,1,600000,300000
+pay_dun03x,69,68	monster	Hydra	21171,1,600000,300000
+pay_dun03x,60,68	monster	Hydra	21171,1,600000,300000
+pay_dun03x,67,69	monster	Hydra	21171,1,600000,300000
+pay_dun03x,67,71	monster	Hydra	21171,1,600000,300000
+pay_dun03x,66,73	monster	Hydra	21171,1,600000,300000
+pay_dun03x,68,72	monster	Hydra	21171,1,600000,300000
+pay_dun03x,63,70	monster	Hydra	21171,1,600000,300000
+pay_dun03x,58,69	monster	Hydra	21171,1,600000,300000
+pay_dun03x,154,112	monster	Whisper	21266,1,1800000
+pay_dun03x,84,63	monster	Whisper	21266,1,1800000
+pay_dun03x,81,61	monster	Whisper	21266,1,1800000
+pay_dun03x,161,117	monster	Whisper	21266,1,1800000
+pay_dun03x,89,147	monster	Giant Whisper	21270,1,14400000
+
+
+//==================================================
+// pay_dun04x - Payon Cave
+//==================================================
+pay_dun04x,0,0	monster	Dokebi	21204,40,5000
+pay_dun04x,0,0	monster	Nine Tail	21267,30,5000
+pay_dun04x,0,0	monster	Horong	21222,30,5000
+pay_dun04x,0,0	monster	Archer Skeleton	21124,15,5000
+pay_dun04x,0,0	monster	Greatest General	21348,15,5000
+pay_dun04x,0,0	monster	Am Mut	21371,1,5000
+pay_dun04x,0,0	monster	Skeleton General	21360,1,5000
+pay_dun04x,120,115,0,0	boss_monster	Moonlight Flower	21241,1,3600000,600000,1
+pay_dun04x,120,115	monster	Cat o' Nine Tails	21377,1,3600000,7200000,1
+
+
+// Map flags
+pay_dun00x	mapflag	noteleport
+pay_dun00x	mapflag	nowarpto
+pay_dun01x	mapflag	noteleport
+pay_dun01x	mapflag	nowarpto
+pay_dun02x	mapflag	noteleport
+pay_dun02x	mapflag	nowarpto
+pay_dun03x	mapflag	noteleport
+pay_dun03x	mapflag	nowarpto
+pay_dun04x	mapflag	noteleport
+pay_dun04x	mapflag	nowarpto
+
+
+// Map warps
+pay_dun00x,184,33,0	warp	payd01x	2,7,pay_dun01x,19,33
+pay_dun01x,15,33,0	warp	payd01x-1	2,6,pay_dun00x,181,33
+pay_dun01x,286,25,0	warp	payd02x	2,7,pay_dun02x,19,63
+pay_dun02x,137,128,0	warp	payd03x	4,1,pay_dun03x,155,159
+pay_dun02x,16,63,0	warp	payd02x-1	2,7,pay_dun01x,283,28
+pay_dun03x,155,161,0	warp	payd03x-1	2,1,pay_dun02x,137,126
+pay_dun03x,127,62,0	warp	payd04x	2,1,pay_dun04x,201,204
+pay_dun04x,202,206,0	warp	payd04x-3	1,1,pay_dun03x,124,62
