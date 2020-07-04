@@ -5,6 +5,7 @@ function	script	roll_item	{
 	.@equip_index = getarg(0, -1);
 	.@allow_reroll = getarg(1, false);
 	.@keep_old_mods = getarg(2, false); // For re-rolling values
+	.@lucky = getarg(3, false); // For lucky rolls
 	if(.@equip_index == -1)
 	{
 		dispbottom "ERROR: .@equip_index is -1";
@@ -26,26 +27,32 @@ function	script	roll_item	{
 			.@increment = $@stat_increments[.@option_array_index];
 			.@chance = 10000;
 			
-			while(true)
+			.@best_value = .@value; // For lucky re-rolls
+			
+			for(.@j = 0; .@j < (.@lucky ? 10 : 1); .@j++)
 			{
-				.@chance = .@chance - (.@chance * .@decrement / 100);
-				if(rand(1, 10000) > .@chance)
+				while(true)
 				{
-					if(.@keep_old_mods)
+					.@chance = .@chance - max((.@chance * .@decrement / 100), 1);
+					if(rand(1, 10000) > .@chance)
 					{
-						.@temp_color_start$ = (.@old_value == .@value) ? "" : (.@old_value > .@value ? "^b80f0a" : "^50c878");
-						.@temp_color_end$ = (.@old_value == .@value) ? "" : (.@old_value > .@value ? "^000000" : "^000000");
-						$@result_str$ += sprintf("%s%s: %d -> %d%s\n", .@temp_color_start$, $@options$[.@option_array_index], .@old_value, .@value, .@temp_color_end$);
+						break;
 					}
-					else
-					{
-						$@result_str$ += "You got +" + .@value + " " + $@options$[.@option_array_index] + "\n";
-					}
-					break;
+					.@value = .@value + .@increment;
+					if(.@value > .@best_value) { .@best_value = .@value; }
 				}
-				.@value = .@value + .@increment;
 			}
-			setrandomoption(.@equip_index,.@i,.@option_index,.@value,0);
+			if(.@keep_old_mods)
+			{
+				.@temp_color_start$ = (.@old_value == .@best_value) ? "" : (.@old_value > .@best_value ? "^b80f0a" : "^50c878");
+				.@temp_color_end$ = (.@old_value == .@best_value) ? "" : (.@old_value > .@best_value ? "^000000" : "^000000");
+				$@result_str$ += sprintf("%s%s: %d -> %d%s\n", .@temp_color_start$, $@options$[.@option_array_index], .@old_value, .@best_value, .@temp_color_end$);
+			}
+			else
+			{
+				$@result_str$ += "You got +" + .@best_value + " " + $@options$[.@option_array_index] + "\n";
+			}
+			setrandomoption(.@equip_index,.@i,.@option_index,.@best_value,0);
 			$@options_added++;
 		}
 	}
@@ -61,6 +68,7 @@ function	script	roll_item	{
 		.init = true;
 		.reroll_price = 100000;
 		.reroll_values_price = 1000000;
+		.reroll_values_lucky_price = 10000000;
 		
 		setarray($@options$[0],
 		"Max HP",
@@ -227,7 +235,7 @@ function	script	roll_item	{
 	disable_items();
 	mes(.npc_name$);
 	mes("What do you want?");
-	.@choice = select("Enchant:Re-roll:Re-roll values");
+	.@choice = select("Enchant:Re-roll:Re-roll values:Re-roll values (Lucky)");
 	
 	if(.@choice == 1) // Roll mods
 	{
@@ -264,7 +272,7 @@ function	script	roll_item	{
 			close();
 		}
 
-		callfunc("roll_item", .@equip_index, false, false);
+		callfunc("roll_item", .@equip_index, false, false, false);
 		if($@options_added > 0)
 		{
 			specialeffect2(EF_REFINEOK, AREA);
@@ -327,7 +335,7 @@ function	script	roll_item	{
 				close();
 			}
 
-			callfunc("roll_item", .@equip_index, true, false);
+			callfunc("roll_item", .@equip_index, true, false, false);
 			if($@options_added > 0)
 			{
 				specialeffect2(EF_REFINEOK, AREA);
@@ -392,7 +400,72 @@ function	script	roll_item	{
 				close();
 			}
 
-			callfunc("roll_item", .@equip_index, true, true);
+			callfunc("roll_item", .@equip_index, true, true, false);
+			if($@options_added > 0)
+			{
+				specialeffect2(EF_REFINEOK, AREA);
+				clear();
+				mes($@result_str$);
+				if(select("Again:Exit") == 2){ close(); }
+			}
+			else
+			{
+				mes("Something went wrong, report to Tkap");
+				close();
+			}
+		}
+	}
+	
+	if(.@choice == 4) // Reroll values (Lucky)
+	{
+		clear();
+		mes(.npc_name$);
+		mes("Select which item to re-roll the values of");
+		mes(sprintf("Price is %d zeny", .reroll_values_lucky_price));
+
+		// Build the Menu.
+		setarray(.@position$[0], "Accessory 1", "Accessory 2", "Boots", "Garment", "Lower Headgear", "Middle Headgear", "Upper Headgear", "Armor", "Left Hand", "Right Hand");
+		.@menu$ = "";
+		.@color_start$ = getequipisequiped(last_enchanter_choice) ? "" : "^ff0000";
+		.@color_end$ = getequipisequiped(last_enchanter_choice) ? "" : "^000000";
+		.@menu$ += sprintf("Last choice - [%s%s%s]:", .@color_start$, .@position$[last_enchanter_choice], .@color_end$);
+		for (.@i = 0; .@i < 10; ++.@i)
+		{
+			if(getequipisequiped(.@i))
+			{
+				.@menu$ += "[" + .@position$[.@i] + "] - " + getequipname(.@i) + ":";
+			}
+			else
+			{
+				.@menu$ += "^ff0000[" + .@position$[.@i] + "] - " + "Empty" + "^000000:";
+			}
+		}
+		
+		// Select the part.
+		.@temp_choice = select(.@menu$);
+		.@equip_index = (.@temp_choice - 1 == 0) ? last_enchanter_choice : .@temp_choice - 2;
+		last_enchanter_choice = .@equip_index;
+		
+		while(true)
+		{
+			if(Zeny >= .reroll_values_lucky_price)
+			{
+				Zeny -= .reroll_values_lucky_price;
+			}
+			else
+			{
+				clear();
+				mes("You dont have enough Zeny!");
+				close();
+			}
+			
+			// Check if it's worn.
+			if (!getequipisequiped(.@equip_index)) {
+				mes("Your item isn't equipped.");
+				close();
+			}
+
+			callfunc("roll_item", .@equip_index, true, true, true);
 			if($@options_added > 0)
 			{
 				specialeffect2(EF_REFINEOK, AREA);
