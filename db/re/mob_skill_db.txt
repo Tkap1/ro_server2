@@ -11934,19 +11934,19 @@
 
 
 // Tkap: Skills (automate this)
-1015,Zombie@NPC_POISON,attack,176,1,500,800,5000,no,target,always,0,,,,,,,
-1015,Zombie@NPC_POISON,angry,176,1,500,800,5000,no,target,always,0,,,,,,,
-1015,Zombie@NPC_UNDEADATTACK,attack,347,1,2000,0,5000,yes,target,always,0,,,,,,,
-1015,Zombie@NPC_UNDEADATTACK,angry,347,1,2000,0,5000,yes,target,always,0,,,,,,,
+21123,Zombie@NPC_POISON,attack,176,1,500,800,5000,no,target,always,0,,,,,,,
+21123,Zombie@NPC_POISON,angry,176,1,500,800,5000,no,target,always,0,,,,,,,
+21123,Zombie@NPC_UNDEADATTACK,attack,347,1,2000,0,5000,yes,target,always,0,,,,,,,
+21123,Zombie@NPC_UNDEADATTACK,angry,347,1,2000,0,5000,yes,target,always,0,,,,,,,
 
-1076,Skeleton@NPC_EMOTION,chase,197,1,2000,0,5000,yes,self,always,0,1,,,,,,
-1076,Skeleton@NPC_UNDEADATTACK,attack,347,1,2000,0,5000,yes,target,always,0,,,,,,,
+21178,Skeleton@NPC_EMOTION,chase,197,1,2000,0,5000,yes,self,always,0,1,,,,,,
+21178,Skeleton@NPC_UNDEADATTACK,attack,347,1,2000,0,5000,yes,target,always,0,,,,,,,
 
-1005,Familiar@NPC_BLINDATTACK,attack,177,1,500,0,5000,yes,target,always,0,,,,,,,
-1005,Familiar@NPC_DARKNESSATTACK,attack,190,1,2000,0,5000,yes,target,always,0,,,,,,,
-1005,Familiar@NPC_BLINDATTACK,angry,177,1,500,0,5000,yes,target,always,0,,,,,,,
-1005,Familiar@NPC_DARKNESSATTACK,angry,190,1,2000,0,5000,yes,target,always,0,,,,,,,
+21114,Familiar@NPC_BLINDATTACK,attack,177,1,500,0,5000,yes,target,always,0,,,,,,,
+21114,Familiar@NPC_DARKNESSATTACK,attack,190,1,2000,0,5000,yes,target,always,0,,,,,,,
+21114,Familiar@NPC_BLINDATTACK,angry,177,1,500,0,5000,yes,target,always,0,,,,,,,
+21114,Familiar@NPC_DARKNESSATTACK,angry,190,1,2000,0,5000,yes,target,always,0,,,,,,,
 
-1031,Poporing@NPC_EMOTION,loot,197,1,2000,0,5000,yes,self,always,0,2,,,,,,
-1031,Poporing@NPC_POISON,attack,176,2,500,800,5000,no,target,always,0,,,,,,,
-1031,Poporing@NPC_POISONATTACK,attack,188,1,2000,0,5000,yes,target,always,0,,,,,,,
+21135,Poporing@NPC_EMOTION,loot,197,1,2000,0,5000,yes,self,always,0,2,,,,,,
+21135,Poporing@NPC_POISON,attack,176,2,500,800,5000,no,target,always,0,,,,,,,
+21135,Poporing@NPC_POISONATTACK,attack,188,1,2000,0,5000,yes,target,always,0,,,,,,,
