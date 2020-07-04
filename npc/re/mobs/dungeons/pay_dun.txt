@@ -270,7 +270,7 @@ pay_dun04x,120,115	monster	Cat o' Nine Tails	21377,1,3600000,7200000,1
 // Champion mobs
 pay_dun00x,0,0	monster	Furious Zombie	22404,2,300000
 pay_dun01x,0,0	monster	Furious Soldier Skeleton	22447,2,300000
-pay_dun02x,0,0	monster	Soldier Skeleton Ringleader	22417,2,300000
+pay_dun02x,0,0	monster	Soldier Skeleton Ringleader	22446,2,300000
 pay_dun03x,0,0	monster	Swift Sohee	22449,2,300000
 pay_dun04x,0,0	monster	Furious Dokebi	22647,2,300000
 
