@@ -6,11 +6,11 @@
 		.init = true;
 		
 		setarray(.options$[0],
-			"Payon cave 1",
-			"Payon cave 2",
-			"Payon cave 3",
-			"Payon cave 4",
-			"Payon cave 5",
+			"Payon Dungeon 1",
+			"Payon Dungeon 2",
+			"Payon Dungeon 3",
+			"Payon Dungeon 4",
+			"Payon Dungeon 5",
 			"Cancel"
 		);
 		setarray(.map_name$[0],

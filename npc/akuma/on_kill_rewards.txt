@@ -3,7 +3,7 @@
 // 	return;
 // }
 
--	script	chest_spawns	FAKE_NPC,1,1,{
+-	script	on_kill_rewards	FAKE_NPC,1,1,{
 	
 OnInit:
 	
@@ -82,7 +82,7 @@ OnInit:
 	
 	.chance = 10000000; // 10 million
 	.chest_chance_multiplier = 10;
-	.p2w_chance_divisor = 20;
+	.p2w_coin_divisor = 20;
 	.mora_coin_divisor = 10;
 	.bloody_branch_divisor = 10;
 	
