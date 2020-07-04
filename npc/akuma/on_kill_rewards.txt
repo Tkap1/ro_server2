@@ -82,9 +82,9 @@ OnInit:
 	
 	.chance = 10000000; // 10 million
 	.chest_chance_multiplier = 10;
-	//.p2w_chance_multiplier = 1;
-	.mora_coin_divisor = 20;
-	.bloody_branch_divisor = 20;
+	.p2w_chance_divisor = 20;
+	.mora_coin_divisor = 10;
+	.bloody_branch_divisor = 10;
 	
 end;
 
@@ -148,6 +148,17 @@ OnNPCKillEvent:
 		specialeffect2(EF_STEALCOIN, AREA);
 	}
 	
+	// P2W coin
+	.@temp_chance = .@mob_hp / .p2w_coin_divisor;
+	.@p2w_coin_count = 0;
+	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@p2w_coin_count++; }
+	if(.@p2w_coin_count > 0)
+	{
+		getitem(6882, .@p2w_coin_count);
+		.@p2w_coin_str$ = .@p2w_coin_count > 1 ? "P2w Coins": "P2W Coin";
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@p2w_coin_count, .@p2w_coin_str$), bc_blue|bc_all);
+		specialeffect2(EF_STEALCOIN, AREA);
+	}
 	
 end;
 
