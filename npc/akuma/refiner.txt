@@ -190,7 +190,7 @@ on_talk:
 			}
 			else
 			{
-				specialeffect(EF_REFINEFAIL, AREA, playerattached());
+				specialeffect2(EF_REFINEFAIL, AREA);
 				delitem(.@material, .@temp_material_amount_needed - 1);
 				mes(sprintf("But since you went for the safe option, I managed to save the item with the ^ff0000%d^000000 ^0000ff%s^000000 you gave me", .@temp_material_amount_needed, getitemname(.@material)));
 				if(!.@turbo_refine) { next(); }

@@ -16,8 +16,7 @@
 			"Byalan Dungeon 3",
 			"Byalan Dungeon 4",
 			"Byalan Dungeon 5",
-			"Byalan Dungeon 6",
-			"Cancel"
+			"Byalan Dungeon 6"
 		);
 		setarray(.map_name$[0],
 			"pay_dun00x",
@@ -47,25 +46,37 @@
 			141,185
 		);
 		.name$ = "^00ff00X Warper^000000";
-		.select_menu$ = "";
-		for(.@i = 0; .@i < getarraysize(.options$); .@i++)
-		{
-			.select_menu$ += .options$[.@i] + ":";
-		}
+		
+		if(last_x_warper_choice < 0 || last_x_warper_choice >= getarraysize(.options$)) { last_x_warper_choice = 0; }
 	}
 	
 	mes(.name$);
 	mes("Hey! I can warp you to special dungeons");
 	mes("Where do you want to go?");
-	.@warp_index = select(.select_menu$) - 1;
-	if(.@warp_index == getarraysize(.options$) - 1) // Pressed "Cancel"
+	
+	.@select_menu$ = sprintf("Last warp - [%s]:", .options$[last_x_warper_choice]);
+		
+	for(.@i = 0; .@i < getarraysize(.options$); .@i++)
+	{
+		.@select_menu$ += .options$[.@i] + ":";
+	}
+	.@select_menu$ += "Cancel";
+	
+	.@warp_index = select(.@select_menu$) - 1;
+	if(.@warp_index == 0) // Pressed "Last warp"
+	{
+		.@warp_index = last_x_warper_choice;
+	}
+	else if(.@warp_index == getarraysize(.options$) + 1) // Pressed "Cancel"
 	{
 		end;
 	}
 	else
 	{
-		warp .map_name$[.@warp_index], .map_coords[.@warp_index * 2], .map_coords[.@warp_index * 2 + 1];
+		last_x_warper_choice = .@warp_index - 1;
+		.@warp_index--;
 	}
+	warp .map_name$[.@warp_index], .map_coords[.@warp_index * 2], .map_coords[.@warp_index * 2 + 1];
 	
 }
 
