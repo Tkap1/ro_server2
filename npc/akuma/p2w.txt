@@ -24,7 +24,6 @@ OnInit:
 	//15072,
 	//15169,
 	//18539,
-	//18563,
 	//18564,
 	//18603,
 	//18611,
@@ -33,13 +32,9 @@ OnInit:
 	//18793,	// Sorc Night Cap
 	//18813,
 	//18908,	// Isabella Red Ear
-	//19020,  // Survive_Circlet
-	//19139,	// Survivor's Orb
 	//20783,
 	//20799,
-	//20813,	// Cloak of Survival
 	//22138,
-	//22170,	// Survival Shoes
 	//28377,
 	//28502,	// Mob Scarf
 	//28507,
@@ -48,6 +43,17 @@ OnInit:
 	//);
 	
 	setarray(.p2w_items[0],
+	
+		// Old ones
+		18564,	// Love piece
+		19020,	// Survive_Circlet
+		19139,	// Survivor's Orb
+		20813,	// Cloak of Survival
+		22170,	// Survival Shoes
+		18563,	// Heart Wing Hairband
+		
+		
+		
 		//19249,
 		//19308,
 		//19263,
