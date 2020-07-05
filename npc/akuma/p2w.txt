@@ -49,7 +49,7 @@ OnInit:
 		19020,	// Survive_Circlet
 		19139,	// Survivor's Orb
 		20813,	// Cloak of Survival
-		22170,	// Survival Shoes
+		22170,	// Survival Shoes // This is NOT kRO
 		18563,	// Heart Wing Hairband
 		
 		
