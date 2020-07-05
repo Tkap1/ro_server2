@@ -26988,13 +26988,6 @@ Body:
           Amount: 150
         - Level: 3
           Amount: 200
-      ItemCost:
-        - Item: Boody_Red
-          Amount: 3
-        - Item: Boody_Red
-          Amount: 6
-        - Item: Flame_Heart
-          Amount: 1
   - Id: 2458
     Name: SO_SUMMON_AQUA
     Description: Summon Water Spirit Aqua
@@ -27030,13 +27023,6 @@ Body:
           Amount: 150
         - Level: 3
           Amount: 200
-      ItemCost:
-        - Item: Crystal_Blue
-          Amount: 3
-        - Item: Crystal_Blue
-          Amount: 6
-        - Item: Mistic_Frozen
-          Amount: 1
   - Id: 2459
     Name: SO_SUMMON_VENTUS
     Description: Summon Wind Spirit Ventus
@@ -27072,13 +27058,6 @@ Body:
           Amount: 150
         - Level: 3
           Amount: 200
-      ItemCost:
-        - Item: Wind_Of_Verdure
-          Amount: 3
-        - Item: Wind_Of_Verdure
-          Amount: 6
-        - Item: Rough_Wind
-          Amount: 1
   - Id: 2460
     Name: SO_SUMMON_TERA
     Description: Summon Earth Spirit Tera
@@ -27114,13 +27093,6 @@ Body:
           Amount: 150
         - Level: 3
           Amount: 200
-      ItemCost:
-        - Item: Yellow_Live
-          Amount: 3
-        - Item: Yellow_Live
-          Amount: 6
-        - Item: Great_Nature
-          Amount: 1
   - Id: 2461
     Name: SO_EL_ACTION
     Description: Elemental Action

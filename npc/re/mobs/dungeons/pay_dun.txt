@@ -274,6 +274,122 @@ pay_dun02x,0,0	monster	Soldier Skeleton Ringleader	22446,2,300000
 pay_dun03x,0,0	monster	Swift Sohee	22449,2,300000
 pay_dun04x,0,0	monster	Furious Dokebi	22647,2,300000
 
+iz_dun00,0,0	monster	Furious Plankton	22505,2,300000
+iz_dun01,0,0	monster	Solid Vadon	22426,2,300000
+iz_dun02,0,0	monster	Solid Cornutus	22660,2,300000
+iz_dun03,0,0	monster	Elusive Phen	22511,2,300000
+iz_dun04,0,0	monster	Furious Merman	22555,2,300000
+iz_dun05,0,0	monster	Furious Lamp Rey	22467,2,300000
+
+
+
+//==================================================
+// iz_dun00 - Undersea Tunnel
+//==================================================
+iz_dun00x,0,0	monster	Plankton	21252,65,5000
+iz_dun00x,0,0	monster	Marina	21232,45,5000
+iz_dun00x,0,0	monster	Vadon	21169,15,5000
+iz_dun00x,0,0	monster	Kukre	21173,15,5000
+iz_dun00x,0,0	monster	Hydra	21171,15,5000
+
+//==================================================
+// iz_dun01 - Undersea Tunnel
+//==================================================
+iz_dun01x,0,0	monster	Vadon	21169,60,5000
+iz_dun01x,0,0	monster	Kukre	21173,50,5000
+iz_dun01x,0,0	monster	Hydra	21171,30,5000
+iz_dun01x,0,0	monster	Marina	21232,15,5000
+iz_dun01x,0,0	monster	Cornutus	21170,15,5000
+iz_dun01x,0,0	monster	Plankton	21252,10,5000
+
+//==================================================
+// iz_dun02 - Undersea Tunnel
+//==================================================
+iz_dun02x,0,0	monster	Cornutus	21170,60,5000
+iz_dun02x,0,0	monster	Marse	21235,40,5000
+iz_dun02x,0,0	monster	Obeaune	21147,40,5000
+iz_dun02x,0,0	monster	Hydra	21171,40,5000
+iz_dun02x,0,0	monster	Merman	21335,1,5000
+
+//==================================================
+// iz_dun03 - Undersea Tunnel
+//==================================================
+iz_dun03x,0,0	monster	Phen	21249,45,5000
+iz_dun03x,0,0	monster	Marc	21148,40,5000
+iz_dun03x,0,0	monster	Swordfish	21172,40,5000
+iz_dun03x,0,0	monster	Marine Sphere	21233,20,5000
+iz_dun03x,0,0	monster	Merman	21335,3,5000
+iz_dun03x,200,144	monster	Hydra	21171,1,282000,150000
+iz_dun03x,178,253	monster	Hydra	21171,1,300000,150000
+iz_dun03x,193,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,196,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,199,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,202,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,205,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,208,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,211,143	monster	Hydra	21171,1,300000,150000
+iz_dun03x,108,249	monster	Hydra	21171,1,300000,150000
+iz_dun03x,180,251	monster	Hydra	21171,1,300000,150000
+iz_dun03x,176,260	monster	Hydra	21171,1,300000,150000
+iz_dun03x,80,163	monster	Hydra	21171,1,300000,150000
+iz_dun03x,204,57	monster	Hydra	21171,1,302000,150000
+iz_dun03x,204,60	monster	Hydra	21171,1,304000,150000
+iz_dun03x,203,47	monster	Hydra	21171,1,305000,150000
+iz_dun03x,206,144	monster	Hydra	21171,1,305000,150000
+iz_dun03x,209,144	monster	Hydra	21171,1,308000,150000
+iz_dun03x,204,51	monster	Hydra	21171,1,309000,150000
+iz_dun03x,203,144	monster	Hydra	21171,1,310000,150000
+iz_dun03x,204,54	monster	Hydra	21171,1,310000,150000
+iz_dun03x,203,59	monster	Hydra	21171,1,312000,150000
+iz_dun03x,204,48	monster	Hydra	21171,1,313000,150000
+iz_dun03x,194,144	monster	Hydra	21171,1,316000,150000
+iz_dun03x,203,53	monster	Hydra	21171,1,317000,150000
+iz_dun03x,191,144	monster	Hydra	21171,1,321000,150000
+iz_dun03x,212,144	monster	Hydra	21171,1,321000,150000
+iz_dun03x,203,50	monster	Hydra	21171,1,323000,150000
+iz_dun03x,203,56	monster	Hydra	21171,1,323000,150000
+iz_dun03x,197,144	monster	Hydra	21171,1,2960000,150000
+
+//==================================================
+// iz_dun04 - Undersea Tunnel
+//==================================================
+iz_dun04x,0,0	monster	Merman	21335,52,5000
+iz_dun04x,0,0	monster	Strouf	21168,50,5000
+iz_dun04x,0,0	monster	Marine Sphere	21233,10,5000
+iz_dun04x,0,0	monster	Swordfish	21172,10,5000
+iz_dun04x,0,0	monster	Deviace	21202,3,5000
+iz_dun04x,80,246	monster	Hydra	21171,1,294000,150000
+iz_dun04x,79,246	monster	Hydra	21171,1,300000,150000
+iz_dun04x,111,41	monster	Hydra	21171,1,300000,150000
+iz_dun04x,111,35	monster	Hydra	21171,1,300000,150000
+iz_dun04x,124,233	monster	Hydra	21171,1,300000,150000
+iz_dun04x,38,115	monster	Hydra	21171,1,300000,150000
+iz_dun04x,38,129	monster	Hydra	21171,1,300000,150000
+iz_dun04x,61,135	monster	Hydra	21171,1,300000,150000
+iz_dun04x,79,234	monster	Hydra	21171,1,302000,150000
+iz_dun04x,111,38	monster	Hydra	21171,1,303000,150000
+iz_dun04x,134,233	monster	Hydra	21171,1,305000,150000
+iz_dun04x,58,135	monster	Hydra	21171,1,305000,150000
+iz_dun04x,42,116	monster	Hydra	21171,1,306000,150000
+iz_dun04x,33,129	monster	Hydra	21171,1,308000,150000
+iz_dun04x,42,129	monster	Hydra	21171,1,312000,150000
+iz_dun04x,80,233	monster	Hydra	21171,1,318000,150000
+iz_dun04x,69,243	monster	Hydra	21171,1,321000,150000
+iz_dun04x,33,115	monster	Hydra	21171,1,321000,150000
+
+//==================================================
+// iz_dun05 - Undersea Tunnel F6
+//==================================================
+iz_dun05x,0,0	monster	Sropho	22141,50,5000
+iz_dun05x,0,0	monster	Sedora	22144,60,5000
+iz_dun05x,0,0	monster	Pot Dofle	22143,30,5000
+iz_dun05x,0,0	monster	King Dramoh	22139,25,5000
+iz_dun05x,0,0,0,0	boss_monster	Kraken	22142,1,7200000,1800000,0
+
+
+
+
+
 // Map flags
 pay_dun00x	mapflag	noteleport
 pay_dun00x	mapflag	nowarpto
@@ -286,6 +402,19 @@ pay_dun03x	mapflag	nowarpto
 pay_dun04x	mapflag	noteleport
 pay_dun04x	mapflag	nowarpto
 
+iz_dun00x	mapflag	noteleport
+iz_dun00x	mapflag	nowarpto
+iz_dun01x	mapflag	noteleport
+iz_dun01x	mapflag	nowarpto
+iz_dun02x	mapflag	noteleport
+iz_dun02x	mapflag	nowarpto
+iz_dun03x	mapflag	noteleport
+iz_dun03x	mapflag	nowarpto
+iz_dun04x	mapflag	noteleport
+iz_dun04x	mapflag	nowarpto
+iz_dun05x	mapflag	noteleport
+iz_dun05x	mapflag	nowarpto
+
 
 // Map warps
 pay_dun00x,184,33,0	warp	payd01x	2,7,pay_dun01x,19,33
@@ -296,3 +425,17 @@ pay_dun02x,16,63,0	warp	payd02x-1	2,7,pay_dun01x,283,28
 pay_dun03x,155,161,0	warp	payd03x-1	2,1,pay_dun02x,137,126
 pay_dun03x,127,62,0	warp	payd04x	2,1,pay_dun04x,201,204
 pay_dun04x,202,206,0	warp	payd04x-3	1,1,pay_dun03x,124,62
+
+// Byalan Dungeon
+iz_dun00x,352,342,0	warp	izd02x	5,2,iz_dun01x,253,252
+iz_dun00x,39,41,0	warp	izd03x	5,2,iz_dun01x,41,37
+iz_dun01x,118,170,0	warp	izd04x	5,2,iz_dun02x,236,204
+iz_dun01x,253,258,0	warp	izd02-1x	2,2,iz_dun00x,352,337
+iz_dun01x,41,32,0	warp	izd03-1x	2,2,iz_dun00x,39,46
+iz_dun02x,236,198,0	warp	izd04-1x	5,3,iz_dun01x,118,165
+iz_dun02x,339,331,0	warp	izd05x	2,2,iz_dun03x,32,63
+iz_dun03x,264,245,0	warp	izd06x	1,2,iz_dun04x,26,27
+iz_dun03x,29,63,0	warp	izd05-1x	2,2,iz_dun02x,339,328
+iz_dun04x,130,234,0	warp	izd07x		2,2,iz_dun05x,141,185
+iz_dun04x,26,24,0	warp	izd06-1x	2,2,iz_dun03x,261,245
+iz_dun05x,141,190,0	warp	izd07-1x		2,2,iz_dun04x,130,230

@@ -11,6 +11,12 @@
 			"Payon Dungeon 3",
 			"Payon Dungeon 4",
 			"Payon Dungeon 5",
+			"Byalan Dungeon 1",
+			"Byalan Dungeon 2",
+			"Byalan Dungeon 3",
+			"Byalan Dungeon 4",
+			"Byalan Dungeon 5",
+			"Byalan Dungeon 6",
 			"Cancel"
 		);
 		setarray(.map_name$[0],
@@ -18,14 +24,27 @@
 			"pay_dun01x",
 			"pay_dun02x",
 			"pay_dun03x",
-			"pay_dun04x"
+			"pay_dun04x",
+			"iz_dun00x",
+			"iz_dun01x",
+			"iz_dun02x",
+			"iz_dun03x",
+			"iz_dun04x",
+			"iz_dun05x"
 		);
 		setarray(.map_coords[0],
-			21,183,
+			21,183, // pay_dun00x
 			19,33,
 			19,63,
 			155,159,
-			201,204
+			201,204,
+			
+			168,168, // iz_dun00x
+			253,252,
+			236,204,
+			32,63,
+			26,27,
+			141,185
 		);
 		.name$ = "^00ff00X Warper^000000";
 		.select_menu$ = "";

@@ -22,15 +22,17 @@ function	script	roll_item	{
 		{
 			.@option_array_index = .@keep_old_mods ? $@option_id_to_my_index[.@opt] : rand(0, getarraysize($@options$) - 1);
 			.@option_index = $@option_constants[.@option_array_index];
-			.@value = $@start_values[.@option_array_index];
+			.@start_value = $@start_values[.@option_array_index];
 			.@decrement = $@decrements[.@option_array_index];
 			.@increment = $@stat_increments[.@option_array_index];
-			.@chance = 10000;
+			.@start_chance = 10000;
 			
-			.@best_value = .@value; // For lucky re-rolls
+			.@best_value = .@start_value; // For lucky re-rolls
 			
 			for(.@j = 0; .@j < (.@lucky ? 10 : 1); .@j++)
 			{
+				.@value = .@start_value;
+				.@chance = .@start_chance;
 				while(true)
 				{
 					.@chance = .@chance - max((.@chance * .@decrement / 100), 1);
@@ -68,7 +70,7 @@ function	script	roll_item	{
 		.init = true;
 		.reroll_price = 100000;
 		.reroll_values_price = 1000000;
-		.reroll_values_lucky_price = 10000000;
+		.reroll_values_lucky_price = 20000000;
 		
 		setarray($@options$[0],
 		"Max HP",
