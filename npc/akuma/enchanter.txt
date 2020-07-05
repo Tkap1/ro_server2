@@ -624,14 +624,14 @@ function	script	roll_item	{
 				for(.@i = 0; .@i < .@options_size; .@i++)
 				{
 					.@already_added = false;
-					for(.@j = 0; .@j < player_desired_enchant_count; .@j++)
-					{
-						if(player_desired_enchants[.@j] == .@i)
-						{
-							.@already_added = true;
-							break;
-						}
-					}
+					//for(.@j = 0; .@j < player_desired_enchant_count; .@j++)
+					//{
+					//	if(player_desired_enchants[.@j] == .@i)
+					//	{
+					//		.@already_added = true;
+					//		break;
+					//	}
+					//}
 					if(!.@already_added)
 					{
 						.@add_modifier_menu$ += $@options$[.@i] + ":";
