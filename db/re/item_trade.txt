@@ -811,7 +811,7 @@
 6359,507,100	// Guidebook_Exchange
 6377,467,100	// Buy_Market_Permit
 6378,499,100	// Winning_Mark
-6380,467,100	// Mora_Coin
+//6380,467,100	// Mora_Coin
 6383,499,100	// Clue_Of_Lope
 6384,507,100	// Ring_Of_Lope
 6385,507,100	// Research_Tool_Bag
