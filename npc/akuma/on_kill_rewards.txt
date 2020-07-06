@@ -92,7 +92,39 @@ OnNPCKillEvent:
 
 	getunitdata(killedgid, .@enemy_data);
 	.@mob_hp = .@enemy_data[UMOB_MAXHP];
-	player_kill_score = max(player_kill_score, player_kill_score + .@mob_hp / 10000);
+	
+	// Set up players that can get the reward
+	.@killer_map$ = strcharinfo(3);
+	set .@members_to_share_cid[0],0;
+	set .@members_to_share_aid[0],0;
+	.@members_to_share_count = 0;
+	getpartymember(getcharid(1), 1);
+	getpartymember(getcharid(1), 2);
+	for(.@i = 0; .@i < $@partymembercount; .@i++)
+	{
+		if(isloggedin($@partymemberaid[.@i], $@partymembercid[.@i]))
+		{
+			.@temp_map$ = strcharinfo(3,$@partymembercid[.@i]);
+			if(.@killer_map$ == .@temp_map$)
+			{
+				.@members_to_share_cid[.@members_to_share_count] = $@partymembercid[.@i];
+				.@members_to_share_aid[.@members_to_share_count++] = $@partymemberaid[.@i];
+			}
+		}
+	}
+	if($@partymembercount == 0)
+	{
+		.@members_to_share_cid[.@members_to_share_count++] = getcharid(0);
+	}
+	
+	for(.@i = 0; .@i < .@members_to_share_count; .@i++)
+	{
+		.@temp_kill_score = getvar(player_kill_score, .@members_to_share_cid[.@i]);
+		.@new_kill_score = max(.@temp_kill_score, .@temp_kill_score + .@mob_hp / 10000);
+		set(player_kill_score, .@new_kill_score, .@members_to_share_cid[.@i]);
+	}
+	
+	
 	
 	setarray(.@material_count_to_receive[0], 0,0,0,0,0,0);
 	for(.@i = 0; .@i < 6; .@i++)
@@ -107,7 +139,7 @@ OnNPCKillEvent:
 	{
 		if(.@material_count_to_receive[.@i] > 0)
 		{
-			getitem(.materials[.@i], .@material_count_to_receive[.@i]);
+			getitem(.materials[.@i], .@material_count_to_receive[.@i], .@members_to_share_aid[rand(.@members_to_share_count)]);
 		}
 	}
 	
@@ -130,9 +162,12 @@ OnNPCKillEvent:
 	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@bloody_branch_count++; }
 	if(.@bloody_branch_count > 0)
 	{
-		getitem(12103, .@bloody_branch_count);
+		.@winner_rand = rand(.@members_to_share_count);
+		.@winner_aid = .@members_to_share_aid[.@winner_rand];
+		.@winner_cid = .@members_to_share_cid[.@winner_rand];
+		getitem(12103, .@bloody_branch_count, .@winner_aid);
 		.@bloody_branch_str$ = .@bloody_branch_count > 1 ? "Bloody Branches": "Bloody Branch";
-		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@bloody_branch_count, .@bloody_branch_str$), bc_blue|bc_all);
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME, .@winner_cid), .@bloody_branch_count, .@bloody_branch_str$), bc_blue|bc_all);
 		specialeffect2(EF_BLOODDRAIN, AREA);
 	}
 	
@@ -142,9 +177,12 @@ OnNPCKillEvent:
 	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@mora_coin_count++; }
 	if(.@mora_coin_count > 0)
 	{
-		getitem(6380, .@mora_coin_count);
+		.@winner_rand = rand(.@members_to_share_count);
+		.@winner_aid = .@members_to_share_aid[.@winner_rand];
+		.@winner_cid = .@members_to_share_cid[.@winner_rand];
+		getitem(6380, .@mora_coin_count, .@winner_aid);
 		.@mora_coin_str$ = .@mora_coin_count > 1 ? "Mora Coins": "Mora Coin";
-		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@mora_coin_count, .@mora_coin_str$), bc_blue|bc_all);
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME, .@winner_cid), .@mora_coin_count, .@mora_coin_str$), bc_blue|bc_all);
 		specialeffect2(EF_STEALCOIN, AREA);
 	}
 	
@@ -154,9 +192,12 @@ OnNPCKillEvent:
 	while((.@temp_chance -= rand(1, .chance)) >= 0) { .@p2w_coin_count++; }
 	if(.@p2w_coin_count > 0)
 	{
-		getitem(6882, .@p2w_coin_count);
+		.@winner_rand = rand(.@members_to_share_count);
+		.@winner_aid = .@members_to_share_aid[.@winner_rand];
+		.@winner_cid = .@members_to_share_cid[.@winner_rand];
+		getitem(6882, .@p2w_coin_count, .@winner_aid);
 		.@p2w_coin_str$ = .@p2w_coin_count > 1 ? "P2w Coins": "P2W Coin";
-		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME), .@p2w_coin_count, .@p2w_coin_str$), bc_blue|bc_all);
+		announce(sprintf("%s just got %d %s!", strcharinfo(PC_NAME, .@winner_cid), .@p2w_coin_count, .@p2w_coin_str$), bc_blue|bc_all);
 		specialeffect2(EF_STEALCOIN, AREA);
 	}
 	
