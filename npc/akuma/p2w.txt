@@ -51,6 +51,8 @@ OnInit:
 		20813,	// Cloak of Survival
 		22170,	// Survival Shoes // This is NOT kRO
 		18563,	// Heart Wing Hairband
+		28901,	// Cursed Mad Bunny
+		19181,	// New Wave Sunglasses
 		
 		
 		
