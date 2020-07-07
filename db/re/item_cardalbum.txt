@@ -412,6 +412,14 @@ IG_CardAlbum,4530,1		// Siorava Card
 IG_CardAlbum,4531,2		// Red Eruma Card
 IG_CardAlbum,4532,1		// Wild Rider Card
 IG_CardAlbum,4533,2		// Octopus Card
+
+// Tkap:
+IG_CardAlbum,4577,1		// Elvira card
+IG_CardAlbum,4597,1		// Lichtern Blue Card
+IG_CardAlbum,4599,1		// Lichtern Yellow Card
+IG_CardAlbum,4599,1		// Lichtern Red Card
+IG_CardAlbum,4600,1		// Lichtern Green Card
+
 // Magic Card Album
 IG_MagicCardAlbum,4047,1	// Ghostring Card
 IG_MagicCardAlbum,4054,1	// Angeling Card
