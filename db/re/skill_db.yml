@@ -18165,7 +18165,7 @@ Body:
       - Level: 4
         Time: 150000
       - Level: 5
-        Time: 180000
+        Time: 3600000
     Cooldown:
       - Level: 1
         Time: 50000
