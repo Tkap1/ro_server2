@@ -569,6 +569,13 @@ function	script	roll_item	{
 					}
 
 					callfunc("roll_item", .@equip_index, true, false, false);
+					if($@options_added == 0)
+					{
+						clear();
+						mes(.npc_name$);
+						mes("That has not been enchanted yet");
+						close();
+					}
 					freeloop(1);
 					.@attempts++;
 					Zeny -= .reroll_price;
