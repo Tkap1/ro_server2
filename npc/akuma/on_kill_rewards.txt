@@ -114,7 +114,8 @@ OnNPCKillEvent:
 	}
 	if($@partymembercount == 0)
 	{
-		.@members_to_share_cid[.@members_to_share_count++] = getcharid(0);
+		.@members_to_share_cid[.@members_to_share_count] = getcharid(0);
+		.@members_to_share_aid[.@members_to_share_count++] = getcharid(3);
 	}
 	
 	for(.@i = 0; .@i < .@members_to_share_count; .@i++)
