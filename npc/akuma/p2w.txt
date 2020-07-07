@@ -7,55 +7,62 @@ OnInit:
 	
 	// P2W items
 	//setarray(.p2w_items[0],
-	//1837,
-	//2192,
-	//2198,
-	//2202,
-	//2576,
-	//2589,
-	//5208,	// Rideword hat
-	//5361,
-	//5564,
-	//5898,
-	//5902,	// Harvester Hat
-	//5906,	// Oni horns
-	//5966,
-	//5973,
-	//15072,
-	//15169,
-	//18539,
-	//18564,
-	//18603,
-	//18611,
-	//18666,	// CD in mouth
-	//18754,	// Blood sucker
-	//18793,	// Sorc Night Cap
-	//18813,
-	//18908,	// Isabella Red Ear
-	//20783,
-	//20799,
-	//22138,
-	//28377,
-	//28502,	// Mob Scarf
-	//28507,
-	//28565,	// Perverse Demon Mask
-	//28910
+	//1837,	// NOT KRO
+	//2192,	// NOT KRO
+	//2198,	// NOT KRO
+	//5564, // NOT KRO
+	//5898, // NOT KRO
+	//5902,	// NOT KRO - Harvester Hat
+	//5906,	// NOT KRO - Oni horns
+	//5966,	// NOT KRO
+	//5973,	// NOT KRO
+	//15072,// NOT KRO
+	//15169,// NOT KRO
+	//18539,// NOT KRO
+	//18564,// NOT KRO
+	//18611,// NOT KRO
+	//18666,// NOT KRO - CD in mouth
+	//18754,// NOT KRO - Blood sucker
+	//18793,// NOT KRO - Sorc Night Cap
+	//18908,// NOT KRO - Isabella Red Ear
+	//20783,// NOT KRO
+	//20799,// NOT KRO
+	//22138,// NOT KRO
+	//28377,// NOT KRO
+	//28502,// NOT KRO - Mob Scarf
+	//28507,// NOT KRO
+	//28565,// NOT KRO - Perverse Demon Mask
+	//28910 // NOT KRO
 	//);
+	
+	// Good website to check if items are obtainable in kRO
+	// http://kafra.kr/#!/en/KRO/itemdetail/19129
+	// The "NOT KRO" label is according to whether or not the item is up for trade in KRO
 	
 	setarray(.p2w_items[0],
 	
 		// Old ones
-		18564,	// Love piece
-		19020,	// Survive_Circlet
-		19139,	// Survivor's Orb
-		20813,	// Cloak of Survival
-		22170,	// Survival Shoes // This is NOT kRO
+		//18564,	// Love piece			// NOT KRO
+		//19020,	// Survive_Circlet		// NOT KRO
+		//19139,	// Survivor's Orb		// NOT KRO
+		//20813,	// Cloak of Survival	// NOT KRO
+		//22170,	// Survival Shoes		// NOT KRO
+		
+		
+		2202,	// Sunglasses [1] - Can also be acquired through a quest
+		2576, 	// Adventurers Backpack
+		2589, 	// FAW
+		5208,	// Rideword hat
+		5361, 	// Gangster Scarf
 		18563,	// Heart Wing Hairband
+		18603,	// Black Devil Mask
+		18813,	// New Wave Sunglasses
+		19129,	// Chick Hat
+		19181,	// New Wave Sunglasses[1]
 		28901,	// Cursed Mad Bunny
-		19181,	// New Wave Sunglasses
 		
 		
-		
+		// From here on all items are guaranteed to be kRO cash shop exclusive
 		//19249,
 		//19308,
 		//19263,
