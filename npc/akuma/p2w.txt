@@ -1,5 +1,5 @@
 
-prontera,146,188,4	script	P2W Coin Exchanger	4_DOG01,{
+prontera,146,188,4	script	P2W	4_DOG01,{
 	callsub(on_talk);
 	end;
 	
@@ -41,25 +41,24 @@ OnInit:
 	
 	setarray(.p2w_items[0],
 	
-		// Old ones
-		//18564,	// Love piece			// NOT KRO
-		//19020,	// Survive_Circlet		// NOT KRO
-		//19139,	// Survivor's Orb		// NOT KRO
-		//20813,	// Cloak of Survival	// NOT KRO
-		//22170,	// Survival Shoes		// NOT KRO
+		//18564,	// NOT KRO - Love piece		
+		//19020,	// NOT KRO - Survive_Circlet	
+		//19139,	// NOT KRO - Survivor's Orb	
+		//20813,	// NOT KRO - Cloak of Survival
+		//22170,	// NOT KRO - Survival Shoes	
 		
 		
-		2202,	// Sunglasses [1] - Can also be acquired through a quest
-		2576, 	// Adventurers Backpack
-		2589, 	// FAW
-		5208,	// Rideword hat
-		5361, 	// Gangster Scarf
-		18563,	// Heart Wing Hairband
-		18603,	// Black Devil Mask
-		18813,	// New Wave Sunglasses
-		19129,	// Chick Hat
-		19181,	// New Wave Sunglasses[1]
-		28901,	// Cursed Mad Bunny
+		2202,		// Sunglasses [1] - Can also be acquired through a quest
+		2576, 		// Adventurers Backpack
+		2589, 		// FAW
+		5208,		// Rideword hat
+		5361, 		// Gangster Scarf
+		18563,		// Heart Wing Hairband
+		18603,		// Black Devil Mask
+		18813,		// New Wave Sunglasses
+		19129,		// Chick Hat
+		19181,		// New Wave Sunglasses[1]
+		28901,		// Cursed Mad Bunny
 		
 		
 		// From here on all items are guaranteed to be kRO cash shop exclusive
@@ -429,7 +428,7 @@ OnInit:
 	
 	while(true)
 	{
-		.sub_menus$[.@i] += sprintf("%s:", getitemname(.p2w_items[.@count]));
+		.sub_menus$[.@i] += sprintf("%s (%d):", getitemname(.p2w_items[.@count]), .p2w_items[.@count]);
 		.sub_menus_item_count[.@i] += 1;
 		.@count++;
 		if(.@count % .spread == 0)
