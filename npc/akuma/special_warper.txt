@@ -106,6 +106,7 @@
 					warp .x_map_name$[.@warp_index], .x_map_coords[.@warp_index * 2], .x_map_coords[.@warp_index * 2 + 1];
 					end;
 				} // Else the player picked "Back"
+				break;
 				
 			case 2: // I Dungeons
 				.@warp_index = select(.i_maps_menu$) - 1;
@@ -116,6 +117,7 @@
 					warp .i_map_name$[.@warp_index], .i_map_coords[.@warp_index * 2], .i_map_coords[.@warp_index * 2 + 1];
 					end;
 				} // Else the player picked "Back"
+				break;
 				
 			case 3: // Picked "Cancel"
 				close();
