@@ -1064,3 +1064,6 @@ iz_dun02x
 iz_dun03x
 iz_dun04x
 iz_dun05x
+
+gl_knt02x // Not done
+gl_knt02i

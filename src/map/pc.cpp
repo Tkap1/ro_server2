@@ -65,8 +65,10 @@ int pc_split_atoui(char* str, unsigned int* val, char sep, int max);
 static inline bool pc_attendance_rewarded_today( struct map_session_data* sd );
 
 #define PVP_CALCRANK_INTERVAL 1000	// PVP calculation interval
-#define MAX_LEVEL_BASE_EXP 99999999 ///< Max Base EXP for player on Max Base Level
-#define MAX_LEVEL_JOB_EXP 999999999 ///< Max Job EXP for player on Max Job Level
+// #define MAX_LEVEL_BASE_EXP 99999999 ///< Max Base EXP for player on Max Base Level
+// #define MAX_LEVEL_JOB_EXP 999999999 ///< Max Job EXP for player on Max Job Level
+#define MAX_LEVEL_BASE_EXP 2147483647 // Tkap:
+#define MAX_LEVEL_JOB_EXP 2147483647
 
 static unsigned int statp[MAX_LEVEL+1];
 #if defined(RENEWAL_DROP) || defined(RENEWAL_EXP)

@@ -1,0 +1,129 @@
+
+-	script	Special Warper	FAKE_NPC,{
+	
+	if(!.init)
+	{
+		.init = true;
+		
+		setarray(.x_options$[0],
+			"Payon Dungeon 1",
+			"Payon Dungeon 2",
+			"Payon Dungeon 3",
+			"Payon Dungeon 4",
+			"Payon Dungeon 5",
+			"Byalan Dungeon 1",
+			"Byalan Dungeon 2",
+			"Byalan Dungeon 3",
+			"Byalan Dungeon 4",
+			"Byalan Dungeon 5",
+			"Byalan Dungeon 6"
+		);
+		setarray(.x_map_name$[0],
+			"pay_dun00x",
+			"pay_dun01x",
+			"pay_dun02x",
+			"pay_dun03x",
+			"pay_dun04x",
+			"iz_dun00x",
+			"iz_dun01x",
+			"iz_dun02x",
+			"iz_dun03x",
+			"iz_dun04x",
+			"iz_dun05x"
+		);
+		setarray(.x_map_coords[0],
+			21,183, // pay_dun00x
+			19,33,
+			19,63,
+			155,159,
+			201,204,
+			
+			168,168, // iz_dun00x
+			253,252,
+			236,204,
+			32,63,
+			26,27,
+			141,185
+		);
+		
+		setarray(.i_options$[0],
+			"Old Glast Heim"
+		);
+		setarray(.i_map_name$[0],
+			"gl_knt02i"
+		);
+		setarray(.i_map_coords[0],
+			0,0 // Old Glast Heim
+		);
+		.name$ = "^00ff00Special Warper^000000";
+		
+		if(last_special_warper_choice < 0 || last_special_warper_choice >= getarraysize(.x_options$)) { last_special_warper_choice = 0; }
+		if(last_special_warper_menu < 0 || last_special_warper_menu >= 2) { last_special_warper_menu = 0; }
+		
+		.x_maps_menu$ = "";
+		for(.@i = 0; .@i < getarraysize(.x_options$); .@i++)
+		{
+			.x_maps_menu$ += .x_options$[.@i] + ":";
+		}
+		.x_maps_menu$ += "Back";
+		
+		.i_maps_menu$ = "";
+		for(.@i = 0; .@i < getarraysize(.i_options$); .@i++)
+		{
+			.i_maps_menu$ += .i_options$[.@i] + ":";
+		}
+		.i_maps_menu$ += "Back";
+		
+	}
+	
+	mes(.name$);
+	mes("Hey! I can warp you to special dungeons");
+	mes("Where do you want to go?");
+	
+	.@select_menu$ = sprintf("Last warp - [%s]:", (last_special_warper_menu == 0 ? .x_options$[last_special_warper_choice] : .i_options$[last_special_warper_choice]));
+	.@select_menu$ += "X Dungeons:";
+	.@select_menu$ += "Instance Emulators:";
+	.@select_menu$ += "Cancel";
+	
+	while(true)
+	{
+		.@submenu_index = select(.@select_menu$) - 1;
+		switch(.@submenu_index)
+		{
+			case 0: // Last warp
+				.@temp_map$ = last_special_warper_menu == 0 ? .x_map_name$[last_special_warper_choice] : .i_map_name$[last_special_warper_choice];
+				.@temp_x = last_special_warper_menu == 0 ? .x_map_coords[last_special_warper_choice * 2] : .i_map_coords[last_special_warper_choice * 2];
+				.@temp_y = last_special_warper_menu == 0 ? .x_map_coords[last_special_warper_choice * 2 + 1] : .i_map_coords[last_special_warper_choice * 2 + 1];
+				warp .@temp_map$, .@temp_x, .@temp_y;
+				end;
+			
+			case 1: // X Dungeons
+				.@warp_index = select(.x_maps_menu$) - 1;
+				if(.@warp_index < getarraysize(.x_options$)) // Picked a map
+				{
+					last_special_warper_choice = .@warp_index;
+					last_special_warper_menu = 0;
+					warp .x_map_name$[.@warp_index], .x_map_coords[.@warp_index * 2], .x_map_coords[.@warp_index * 2 + 1];
+					end;
+				} // Else the player picked "Back"
+				
+			case 2: // I Dungeons
+				.@warp_index = select(.i_maps_menu$) - 1;
+				if(.@warp_index < getarraysize(.i_options$)) // Picked a map
+				{
+					last_special_warper_choice = .@warp_index;
+					last_special_warper_menu = 1;
+					warp .i_map_name$[.@warp_index], .i_map_coords[.@warp_index * 2], .i_map_coords[.@warp_index * 2 + 1];
+					end;
+				} // Else the player picked "Back"
+				
+			case 3: // Picked "Cancel"
+				close();
+				break;
+		}
+			
+	}
+	
+}
+
+prontera,161,184,3	duplicate(Special Warper)	Special Warper#prt	1_M_INNKEEPER
