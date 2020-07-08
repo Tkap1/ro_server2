@@ -53,7 +53,7 @@
 			"gl_knt02i"
 		);
 		setarray(.i_map_coords[0],
-			0,0 // Old Glast Heim
+			157,287 // Old Glast Heim
 		);
 		.name$ = "^00ff00Special Warper^000000";
 		
