@@ -9,8 +9,8 @@ gl_knt02i,0,0	monster	Grand Chamberlain in Pain	2466,40
 gl_knt02i,0,0	monster	Corrupted Abysmal Knight	2470,5
 gl_knt02i,0,0	monster	Suffering Khalitzburg	2471,40
 gl_knt02i,0,0	monster	Bloody Knight	2472,2
-gl_knt02i,0,0	boss_monster	Amdarais	2473,1,3600000
-gl_knt02i,0,0	boss_monster	Corrupted Soul	2473,1,3600000
+gl_knt02i,0,0	boss_monster	Corrupted Soul	2475,1,3600000
+gl_knt02i,0,0	boss_monster	Amdarais	2476,1,3600000
 gl_knt02i,0,0	boss_monster	1st Commander of Destruction	2473,1,3600000
 gl_knt02i,0,0	boss_monster	2nd Commander of Destruction	2474,1,3600000
 
