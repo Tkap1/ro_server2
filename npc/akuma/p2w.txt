@@ -467,8 +467,6 @@ on_talk:
 	else
 	{
 		.@item_choice = select(.sub_menus$[.@choice - 1]);
-		debugmes(sprintf("%d", .@item_choice));
-		debugmes(sprintf("%d", .sub_menus_item_count[.@choice - 1] + 1));
 		if(.@item_choice == .sub_menus_item_count[.@choice - 1] + 1)
 		{
 			clear();
