@@ -13706,3 +13706,8 @@
 //1100003,Concentrated_R_P,Concentrated Red Potion,0,10,,0,,,,,0xFFFFFFFF,63,2,,,120,,,{ itemheal rand(655,675),0; },{},{}
 //1100004,Concentrated_B_P,Concentrated Blue Potion,0,10,,0,,,,,0xFFFFFFFF,63,2,,,120,,,{ itemheal 0,rand(340,360); },{},{}
 //1100005,Concentrated_G_P,Concentrated Gold Potion,0,10,,0,,,,,0xFFFFFFFF,63,2,,,180,,,{ itemheal rand(2730,2750),0; },{},{}
+
+// Akuma
+19482,Temporal_Circlet_Warlock,Temporal Circlet Warlock,4,,,0,,10,,1,0x00000200,63,2,256,,170,1,72,{.@r = getrefine (); bonus bMatk, .@r/2 * 15; bonus bVariableCastrate, .@r/3 * -300; bonus2 bSkillAtk,"WL_CHAINLIGHTNING", .@r/3 * 20; bonus2 bSkillAtk,"WL_JACKFROST", .@r/3 * 20; bonus2 bMagicAtkEle,Ele_Wind, .@r/4 * 5; bonus2 bMagicAtkEle,Ele_Water, .@r/4 * 5; if (.@r>=11) {bonus bMatkRate, 5;}},{},{}
+19483,Temporal_Circlet_Sorcerer,Temporal Circlet Sorcerer,4,,,0,,10,,1,0x00818315,63,2,256,,170,1,72,{.@r = getrefine (); bonus bMatk, .@r/2 * 15; bonus bVariableCastrate, .@r/3 * -300; bonus2 bSkillAtk,"SO_PSYCHIC_WAVE", .@r/3 * 20; bonus2 bSkillAtk,"SO_DIAMONDDUST", .@r/3 * 20; bonus2 bMagicAtkEle,Ele_Neutral, .@r/4 * 5; bonus2 bMagicAtkEle,Ele_Water, .@r/4 * 5; if (.@r>=11) {bonus bMatkRate, 5;}},{},{}
+19484,Temporal_Circlet_Ranger,Temporal Circlet Ranger,4,,,0,,10,,1,0x00000800,63,2,256,,170,1,72,{.@r = getrefine (); bonus bAtk, .@r/2 * 15; bonus bCritAtkRate, .@r/3 * 5; bonus2 bSkillAtk,"RA_ARROWSTORM", .@r/3 * 20; bonus2 bSkillAtk,"RA_AIMEDBOLT", .@r/3 * 20; bonus bLongAtkRate, .@r/4 * 5; if (.@r>=11) {bonus2 bSkillCooldown,"RA_ARROWSTORM", -1000;}},{},{}
