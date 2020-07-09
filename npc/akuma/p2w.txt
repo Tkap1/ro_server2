@@ -169,7 +169,7 @@ OnInit:
 		//25805,
 		//20955,
 		24423,
-		24424
+		24424,
 		//20963,
 		//20964,
 		//20965,
@@ -416,6 +416,33 @@ OnInit:
 		//24658,
 		//24659,
 		//24660,
+		31123, //akuma ghostring tall costume TOP
+		31120, //akuma vampire familiar costume MID
+		20034, //akuma castle bat costume LOWER
+		20761, //akuma wing of happiness costume GARMENT
+		//Temporal Circlets,
+		19480, //akuma archbishop
+		19477, //akuma genetic
+		19478, //akuma guillotine cross
+		19490, //akuma kagerou
+		19476, //akuma mechanic
+		19489, //akuma oboro
+		19484, //akuma ranger
+		19488, //akuma rebellion
+		19475, //akuma royal guard
+		19474, //akuma rune knight
+		19479, //akuma shadow chaser
+		19483, //akuma sorcerer
+		19487, //akuma soul reaper
+		19486, //akuma star emperor
+		19492, //akuma summoner
+		19491, //akuma super novice
+		19481, //akuma sura 
+		19485, //akuma wanderer&mistrel
+		19482, //akuma warlock
+		2990, //akuma all trans
+		2991, //akuma all trans
+		2992 //akuma all trans
 	);
 	
 	set .sub_menus$[0], "";
