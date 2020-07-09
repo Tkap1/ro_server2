@@ -18,7 +18,7 @@ OnInit:
 	//5973,	// NOT KRO
 	//15072,// NOT KRO
 	//15169,// NOT KRO
-	//18539,// NOT KRO
+	//18539,// NOT KRO - Skull Cap
 	//18564,// NOT KRO
 	//18611,// NOT KRO
 	//18666,// NOT KRO - CD in mouth
