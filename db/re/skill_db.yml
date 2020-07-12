@@ -10296,9 +10296,6 @@ Body:
           Amount: 90
         - Level: 5
           Amount: 100
-      ItemCost:
-        - Item: Poison_Bottle
-          Amount: 1
   - Id: 379
     Name: ASC_BREAKER
     Description: Soul Destroyer
