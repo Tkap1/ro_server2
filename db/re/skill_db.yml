@@ -7847,7 +7847,7 @@ Body:
       - Level: 9
         Time: 360000
       - Level: 10
-        Time: 390000
+        Time: 3600000
     FixedCastTime: 3000
     Requires:
       SpCost: 35
