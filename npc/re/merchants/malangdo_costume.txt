@@ -1176,7 +1176,11 @@ mal_in01,22,113,3	script	Aver De Dosh#cos_ect	4_WHITETIGER,{
 			25069, 29053,	// ReloadStone_Top	Skill_Delay1_Top
 			25171, 29159,	// EXPStone_Top	EXP2TOP
 			25172, 29156,	// CastingStone_Top	Casting_Top
-			25304, 29359;	// Critical_Stone_Top	Fatal_Top
+			25304, 29359,	// Critical_Stone_Top	Fatal_Top
+			25417, 25417;	//Sorcerer Stone Top
+
+
+
 		break;
 	case 1:
 		if (!(.@location & 2048)) {
@@ -1209,7 +1213,8 @@ mal_in01,22,113,3	script	Aver De Dosh#cos_ect	4_WHITETIGER,{
 			25070, 29054,	// ReloadStone_Middle	Skill_Delay1_Middle
 			25141, 29145,	// EXPStone_Middle	EXP2MIDDLE
 			25173, 29157,	// CastingStone_Middle	Casting_Middle
-			25175, 29155;	// LexAeternaStone_Middle	LexAeterna
+			25175, 29155,	// LexAeternaStone_Middle	LexAeterna
+			25418, 25418;	//Sorcerer Stone Mid
 		break;
 	case 2:
 		if (!(.@location & 4096)) {
@@ -1245,7 +1250,8 @@ mal_in01,22,113,3	script	Aver De Dosh#cos_ect	4_WHITETIGER,{
 			25227, 29227,	// Heal_Stone	Heal
 			25228, 29229,	// Teleport_Stone	Teleport
 			25229, 29228,	// Steal_Stone	Steal
-			25305, 29360;	// Critical_Stone_Bottom	Fatal_Bottom
+			25305, 29360,	// Critical_Stone_Bottom	Fatal_Bottom
+			25419, 25419;	//Sorcerer Stone Lower
 		break;
 	default:
 		mes "[Aver De Dosh]";
@@ -1283,7 +1289,7 @@ mal_in01,22,113,3	script	Aver De Dosh#cos_ect	4_WHITETIGER,{
 		close;
 
 	delequip .@part;
-	if (rand(1,100) < 51) {
+	if (rand(1,100) < 81) {
 		mes "[Aver De Dosh]";
 		mes "Wow... Elegance!!";
 		mes "This is perfect... Wow!";
@@ -1369,7 +1375,11 @@ mal_in01,20,107,3	script	Lace La Zard#cos_ect	4_FROG,{
 	setarray .@data$[0],
 		6908, 4807, "ASPD+1 only",	// ASPDStone_Robe	Atk_Speed1
 		6963, 4992, "Absorption 1% of damage dealt to enemy into HP with 1% chance",	// HPdrainStone_Robe	HPdrain1
-		6964, 4993, "Absorption 1% of damage dealt to enemy into SP with 1% chance";	// SPdrainStone_Robe	SPdrain1
+		6964, 4993, "Absorption 1% of damage dealt to enemy into SP with 1% chance",	// SPdrainStone_Robe	SPdrain1
+		25420, 25420, "Sorcerer Stone Garment";
+
+
+
 		// unknown text
 		// 25067, 29056, "",	// CastingStone_Robe	FixedCasting05
 		// 25170, 29154, "",	// MinorCastingStone_Robe	FixedCasting03
@@ -1414,7 +1424,7 @@ mal_in01,20,107,3	script	Lace La Zard#cos_ect	4_FROG,{
 
 	delitem .@id, 1;
 	delequip .@part;
-	if (rand(100) < 50) {
+	if (rand(100) < 80) {
 		mes "[Lace La Zard]";
 		mes "Beautiful!!";
 		mes "Did I really made this myself!!!!";
