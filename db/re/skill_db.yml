@@ -13148,7 +13148,7 @@ Body:
     Hit: Single
     HitCount: 1
     CastTime: 1600
-    Duration1: 90000
+    Duration1: 3600000
     FixedCastTime: 400
     CastTimeFlags:
       IgnoreDex: true
