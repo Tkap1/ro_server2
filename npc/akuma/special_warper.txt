@@ -47,13 +47,19 @@
 		);
 		
 		setarray(.i_options$[0],
-			"Old Glast Heim"
+			"Old Glast Heim",
+			"Horror Toy Factory",
+			"Airship Assault"
 		);
 		setarray(.i_map_name$[0],
-			"gl_knt02i"
+			"gl_knt02i",
+			"xmas_dun02i",
+			"prt_fild06i"
 		);
 		setarray(.i_map_coords[0],
-			157,287 // Old Glast Heim
+			157,287, // Old Glast Heim
+			129,133, // Horror Toy Factory
+			185,188 // Airship Assault
 		);
 		.name$ = "^00ff00Special Warper^000000";
 		

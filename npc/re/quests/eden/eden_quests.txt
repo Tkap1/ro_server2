@@ -1170,7 +1170,7 @@ pay_arche,41,136,3	script	Eden Member Karl#para05	904,{
 	close;
 }
 
-anthell01,29,264,5	script	Eden Member Cloud#para06	899,{
+anthell01,29,256,5	script	Eden Member Cloud#para06	899,{
 	if (para_suv01 < 17) {
 		if (callfunc("F_HasEdenGroupMark")) {
 			mes "[Cloud]";

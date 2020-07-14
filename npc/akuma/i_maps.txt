@@ -16,3 +16,32 @@ gl_knt02i,0,0	boss_monster	2nd Commander of Destruction	2474,1,3600000
 
 gl_knt02i	mapflag	noteleport
 gl_knt02i	mapflag	nowarpto
+
+
+
+
+xmas_dun02i,0,0	monster	Tyrannical Cookie	2989,50
+xmas_dun02i,0,0	monster	Toy Factory Guard	2990,25
+xmas_dun02i,0,0	monster	Box of Evil Spirits	2991,50
+xmas_dun02i,0,0	monster	Evil Ghost	2993,50
+xmas_dun02i,0,0	monster	Dancing Marionette	2994,50
+xmas_dun02i,0,0	monster	Abandoned Bear Doll	2995,50
+xmas_dun02i,0,0	monster	Evil Tree	2987,25
+xmas_dun02i,0,0	monster	Spooky Demon	2992,5
+xmas_dun02i,0,0	monster	Antonio Manager	2988,5
+xmas_dun02i,0,0	boss_monster	Celine Kimi	2996,1,3600000
+
+xmas_dun02i	mapflag	noteleport
+xmas_dun02i	mapflag	nowarpto
+
+
+prt_fild06i,0,0	monster	Rotar Zairo	3175,25
+prt_fild06i,0,0	monster	Gremlin	3176,50
+prt_fild06i,0,0	monster	Beholder	3177,25
+prt_fild06i,0,0	monster	Gold Acidus	3178,50
+prt_fild06i,0,0	monster	Blue Acidus	3179,50
+prt_fild06i,0,0	monster	Wyvern	3180,5
+prt_fild06i,0,0	boss_monster	Captain Ferlock	3181,1,3600000
+
+prt_fild06i	mapflag	noteleport
+prt_fild06i	mapflag	nowarpto

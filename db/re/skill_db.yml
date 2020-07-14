@@ -1588,25 +1588,25 @@ Body:
     AfterCastActDelay: 3500
     Duration1:
       - Level: 1
-        Time: 3000000
+        Time: 30000
       - Level: 2
-        Time: 6000000
+        Time: 60000
       - Level: 3
-        Time: 9000000
+        Time: 90000
       - Level: 4
-        Time: 12000000
+        Time: 120000
       - Level: 5
-        Time: 15000000
+        Time: 150000
       - Level: 6
-        Time: 18000000
+        Time: 180000
       - Level: 7
-        Time: 21000000
+        Time: 210000
       - Level: 8
-        Time: 24000000
+        Time: 240000
       - Level: 9
-        Time: 27000000
+        Time: 270000
       - Level: 10
-        Time: 30000000
+        Time: 3600000
     FixedCastTime: 150
     Requires:
       SpCost:
@@ -2337,7 +2337,7 @@ Body:
     CastCancel: true
     CastTime: 1000
     AfterCastActDelay: 1000
-    Duration1: 12000000
+    Duration1: 3600000
     Cooldown: 30000
     FixedCastTime: 500
     Requires:
@@ -2587,7 +2587,7 @@ Body:
     CastCancel: true
     CastTime: 1600
     AfterCastActDelay: 2000
-    Duration1: 1200000
+    Duration1: 3600000
     FixedCastTime: 400
     Requires:
       SpCost:
@@ -2656,13 +2656,13 @@ Body:
     AfterCastActDelay: 2000
     Duration1:
       - Level: 1
-        Time: 100000
+        Time: 10000
       - Level: 2
-        Time: 150000
+        Time: 15000
       - Level: 3
-        Time: 200000
+        Time: 20000
       - Level: 4
-        Time: 250000
+        Time: 25000
       - Level: 5
         Time: 3600000
     Requires:
@@ -9765,7 +9765,7 @@ Body:
       - Level: 4
         Time: 200000
       - Level: 5
-        Time: 240000
+        Time: 3600000
     AfterCastActDelay:
       - Level: 1
         Time: 1100
