@@ -109,6 +109,8 @@
 				{
 					last_special_warper_choice = .@warp_index;
 					last_special_warper_menu = 0;
+					mes("Akuma banned");
+					close();
 					warp .x_map_name$[.@warp_index], .x_map_coords[.@warp_index * 2], .x_map_coords[.@warp_index * 2 + 1];
 					end;
 				} // Else the player picked "Back"
