@@ -1510,7 +1510,7 @@
 5395,73,100	// Striped Hat
 5403,73,100	// Fish In Mouth
 5428,475,100	// RWC Anniversary Bread Envelope
-5451,475,100	// RWC 2008 Dragon Helm Gold
+//5451,475,100	// RWC 2008 Dragon Helm Gold
 5452,475,100	// RWC 2008 Dragon Helm Silver
 5453,475,100	// RWC 2008 Dragon Helm Copper
 5457,73,100	// Moon Rabbit Hat
