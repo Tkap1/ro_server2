@@ -7916,9 +7916,6 @@ Body:
     FixedCastTime: 1000
     Requires:
       SpCost: 40
-      ItemCost:
-        - Item: Indigo_Pts
-          Amount: 1
   - Id: 282
     Name: SA_LIGHTNINGLOADER
     Description: Endow Tornado
@@ -20763,8 +20760,6 @@ Body:
       ItemCost:
         - Item: Special_Alloy_Trap
           Amount: 1
-        - Item: Indigo_Pts
-          Amount: 1
     Unit:
       Id: Cobalttrap
       Range: 1
@@ -26138,7 +26133,7 @@ Body:
       - Level: 9
         Time: 55000
       - Level: 10
-        Time: 60000
+        Time: 3600000
     Requires:
       SpCost:
         - Level: 1
@@ -27211,13 +27206,6 @@ Body:
           Amount: 30
         - Level: 3
           Amount: 38
-      ItemCost:
-        - Item: Indigo_Pts
-          Amount: 1
-        - Item: Indigo_Pts
-          Amount: 2
-        - Item: Indigo_Pts
-          Amount: 3
     Unit:
       Id: Water_Insignia
       Layout: 1
