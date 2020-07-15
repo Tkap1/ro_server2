@@ -100,6 +100,12 @@
 				.@temp_map$ = last_special_warper_menu == 0 ? .x_map_name$[last_special_warper_choice] : .i_map_name$[last_special_warper_choice];
 				.@temp_x = last_special_warper_menu == 0 ? .x_map_coords[last_special_warper_choice * 2] : .i_map_coords[last_special_warper_choice * 2];
 				.@temp_y = last_special_warper_menu == 0 ? .x_map_coords[last_special_warper_choice * 2 + 1] : .i_map_coords[last_special_warper_choice * 2 + 1];
+				if(last_special_warper_menu == 0)
+				{
+					clear();
+					mes("Akuma banned");
+					close();
+				}
 				warp .@temp_map$, .@temp_x, .@temp_y;
 				end;
 			
@@ -109,6 +115,7 @@
 				{
 					last_special_warper_choice = .@warp_index;
 					last_special_warper_menu = 0;
+					clear();
 					mes("Akuma banned");
 					close();
 					warp .x_map_name$[.@warp_index], .x_map_coords[.@warp_index * 2], .x_map_coords[.@warp_index * 2 + 1];
