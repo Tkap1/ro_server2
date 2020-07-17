@@ -1,0 +1,3599 @@
+Body: 
+ - Mob: SCORPION_Z 
+   Sprite: SCORPION
+ - Mob: PORING_Z 
+   Sprite: PORING
+ - Mob: HORNET_Z 
+   Sprite: HORNET
+ - Mob: FARMILIAR_Z 
+   Sprite: FARMILIAR
+ - Mob: FABRE_Z 
+   Sprite: FABRE
+ - Mob: PUPA_Z 
+   Sprite: PUPA
+ - Mob: CONDOR_Z 
+   Sprite: CONDOR
+ - Mob: WILOW_Z 
+   Sprite: WILOW
+ - Mob: CHONCHON_Z 
+   Sprite: CHONCHON
+ - Mob: RODA_FROG_Z 
+   Sprite: RODA_FROG
+ - Mob: WOLF_Z 
+   Sprite: WOLF
+ - Mob: SPORE_Z 
+   Sprite: SPORE
+ - Mob: ZOMBIE_Z 
+   Sprite: ZOMBIE
+ - Mob: ARCHER_SKELETON_Z 
+   Sprite: ARCHER_SKELETON
+ - Mob: CREAMY_Z 
+   Sprite: CREAMY
+ - Mob: PECOPECO_Z 
+   Sprite: PECOPECO
+ - Mob: MANDRAGORA_Z 
+   Sprite: MANDRAGORA
+ - Mob: ORK_WARRIOR_Z 
+   Sprite: ORK_WARRIOR
+ - Mob: WORM_TAIL_Z 
+   Sprite: WORM_TAIL
+ - Mob: SNAKE_Z 
+   Sprite: SNAKE
+ - Mob: MUNAK_Z 
+   Sprite: MUNAK
+ - Mob: SOLDIER_SKELETON_Z 
+   Sprite: SOLDIER_SKELETON
+ - Mob: ISIS_Z 
+   Sprite: ISIS
+ - Mob: ANACONDAQ_Z 
+   Sprite: ANACONDAQ
+ - Mob: POPORING_Z 
+   Sprite: POPORING
+ - Mob: VERIT_Z 
+   Sprite: VERIT
+ - Mob: ELDER_WILOW_Z 
+   Sprite: ELDER_WILOW
+ - Mob: THARA_FROG_Z 
+   Sprite: THARA_FROG
+ - Mob: HUNTER_FLY_Z 
+   Sprite: HUNTER_FLY
+ - Mob: GHOUL_Z 
+   Sprite: GHOUL
+ - Mob: SIDE_WINDER_Z 
+   Sprite: SIDE_WINDER
+ - Mob: OSIRIS_Z 
+   Sprite: OSIRIS
+ - Mob: BAPHOMET_Z 
+   Sprite: BAPHOMET
+ - Mob: GOLEM_Z 
+   Sprite: GOLEM
+ - Mob: MUMMY_Z 
+   Sprite: MUMMY
+ - Mob: STEEL_CHONCHON_Z 
+   Sprite: STEEL_CHONCHON
+ - Mob: OBEAUNE_Z 
+   Sprite: OBEAUNE
+ - Mob: MARC_Z 
+   Sprite: MARC
+ - Mob: DOPPELGANGER_Z 
+   Sprite: DOPPELGANGER
+ - Mob: PECOPECO_EGG_Z 
+   Sprite: PECOPECO_EGG
+ - Mob: THIEF_BUG_EGG_Z 
+   Sprite: THIEF_BUG_EGG
+ - Mob: PICKY_Z 
+   Sprite: PICKY
+ - Mob: PICKY__Z 
+   Sprite: PICKY_
+ - Mob: THIEF_BUG_Z 
+   Sprite: THIEF_BUG
+ - Mob: ROCKER_Z 
+   Sprite: ROCKER
+ - Mob: THIEF_BUG__Z 
+   Sprite: THIEF_BUG_
+ - Mob: THIEF_BUG___Z 
+   Sprite: THIEF_BUG__
+ - Mob: MUKA_Z 
+   Sprite: MUKA
+ - Mob: SMOKIE_Z 
+   Sprite: SMOKIE
+ - Mob: YOYO_Z 
+   Sprite: YOYO
+ - Mob: METALLER_Z 
+   Sprite: METALLER
+ - Mob: MISTRESS_Z 
+   Sprite: MISTRESS
+ - Mob: BIGFOOT_Z 
+   Sprite: BIGFOOT
+ - Mob: NIGHTMARE_Z 
+   Sprite: NIGHTMARE
+ - Mob: PORING__Z 
+   Sprite: PORING_
+ - Mob: LUNATIC_Z 
+   Sprite: LUNATIC
+ - Mob: MEGALODON_Z 
+   Sprite: MEGALODON
+ - Mob: STROUF_Z 
+   Sprite: STROUF
+ - Mob: VADON_Z 
+   Sprite: VADON
+ - Mob: CORNUTUS_Z 
+   Sprite: CORNUTUS
+ - Mob: HYDRA_Z 
+   Sprite: HYDRA
+ - Mob: SWORD_FISH_Z 
+   Sprite: SWORD_FISH
+ - Mob: KUKRE_Z 
+   Sprite: KUKRE
+ - Mob: PIRATE_SKEL_Z 
+   Sprite: PIRATE_SKEL
+ - Mob: KAHO_Z 
+   Sprite: KAHO
+ - Mob: CRAB_Z 
+   Sprite: CRAB
+ - Mob: SHELLFISH_Z 
+   Sprite: SHELLFISH
+ - Mob: SKELETON_Z 
+   Sprite: SKELETON
+ - Mob: POISON_SPORE_Z 
+   Sprite: POISON_SPORE
+ - Mob: GOLDEN_BUG_Z 
+   Sprite: GOLDEN_BUG
+ - Mob: ORK_HERO_Z 
+   Sprite: ORK_HERO
+ - Mob: VOCAL_Z 
+   Sprite: VOCAL
+ - Mob: TOAD_Z 
+   Sprite: TOAD
+ - Mob: MASTERING_Z 
+   Sprite: MASTERING
+ - Mob: DRAGON_FLY_Z 
+   Sprite: DRAGON_FLY
+ - Mob: VAGABOND_WOLF_Z 
+   Sprite: VAGABOND_WOLF
+ - Mob: ECLIPSE_Z 
+   Sprite: ECLIPSE
+ - Mob: AMBERNITE_Z 
+   Sprite: AMBERNITE
+ - Mob: ANDRE_Z 
+   Sprite: ANDRE
+ - Mob: ANGELING_Z 
+   Sprite: ANGELING
+ - Mob: ANT_EGG_Z 
+   Sprite: ANT_EGG
+ - Mob: ANUBIS_Z 
+   Sprite: ANUBIS
+ - Mob: ARGIOPE_Z 
+   Sprite: ARGIOPE
+ - Mob: ARGOS_Z 
+   Sprite: ARGOS
+ - Mob: BAPHOMET__Z 
+   Sprite: BAPHOMET_
+ - Mob: BATHORY_Z 
+   Sprite: BATHORY
+ - Mob: CARAMEL_Z 
+   Sprite: CARAMEL
+ - Mob: COCO_Z 
+   Sprite: COCO
+ - Mob: DENIRO_Z 
+   Sprite: DENIRO
+ - Mob: DESERT_WOLF_Z 
+   Sprite: DESERT_WOLF
+ - Mob: DESERT_WOLF_B_Z 
+   Sprite: DESERT_WOLF_B
+ - Mob: DEVIACE_Z 
+   Sprite: DEVIACE
+ - Mob: DEVIRUCHI_Z 
+   Sprite: DEVIRUCHI
+ - Mob: DOKEBI_Z 
+   Sprite: DOKEBI
+ - Mob: DRAINLIAR_Z 
+   Sprite: DRAINLIAR
+ - Mob: DRAKE_Z 
+   Sprite: DRAKE
+ - Mob: DUSTINESS_Z 
+   Sprite: DUSTINESS
+ - Mob: EDDGA_Z 
+   Sprite: EDDGA
+ - Mob: EGGYRA_Z 
+   Sprite: EGGYRA
+ - Mob: EVIL_DRUID_Z 
+   Sprite: EVIL_DRUID
+ - Mob: FLORA_Z 
+   Sprite: FLORA
+ - Mob: FRILLDORA_Z 
+   Sprite: FRILLDORA
+ - Mob: GHOSTRING_Z 
+   Sprite: GHOSTRING
+ - Mob: GIEARTH_Z 
+   Sprite: GIEARTH
+ - Mob: GOBLIN_1_Z 
+   Sprite: GOBLIN_1
+ - Mob: GOBLIN_2_Z 
+   Sprite: GOBLIN_2
+ - Mob: GOBLIN_3_Z 
+   Sprite: GOBLIN_3
+ - Mob: GOBLIN_4_Z 
+   Sprite: GOBLIN_4
+ - Mob: GOBLIN_5_Z 
+   Sprite: GOBLIN_5
+ - Mob: HODE_Z 
+   Sprite: HODE
+ - Mob: HORN_Z 
+   Sprite: HORN
+ - Mob: HORONG_Z 
+   Sprite: HORONG
+ - Mob: JAKK_Z 
+   Sprite: JAKK
+ - Mob: JOKER_Z 
+   Sprite: JOKER
+ - Mob: KHALITZBURG_Z 
+   Sprite: KHALITZBURG
+ - Mob: KOBOLD_1_Z 
+   Sprite: KOBOLD_1
+ - Mob: KOBOLD_2_Z 
+   Sprite: KOBOLD_2
+ - Mob: KOBOLD_3_Z 
+   Sprite: KOBOLD_3
+ - Mob: MAGNOLIA_Z 
+   Sprite: MAGNOLIA
+ - Mob: MANTIS_Z 
+   Sprite: MANTIS
+ - Mob: MARDUK_Z 
+   Sprite: MARDUK
+ - Mob: MARINA_Z 
+   Sprite: MARINA
+ - Mob: MARINE_SPHERE_Z 
+   Sprite: MARINE_SPHERE
+ - Mob: MARIONETTE_Z 
+   Sprite: MARIONETTE
+ - Mob: MARSE_Z 
+   Sprite: MARSE
+ - Mob: MARTIN_Z 
+   Sprite: MARTIN
+ - Mob: MATYR_Z 
+   Sprite: MATYR
+ - Mob: MAYA_Z 
+   Sprite: MAYA
+ - Mob: MEDUSA_Z 
+   Sprite: MEDUSA
+ - Mob: MINOROUS_Z 
+   Sprite: MINOROUS
+ - Mob: MOONLIGHT_Z 
+   Sprite: MOONLIGHT
+ - Mob: MYST_Z 
+   Sprite: MYST
+ - Mob: ORC_SKELETON_Z 
+   Sprite: ORC_SKELETON
+ - Mob: ORC_ZOMBIE_Z 
+   Sprite: ORC_ZOMBIE
+ - Mob: PASANA_Z 
+   Sprite: PASANA
+ - Mob: PETIT_Z 
+   Sprite: PETIT
+ - Mob: PETIT__Z 
+   Sprite: PETIT_
+ - Mob: PHARAOH_Z 
+   Sprite: PHARAOH
+ - Mob: PHEN_Z 
+   Sprite: PHEN
+ - Mob: PHREEONI_Z 
+   Sprite: PHREEONI
+ - Mob: PIERE_Z 
+   Sprite: PIERE
+ - Mob: PLANKTON_Z 
+   Sprite: PLANKTON
+ - Mob: RAFFLESIA_Z 
+   Sprite: RAFFLESIA
+ - Mob: RAYDRIC_Z 
+   Sprite: RAYDRIC
+ - Mob: REQUIEM_Z 
+   Sprite: REQUIEM
+ - Mob: SAND_MAN_Z 
+   Sprite: SAND_MAN
+ - Mob: SAVAGE_Z 
+   Sprite: SAVAGE
+ - Mob: SAVAGE_BABE_Z 
+   Sprite: SAVAGE_BABE
+ - Mob: SKEL_WORKER_Z 
+   Sprite: SKEL_WORKER
+ - Mob: SOHEE_Z 
+   Sprite: SOHEE
+ - Mob: STAINER_Z 
+   Sprite: STAINER
+ - Mob: TAROU_Z 
+   Sprite: TAROU
+ - Mob: VITATA_Z 
+   Sprite: VITATA
+ - Mob: ZENORC_Z 
+   Sprite: ZENORC
+ - Mob: ZEROM_Z 
+   Sprite: ZEROM
+ - Mob: WHISPER_Z 
+   Sprite: WHISPER
+ - Mob: NINE_TAIL_Z 
+   Sprite: NINE_TAIL
+ - Mob: CHONCHON__Z 
+   Sprite: CHONCHON_
+ - Mob: WHISPER__Z 
+   Sprite: WHISPER_
+ - Mob: WHISPER_BOSS_Z 
+   Sprite: WHISPER_BOSS
+ - Mob: BON_GUN_Z 
+   Sprite: BON_GUN
+ - Mob: ORC_ARCHER_Z 
+   Sprite: ORC_ARCHER
+ - Mob: ORC_LORD_Z 
+   Sprite: ORC_LORD
+ - Mob: MIMIC_Z 
+   Sprite: MIMIC
+ - Mob: WRAITH_Z 
+   Sprite: WRAITH
+ - Mob: ALARM_Z 
+   Sprite: ALARM
+ - Mob: ARCLOUSE_Z 
+   Sprite: ARCLOUSE
+ - Mob: RIDEWORD_Z 
+   Sprite: RIDEWORD
+ - Mob: SKEL_PRISONER_Z 
+   Sprite: SKEL_PRISONER
+ - Mob: ZOMBIE_PRISONER_Z 
+   Sprite: ZOMBIE_PRISONER
+ - Mob: DARK_PRIEST_Z 
+   Sprite: DARK_PRIEST
+ - Mob: PUNK_Z 
+   Sprite: PUNK
+ - Mob: ZHERLTHSH_Z 
+   Sprite: ZHERLTHSH
+ - Mob: RYBIO_Z 
+   Sprite: RYBIO
+ - Mob: PHENDARK_Z 
+   Sprite: PHENDARK
+ - Mob: MYSTELTAINN_Z 
+   Sprite: MYSTELTAINN
+ - Mob: TIRFING_Z 
+   Sprite: TIRFING
+ - Mob: EXECUTIONER_Z 
+   Sprite: EXECUTIONER
+ - Mob: ANOLIAN_Z 
+   Sprite: ANOLIAN
+ - Mob: STING_Z 
+   Sprite: STING
+ - Mob: WANDER_MAN_Z 
+   Sprite: WANDER_MAN
+ - Mob: CRAMP_Z 
+   Sprite: CRAMP
+ - Mob: BRILIGHT_Z 
+   Sprite: BRILIGHT
+ - Mob: IRON_FIST_Z 
+   Sprite: IRON_FIST
+ - Mob: HIGH_ORC_Z 
+   Sprite: HIGH_ORC
+ - Mob: CHOCO_Z 
+   Sprite: CHOCO
+ - Mob: STEM_WORM_Z 
+   Sprite: STEM_WORM
+ - Mob: PENOMENA_Z 
+   Sprite: PENOMENA
+ - Mob: KNIGHT_OF_ABYSS_Z 
+   Sprite: KNIGHT_OF_ABYSS
+ - Mob: M_DESERT_WOLF_Z 
+   Sprite: M_DESERT_WOLF
+ - Mob: M_SAVAGE_Z 
+   Sprite: M_SAVAGE
+ - Mob: META_FABRE_Z 
+   Sprite: META_FABRE
+ - Mob: META_PUPA_Z 
+   Sprite: META_PUPA
+ - Mob: META_CREAMY_Z 
+   Sprite: META_CREAMY
+ - Mob: META_PECOPECO_EGG_Z 
+   Sprite: META_PECOPECO_EGG
+ - Mob: PROVOKE_YOYO_Z 
+   Sprite: PROVOKE_YOYO
+ - Mob: SMOKING_ORC_Z 
+   Sprite: SMOKING_ORC
+ - Mob: META_ANT_EGG_Z 
+   Sprite: META_ANT_EGG
+ - Mob: META_ANDRE_Z 
+   Sprite: META_ANDRE
+ - Mob: META_PIERE_Z 
+   Sprite: META_PIERE
+ - Mob: META_DENIRO_Z 
+   Sprite: META_DENIRO
+ - Mob: META_PICKY_Z 
+   Sprite: META_PICKY
+ - Mob: META_PICKY__Z 
+   Sprite: META_PICKY_
+ - Mob: MARIN_Z 
+   Sprite: MARIN
+ - Mob: SASQUATCH_Z 
+   Sprite: SASQUATCH
+ - Mob: JAKK_XMAS_Z 
+   Sprite: JAKK_XMAS
+ - Mob: GOBLINE_XMAS_Z 
+   Sprite: GOBLINE_XMAS
+ - Mob: COOKIE_XMAS_Z 
+   Sprite: COOKIE_XMAS
+ - Mob: CRUISER_Z 
+   Sprite: CRUISER
+ - Mob: MYSTCASE_Z 
+   Sprite: MYSTCASE
+ - Mob: CHEPET_Z 
+   Sprite: CHEPET
+ - Mob: KNIGHT_OF_WINDSTORM_Z 
+   Sprite: KNIGHT_OF_WINDSTORM
+ - Mob: GARM_Z 
+   Sprite: GARM
+ - Mob: GARGOYLE_Z 
+   Sprite: GARGOYLE
+ - Mob: RAGGLER_Z 
+   Sprite: RAGGLER
+ - Mob: NERAID_Z 
+   Sprite: NERAID
+ - Mob: PEST_Z 
+   Sprite: PEST
+ - Mob: INJUSTICE_Z 
+   Sprite: INJUSTICE
+ - Mob: GOBLIN_ARCHER_Z 
+   Sprite: GOBLIN_ARCHER
+ - Mob: GRYPHON_Z 
+   Sprite: GRYPHON
+ - Mob: DARK_FRAME_Z 
+   Sprite: DARK_FRAME
+ - Mob: WILD_ROSE_Z 
+   Sprite: WILD_ROSE
+ - Mob: MUTANT_DRAGON_Z 
+   Sprite: MUTANT_DRAGON
+ - Mob: WIND_GHOST_Z 
+   Sprite: WIND_GHOST
+ - Mob: MERMAN_Z 
+   Sprite: MERMAN
+ - Mob: COOKIE_Z 
+   Sprite: COOKIE
+ - Mob: ASTER_Z 
+   Sprite: ASTER
+ - Mob: CARAT_Z 
+   Sprite: CARAT
+ - Mob: BLOODY_KNIGHT_Z 
+   Sprite: BLOODY_KNIGHT
+ - Mob: CLOCK_Z 
+   Sprite: CLOCK
+ - Mob: C_TOWER_MANAGER_Z 
+   Sprite: C_TOWER_MANAGER
+ - Mob: ALLIGATOR_Z 
+   Sprite: ALLIGATOR
+ - Mob: DARK_LORD_Z 
+   Sprite: DARK_LORD
+ - Mob: ORC_LADY_Z 
+   Sprite: ORC_LADY
+ - Mob: MEGALITH_Z 
+   Sprite: MEGALITH
+ - Mob: ALICE_Z 
+   Sprite: ALICE
+ - Mob: RAYDRIC_ARCHER_Z 
+   Sprite: RAYDRIC_ARCHER
+ - Mob: GREATEST_GENERAL_Z 
+   Sprite: GREATEST_GENERAL
+ - Mob: STALACTIC_GOLEM_Z 
+   Sprite: STALACTIC_GOLEM
+ - Mob: TRI_JOINT_Z 
+   Sprite: TRI_JOINT
+ - Mob: STEAM_GOBLIN_Z 
+   Sprite: STEAM_GOBLIN
+ - Mob: SAGEWORM_Z 
+   Sprite: SAGEWORM
+ - Mob: KOBOLD_ARCHER_Z 
+   Sprite: KOBOLD_ARCHER
+ - Mob: CHIMERA_Z 
+   Sprite: CHIMERA
+ - Mob: ARCHER_GUARDIAN_Z 
+   Sprite: ARCHER_GUARDIAN
+ - Mob: KNIGHT_GUARDIAN_Z 
+   Sprite: KNIGHT_GUARDIAN
+ - Mob: SOLDIER_GUARDIAN_Z 
+   Sprite: SOLDIER_GUARDIAN
+ - Mob: EMPELIUM_Z 
+   Sprite: EMPELIUM
+ - Mob: MAYA_PUPLE_Z 
+   Sprite: MAYA_PUPLE
+ - Mob: SKELETON_GENERAL_Z 
+   Sprite: SKELETON_GENERAL
+ - Mob: WRAITH_DEAD_Z 
+   Sprite: WRAITH_DEAD
+ - Mob: MINI_DEMON_Z 
+   Sprite: MINI_DEMON
+ - Mob: CREMY_FEAR_Z 
+   Sprite: CREMY_FEAR
+ - Mob: KILLER_MANTIS_Z 
+   Sprite: KILLER_MANTIS
+ - Mob: OWL_BARON_Z 
+   Sprite: OWL_BARON
+ - Mob: KOBOLD_LEADER_Z 
+   Sprite: KOBOLD_LEADER
+ - Mob: ANCIENT_MUMMY_Z 
+   Sprite: ANCIENT_MUMMY
+ - Mob: ZOMBIE_MASTER_Z 
+   Sprite: ZOMBIE_MASTER
+ - Mob: GOBLIN_LEADER_Z 
+   Sprite: GOBLIN_LEADER
+ - Mob: CATERPILLAR_Z 
+   Sprite: CATERPILLAR
+ - Mob: AM_MUT_Z 
+   Sprite: AM_MUT
+ - Mob: DARK_ILLUSION_Z 
+   Sprite: DARK_ILLUSION
+ - Mob: GIANT_HONET_Z 
+   Sprite: GIANT_HONET
+ - Mob: GIANT_SPIDER_Z 
+   Sprite: GIANT_SPIDER
+ - Mob: ANCIENT_WORM_Z 
+   Sprite: ANCIENT_WORM
+ - Mob: LEIB_OLMAI_Z 
+   Sprite: LEIB_OLMAI
+ - Mob: CAT_O_NINE_TAIL_Z 
+   Sprite: CAT_O_NINE_TAIL
+ - Mob: PANZER_GOBLIN_Z 
+   Sprite: PANZER_GOBLIN
+ - Mob: GAJOMART_Z 
+   Sprite: GAJOMART
+ - Mob: MAJORUROS_Z 
+   Sprite: MAJORUROS
+ - Mob: GULLINBURSTI_Z 
+   Sprite: GULLINBURSTI
+ - Mob: TURTLE_GENERAL_Z 
+   Sprite: TURTLE_GENERAL
+ - Mob: MOBSTER_Z 
+   Sprite: MOBSTER
+ - Mob: PERMETER_Z 
+   Sprite: PERMETER
+ - Mob: ASSULTER_Z 
+   Sprite: ASSULTER
+ - Mob: SOLIDER_Z 
+   Sprite: SOLIDER
+ - Mob: FUR_SEAL_Z 
+   Sprite: FUR_SEAL
+ - Mob: HEATER_Z 
+   Sprite: HEATER
+ - Mob: FREEZER_Z 
+   Sprite: FREEZER
+ - Mob: OWL_DUKE_Z 
+   Sprite: OWL_DUKE
+ - Mob: DRAGON_TAIL_Z 
+   Sprite: DRAGON_TAIL
+ - Mob: SPRING_RABBIT_Z 
+   Sprite: SPRING_RABBIT
+ - Mob: SEE_OTTER_Z 
+   Sprite: SEE_OTTER
+ - Mob: G_ASSULTER_Z 
+   Sprite: G_ASSULTER
+ - Mob: APOCALIPS_Z 
+   Sprite: APOCALIPS
+ - Mob: LAVA_GOLEM_Z 
+   Sprite: LAVA_GOLEM
+ - Mob: BLAZZER_Z 
+   Sprite: BLAZZER
+ - Mob: GEOGRAPHER_Z 
+   Sprite: GEOGRAPHER
+ - Mob: GRAND_PECO_Z 
+   Sprite: GRAND_PECO
+ - Mob: SUCCUBUS_Z 
+   Sprite: SUCCUBUS
+ - Mob: FAKE_ANGEL_Z 
+   Sprite: FAKE_ANGEL
+ - Mob: GOAT_Z 
+   Sprite: GOAT
+ - Mob: LORD_OF_DEATH_Z 
+   Sprite: LORD_OF_DEATH
+ - Mob: INCUBUS_Z 
+   Sprite: INCUBUS
+ - Mob: THE_PAPER_Z 
+   Sprite: THE_PAPER
+ - Mob: HARPY_Z 
+   Sprite: HARPY
+ - Mob: ELDER_Z 
+   Sprite: ELDER
+ - Mob: DEMON_PUNGUS_Z 
+   Sprite: DEMON_PUNGUS
+ - Mob: NIGHTMARE_TERROR_Z 
+   Sprite: NIGHTMARE_TERROR
+ - Mob: DRILLER_Z 
+   Sprite: DRILLER
+ - Mob: GRIZZLY_Z 
+   Sprite: GRIZZLY
+ - Mob: DIABOLIC_Z 
+   Sprite: DIABOLIC
+ - Mob: EXPLOSION_Z 
+   Sprite: EXPLOSION
+ - Mob: DELETER_Z 
+   Sprite: DELETER
+ - Mob: DELETER__Z 
+   Sprite: DELETER_
+ - Mob: SLEEPER_Z 
+   Sprite: SLEEPER
+ - Mob: GIG_Z 
+   Sprite: GIG
+ - Mob: ARCHANGELING_Z 
+   Sprite: ARCHANGELING
+ - Mob: DRACULA_Z 
+   Sprite: DRACULA
+ - Mob: VIOLY_Z 
+   Sprite: VIOLY
+ - Mob: GALAPAGO_Z 
+   Sprite: GALAPAGO
+ - Mob: ROTAR_ZAIRO_Z 
+   Sprite: ROTAR_ZAIRO
+ - Mob: G_MUMMY_Z 
+   Sprite: G_MUMMY
+ - Mob: G_ZOMBIE_Z 
+   Sprite: G_ZOMBIE
+ - Mob: EVENT_BAPHO_Z 
+   Sprite: EVENT_BAPHO
+ - Mob: KARAKASA_Z 
+   Sprite: KARAKASA
+ - Mob: SHINOBI_Z 
+   Sprite: SHINOBI
+ - Mob: POISON_TOAD_Z 
+   Sprite: POISON_TOAD
+ - Mob: ANTIQUE_FIRELOCK_Z 
+   Sprite: ANTIQUE_FIRELOCK
+ - Mob: MIYABI_NINGYO_Z 
+   Sprite: MIYABI_NINGYO
+ - Mob: TENGU_Z 
+   Sprite: TENGU
+ - Mob: KAPHA_Z 
+   Sprite: KAPHA
+ - Mob: BLOOD_BUTTERFLY_Z 
+   Sprite: BLOOD_BUTTERFLY
+ - Mob: RICE_CAKE_BOY_Z 
+   Sprite: RICE_CAKE_BOY
+ - Mob: LIVE_PEACH_TREE_Z 
+   Sprite: LIVE_PEACH_TREE
+ - Mob: EVIL_CLOUD_HERMIT_Z 
+   Sprite: EVIL_CLOUD_HERMIT
+ - Mob: WILD_GINSENG_Z 
+   Sprite: WILD_GINSENG
+ - Mob: BABY_LEOPARD_Z 
+   Sprite: BABY_LEOPARD
+ - Mob: WICKED_NYMPH_Z 
+   Sprite: WICKED_NYMPH
+ - Mob: ZIPPER_BEAR_Z 
+   Sprite: ZIPPER_BEAR
+ - Mob: DARK_SNAKE_LORD_Z 
+   Sprite: DARK_SNAKE_LORD
+ - Mob: G_FARMILIAR_Z 
+   Sprite: G_FARMILIAR
+ - Mob: G_ARCHER_SKELETON_Z 
+   Sprite: G_ARCHER_SKELETON
+ - Mob: G_ISIS_Z 
+   Sprite: G_ISIS
+ - Mob: G_HUNTER_FLY_Z 
+   Sprite: G_HUNTER_FLY
+ - Mob: G_GHOUL_Z 
+   Sprite: G_GHOUL
+ - Mob: G_SIDE_WINDER_Z 
+   Sprite: G_SIDE_WINDER
+ - Mob: G_OBEAUNE_Z 
+   Sprite: G_OBEAUNE
+ - Mob: G_MARC_Z 
+   Sprite: G_MARC
+ - Mob: G_NIGHTMARE_Z 
+   Sprite: G_NIGHTMARE
+ - Mob: G_POISON_SPORE_Z 
+   Sprite: G_POISON_SPORE
+ - Mob: G_ARGIOPE_Z 
+   Sprite: G_ARGIOPE
+ - Mob: G_ARGOS_Z 
+   Sprite: G_ARGOS
+ - Mob: G_BAPHOMET__Z 
+   Sprite: G_BAPHOMET_
+ - Mob: G_DESERT_WOLF_Z 
+   Sprite: G_DESERT_WOLF
+ - Mob: G_DEVIRUCHI_Z 
+   Sprite: G_DEVIRUCHI
+ - Mob: G_DRAINLIAR_Z 
+   Sprite: G_DRAINLIAR
+ - Mob: G_EVIL_DRUID_Z 
+   Sprite: G_EVIL_DRUID
+ - Mob: G_JAKK_Z 
+   Sprite: G_JAKK
+ - Mob: G_JOKER_Z 
+   Sprite: G_JOKER
+ - Mob: G_KHALITZBURG_Z 
+   Sprite: G_KHALITZBURG
+ - Mob: G_HIGH_ORC_Z 
+   Sprite: G_HIGH_ORC
+ - Mob: G_STEM_WORM_Z 
+   Sprite: G_STEM_WORM
+ - Mob: G_PENOMENA_Z 
+   Sprite: G_PENOMENA
+ - Mob: G_SASQUATCH_Z 
+   Sprite: G_SASQUATCH
+ - Mob: G_CRUISER_Z 
+   Sprite: G_CRUISER
+ - Mob: G_CHEPET_Z 
+   Sprite: G_CHEPET
+ - Mob: G_RAGGLER_Z 
+   Sprite: G_RAGGLER
+ - Mob: G_INJUSTICE_Z 
+   Sprite: G_INJUSTICE
+ - Mob: G_GRYPHON_Z 
+   Sprite: G_GRYPHON
+ - Mob: G_DARK_FRAME_Z 
+   Sprite: G_DARK_FRAME
+ - Mob: G_MUTANT_DRAGON_Z 
+   Sprite: G_MUTANT_DRAGON
+ - Mob: G_WIND_GHOST_Z 
+   Sprite: G_WIND_GHOST
+ - Mob: G_MERMAN_Z 
+   Sprite: G_MERMAN
+ - Mob: G_ORC_LADY_Z 
+   Sprite: G_ORC_LADY
+ - Mob: G_RAYDRIC_ARCHER_Z 
+   Sprite: G_RAYDRIC_ARCHER
+ - Mob: G_TRI_JOINT_Z 
+   Sprite: G_TRI_JOINT
+ - Mob: G_KOBOLD_ARCHER_Z 
+   Sprite: G_KOBOLD_ARCHER
+ - Mob: G_CHIMERA_Z 
+   Sprite: G_CHIMERA
+ - Mob: G_MANTIS_Z 
+   Sprite: G_MANTIS
+ - Mob: G_MARDUK_Z 
+   Sprite: G_MARDUK
+ - Mob: G_MARIONETTE_Z 
+   Sprite: G_MARIONETTE
+ - Mob: G_MATYR_Z 
+   Sprite: G_MATYR
+ - Mob: G_MINOROUS_Z 
+   Sprite: G_MINOROUS
+ - Mob: G_ORC_SKELETON_Z 
+   Sprite: G_ORC_SKELETON
+ - Mob: G_ORC_ZOMBIE_Z 
+   Sprite: G_ORC_ZOMBIE
+ - Mob: G_PASANA_Z 
+   Sprite: G_PASANA
+ - Mob: G_PETIT_Z 
+   Sprite: G_PETIT
+ - Mob: G_PETIT__Z 
+   Sprite: G_PETIT_
+ - Mob: G_RAYDRIC_Z 
+   Sprite: G_RAYDRIC
+ - Mob: G_REQUIEM_Z 
+   Sprite: G_REQUIEM
+ - Mob: G_SKEL_WORKER_Z 
+   Sprite: G_SKEL_WORKER
+ - Mob: G_ZEROM_Z 
+   Sprite: G_ZEROM
+ - Mob: G_NINE_TAIL_Z 
+   Sprite: G_NINE_TAIL
+ - Mob: G_BON_GUN_Z 
+   Sprite: G_BON_GUN
+ - Mob: G_ORC_ARCHER_Z 
+   Sprite: G_ORC_ARCHER
+ - Mob: G_MIMIC_Z 
+   Sprite: G_MIMIC
+ - Mob: G_WRAITH_Z 
+   Sprite: G_WRAITH
+ - Mob: G_ALARM_Z 
+   Sprite: G_ALARM
+ - Mob: G_ARCLOUSE_Z 
+   Sprite: G_ARCLOUSE
+ - Mob: G_RIDEWORD_Z 
+   Sprite: G_RIDEWORD
+ - Mob: G_SKEL_PRISONER_Z 
+   Sprite: G_SKEL_PRISONER
+ - Mob: G_ZOMBIE_PRISONER_Z 
+   Sprite: G_ZOMBIE_PRISONER
+ - Mob: G_PUNK_Z 
+   Sprite: G_PUNK
+ - Mob: G_ZHERLTHSH_Z 
+   Sprite: G_ZHERLTHSH
+ - Mob: G_RYBIO_Z 
+   Sprite: G_RYBIO
+ - Mob: G_PHENDARK_Z 
+   Sprite: G_PHENDARK
+ - Mob: G_MYSTELTAINN_Z 
+   Sprite: G_MYSTELTAINN
+ - Mob: G_TIRFING_Z 
+   Sprite: G_TIRFING
+ - Mob: G_EXECUTIONER_Z 
+   Sprite: G_EXECUTIONER
+ - Mob: G_ANOLIAN_Z 
+   Sprite: G_ANOLIAN
+ - Mob: G_STING_Z 
+   Sprite: G_STING
+ - Mob: G_WANDER_MAN_Z 
+   Sprite: G_WANDER_MAN
+ - Mob: G_DOKEBI_Z 
+   Sprite: G_DOKEBI
+ - Mob: INCANTATION_SAMURAI_Z 
+   Sprite: INCANTATION_SAMURAI
+ - Mob: DRYAD_Z 
+   Sprite: DRYAD
+ - Mob: KIND_OF_BEETLE_Z 
+   Sprite: KIND_OF_BEETLE
+ - Mob: STONE_SHOOTER_Z 
+   Sprite: STONE_SHOOTER
+ - Mob: WOODEN_GOLEM_Z 
+   Sprite: WOODEN_GOLEM
+ - Mob: WOOTAN_SHOOTER_Z 
+   Sprite: WOOTAN_SHOOTER
+ - Mob: WOOTAN_FIGHTER_Z 
+   Sprite: WOOTAN_FIGHTER
+ - Mob: PARASITE_Z 
+   Sprite: PARASITE
+ - Mob: GIBBET_Z 
+   Sprite: GIBBET
+ - Mob: DULLAHAN_Z 
+   Sprite: DULLAHAN
+ - Mob: LOLI_RURI_Z 
+   Sprite: LOLI_RURI
+ - Mob: DISGUISE_Z 
+   Sprite: DISGUISE
+ - Mob: BLOODY_MURDERER_Z 
+   Sprite: BLOODY_MURDERER
+ - Mob: QUVE_Z 
+   Sprite: QUVE
+ - Mob: LUDE_Z 
+   Sprite: LUDE
+ - Mob: HYLOZOIST_Z 
+   Sprite: HYLOZOIST
+ - Mob: AMON_RA_Z 
+   Sprite: AMON_RA
+ - Mob: HYEGUN_Z 
+   Sprite: HYEGUN
+ - Mob: CIVIL_SERVANT_Z 
+   Sprite: CIVIL_SERVANT
+ - Mob: DANCING_DRAGON_Z 
+   Sprite: DANCING_DRAGON
+ - Mob: GARM_BABY_Z 
+   Sprite: GARM_BABY
+ - Mob: INCREASE_SOIL_Z 
+   Sprite: INCREASE_SOIL
+ - Mob: LI_ME_MANG_RYANG_Z 
+   Sprite: LI_ME_MANG_RYANG
+ - Mob: BACSOJIN_Z 
+   Sprite: BACSOJIN
+ - Mob: CHUNG_E_Z 
+   Sprite: CHUNG_E
+ - Mob: BOILED_RICE_Z 
+   Sprite: BOILED_RICE
+ - Mob: G_ALICE_Z 
+   Sprite: G_ALICE
+ - Mob: G_ANCIENT_MUMMY_Z 
+   Sprite: G_ANCIENT_MUMMY
+ - Mob: G_ANTIQUE_FIRELOCK_Z 
+   Sprite: G_ANTIQUE_FIRELOCK
+ - Mob: G_BABY_LEOPARD_Z 
+   Sprite: G_BABY_LEOPARD
+ - Mob: G_BATHORY_Z 
+   Sprite: G_BATHORY
+ - Mob: G_BLOOD_BUTTERFLY_Z 
+   Sprite: G_BLOOD_BUTTERFLY
+ - Mob: G_C_TOWER_MANAGER_Z 
+   Sprite: G_C_TOWER_MANAGER
+ - Mob: G_CLOCK_Z 
+   Sprite: G_CLOCK
+ - Mob: G_DARK_SNAKE_LORD_Z 
+   Sprite: G_DARK_SNAKE_LORD
+ - Mob: G_DRACULA_Z 
+   Sprite: G_DRACULA
+ - Mob: G_EVIL_CLOUD_HERMIT_Z 
+   Sprite: G_EVIL_CLOUD_HERMIT
+ - Mob: G_EXPLOSION_Z 
+   Sprite: G_EXPLOSION
+ - Mob: G_FUR_SEAL_Z 
+   Sprite: G_FUR_SEAL
+ - Mob: G_GOBLIN_1_Z 
+   Sprite: G_GOBLIN_1
+ - Mob: G_GOBLIN_2_Z 
+   Sprite: G_GOBLIN_2
+ - Mob: G_GOBLIN_3_Z 
+   Sprite: G_GOBLIN_3
+ - Mob: G_GOBLIN_4_Z 
+   Sprite: G_GOBLIN_4
+ - Mob: G_GOBLIN_5_Z 
+   Sprite: G_GOBLIN_5
+ - Mob: G_GOBLIN_LEADER_Z 
+   Sprite: G_GOBLIN_LEADER
+ - Mob: G_GOLEM_Z 
+   Sprite: G_GOLEM
+ - Mob: G_GREATEST_GENERAL_Z 
+   Sprite: G_GREATEST_GENERAL
+ - Mob: G_INCANTATION_SAMURA_Z 
+   Sprite: G_INCANTATION_SAMURA
+ - Mob: G_KAPHA_Z 
+   Sprite: G_KAPHA
+ - Mob: G_KARAKASA_Z 
+   Sprite: G_KARAKASA
+ - Mob: G_KOBOLD_1_Z 
+   Sprite: G_KOBOLD_1
+ - Mob: G_KOBOLD_2_Z 
+   Sprite: G_KOBOLD_2
+ - Mob: G_KOBOLD_3_Z 
+   Sprite: G_KOBOLD_3
+ - Mob: G_KOBOLD_LEADER_Z 
+   Sprite: G_KOBOLD_LEADER
+ - Mob: G_LAVA_GOLEM_Z 
+   Sprite: G_LAVA_GOLEM
+ - Mob: G_LIVE_PEACH_TREE_Z 
+   Sprite: G_LIVE_PEACH_TREE
+ - Mob: G_MARSE_Z 
+   Sprite: G_MARSE
+ - Mob: G_MIYABI_NINGYO_Z 
+   Sprite: G_MIYABI_NINGYO
+ - Mob: G_MYST_Z 
+   Sprite: G_MYST
+ - Mob: G_NIGHTMARE_TERROR_Z 
+   Sprite: G_NIGHTMARE_TERROR
+ - Mob: G_PARASITE_Z 
+   Sprite: G_PARASITE
+ - Mob: G_POISON_TOAD_Z 
+   Sprite: G_POISON_TOAD
+ - Mob: G_ROTAR_ZAIRO_Z 
+   Sprite: G_ROTAR_ZAIRO
+ - Mob: G_SAND_MAN_Z 
+   Sprite: G_SAND_MAN
+ - Mob: G_SCORPION_Z 
+   Sprite: G_SCORPION
+ - Mob: G_SHINOBI_Z 
+   Sprite: G_SHINOBI
+ - Mob: G_SMOKIE_Z 
+   Sprite: G_SMOKIE
+ - Mob: G_SOLDIER_SKELETON_Z 
+   Sprite: G_SOLDIER_SKELETON
+ - Mob: G_TENGU_Z 
+   Sprite: G_TENGU
+ - Mob: G_WICKED_NYMPH_Z 
+   Sprite: G_WICKED_NYMPH
+ - Mob: G_WILD_GINSENG_Z 
+   Sprite: G_WILD_GINSENG
+ - Mob: G_WRAITH_DEAD_Z 
+   Sprite: G_WRAITH_DEAD
+ - Mob: G_ANCIENT_WORM_Z 
+   Sprite: G_ANCIENT_WORM
+ - Mob: G_ANGELING_Z 
+   Sprite: G_ANGELING
+ - Mob: G_BLOODY_KNIGHT_Z 
+   Sprite: G_BLOODY_KNIGHT
+ - Mob: G_CRAMP_Z 
+   Sprite: G_CRAMP
+ - Mob: G_DEVIACE_Z 
+   Sprite: G_DEVIACE
+ - Mob: G_ELDER_Z 
+   Sprite: G_ELDER
+ - Mob: G_ELDER_WILOW_Z 
+   Sprite: G_ELDER_WILOW
+ - Mob: G_FLORA_Z 
+   Sprite: G_FLORA
+ - Mob: G_GHOSTRING_Z 
+   Sprite: G_GHOSTRING
+ - Mob: G_GOBLIN_ARCHER_Z 
+   Sprite: G_GOBLIN_ARCHER
+ - Mob: G_HORONG_Z 
+   Sprite: G_HORONG
+ - Mob: G_HYDRA_Z 
+   Sprite: G_HYDRA
+ - Mob: G_INCUBUS_Z 
+   Sprite: G_INCUBUS
+ - Mob: G_VOCAL_Z 
+   Sprite: G_VOCAL
+ - Mob: DEVILING_Z 
+   Sprite: DEVILING
+ - Mob: TAO_GUNKA_Z 
+   Sprite: TAO_GUNKA
+ - Mob: TAMRUAN_Z 
+   Sprite: TAMRUAN
+ - Mob: MIME_MONKEY_Z 
+   Sprite: MIME_MONKEY
+ - Mob: LEAF_CAT_Z 
+   Sprite: LEAF_CAT
+ - Mob: KRABEN_Z 
+   Sprite: KRABEN
+ - Mob: ORC_XMAS_Z 
+   Sprite: ORC_XMAS
+ - Mob: G_MANDRAGORA_Z 
+   Sprite: G_MANDRAGORA
+ - Mob: G_GEOGRAPHER_Z 
+   Sprite: G_GEOGRAPHER
+ - Mob: A_LUNATIC_Z 
+   Sprite: A_LUNATIC
+ - Mob: A_MOBSTER_Z 
+   Sprite: A_MOBSTER
+ - Mob: A_ANCIENT_MUMMY_Z 
+   Sprite: A_ANCIENT_MUMMY
+ - Mob: G_FREEZER_Z 
+   Sprite: G_FREEZER
+ - Mob: G_MARIN_Z 
+   Sprite: G_MARIN
+ - Mob: G_TAMRUAN_Z 
+   Sprite: G_TAMRUAN
+ - Mob: G_GARGOYLE_Z 
+   Sprite: G_GARGOYLE
+ - Mob: G_BLAZZER_Z 
+   Sprite: G_BLAZZER
+ - Mob: G_WHISPER_BOSS_Z 
+   Sprite: G_WHISPER_BOSS
+ - Mob: G_HEATER_Z 
+   Sprite: G_HEATER
+ - Mob: G_PERMETER_Z 
+   Sprite: G_PERMETER
+ - Mob: G_SOLIDER_Z 
+   Sprite: G_SOLIDER
+ - Mob: G_BIGFOOT_Z 
+   Sprite: G_BIGFOOT
+ - Mob: G_GIANT_HONET_Z 
+   Sprite: G_GIANT_HONET
+ - Mob: G_DARK_ILLUSION_Z 
+   Sprite: G_DARK_ILLUSION
+ - Mob: G_GARM_BABY_Z 
+   Sprite: G_GARM_BABY
+ - Mob: G_GOBLINE_XMAS_Z 
+   Sprite: G_GOBLINE_XMAS
+ - Mob: G_THIEF_BUG___Z 
+   Sprite: G_THIEF_BUG__
+ - Mob: G_DANCING_DRAGON_Z 
+   Sprite: G_DANCING_DRAGON
+ - Mob: A_MUNAK_Z 
+   Sprite: A_MUNAK
+ - Mob: A_BON_GUN_Z 
+   Sprite: A_BON_GUN
+ - Mob: A_HYEGUN_Z 
+   Sprite: A_HYEGUN
+ - Mob: METALING_Z 
+   Sprite: METALING
+ - Mob: MINERAL_Z 
+   Sprite: MINERAL
+ - Mob: OBSIDIAN_Z 
+   Sprite: OBSIDIAN
+ - Mob: PITMAN_Z 
+   Sprite: PITMAN
+ - Mob: WASTE_STOVE_Z 
+   Sprite: WASTE_STOVE
+ - Mob: UNGOLIANT_Z 
+   Sprite: UNGOLIANT
+ - Mob: PORCELLIO_Z 
+   Sprite: PORCELLIO
+ - Mob: NOXIOUS_Z 
+   Sprite: NOXIOUS
+ - Mob: VENOMOUS_Z 
+   Sprite: VENOMOUS
+ - Mob: TEDDY_BEAR_Z 
+   Sprite: TEDDY_BEAR
+ - Mob: RSX_0806_Z 
+   Sprite: RSX_0806
+ - Mob: G_WASTE_STOVE_Z 
+   Sprite: G_WASTE_STOVE
+ - Mob: G_PORCELLIO_Z 
+   Sprite: G_PORCELLIO
+ - Mob: G_DARK_PRIEST_Z 
+   Sprite: G_DARK_PRIEST
+ - Mob: ANOPHELES_Z 
+   Sprite: ANOPHELES
+ - Mob: MOLE_Z 
+   Sprite: MOLE
+ - Mob: HILL_WIND_Z 
+   Sprite: HILL_WIND
+ - Mob: BACSOJIN__Z 
+   Sprite: BACSOJIN_
+ - Mob: CHUNG_E__Z 
+   Sprite: CHUNG_E_
+ - Mob: GREMLIN_Z 
+   Sprite: GREMLIN
+ - Mob: BEHOLDER_Z 
+   Sprite: BEHOLDER
+ - Mob: SEYREN_Z 
+   Sprite: SEYREN
+ - Mob: EREMES_Z 
+   Sprite: EREMES
+ - Mob: HARWORD_Z 
+   Sprite: HARWORD
+ - Mob: MAGALETA_Z 
+   Sprite: MAGALETA
+ - Mob: SHECIL_Z 
+   Sprite: SHECIL
+ - Mob: KATRINN_Z 
+   Sprite: KATRINN
+ - Mob: G_SEYREN_Z 
+   Sprite: G_SEYREN
+ - Mob: G_EREMES_Z 
+   Sprite: G_EREMES
+ - Mob: G_HARWORD_Z 
+   Sprite: G_HARWORD
+ - Mob: G_MAGALETA_Z 
+   Sprite: G_MAGALETA
+ - Mob: G_SHECIL_Z 
+   Sprite: G_SHECIL
+ - Mob: G_KATRINN_Z 
+   Sprite: G_KATRINN
+ - Mob: B_SEYREN_Z 
+   Sprite: B_SEYREN
+ - Mob: B_EREMES_Z 
+   Sprite: B_EREMES
+ - Mob: B_HARWORD_Z 
+   Sprite: B_HARWORD
+ - Mob: B_MAGALETA_Z 
+   Sprite: B_MAGALETA
+ - Mob: B_SHECIL_Z 
+   Sprite: B_SHECIL
+ - Mob: B_KATRINN_Z 
+   Sprite: B_KATRINN
+ - Mob: YGNIZEM_Z 
+   Sprite: YGNIZEM
+ - Mob: WHIKEBAIN_Z 
+   Sprite: WHIKEBAIN
+ - Mob: ARMAIA_Z 
+   Sprite: ARMAIA
+ - Mob: EREND_Z 
+   Sprite: EREND
+ - Mob: KAVAC_Z 
+   Sprite: KAVAC
+ - Mob: RAWREL_Z 
+   Sprite: RAWREL
+ - Mob: B_YGNIZEM_Z 
+   Sprite: B_YGNIZEM
+ - Mob: G_WHIKEBAIN_Z 
+   Sprite: G_WHIKEBAIN
+ - Mob: G_ARMAIA_Z 
+   Sprite: G_ARMAIA
+ - Mob: G_EREND_Z 
+   Sprite: G_EREND
+ - Mob: G_KAVAC_Z 
+   Sprite: G_KAVAC
+ - Mob: G_RAWREL_Z 
+   Sprite: G_RAWREL
+ - Mob: POTON_CANON_Z 
+   Sprite: POTON_CANON
+ - Mob: POTON_CANON_1_Z 
+   Sprite: POTON_CANON_1
+ - Mob: POTON_CANON_2_Z 
+   Sprite: POTON_CANON_2
+ - Mob: POTON_CANON_3_Z 
+   Sprite: POTON_CANON_3
+ - Mob: ARCHDAM_Z 
+   Sprite: ARCHDAM
+ - Mob: DIMIK_Z 
+   Sprite: DIMIK
+ - Mob: DIMIK_1_Z 
+   Sprite: DIMIK_1
+ - Mob: DIMIK_2_Z 
+   Sprite: DIMIK_2
+ - Mob: DIMIK_3_Z 
+   Sprite: DIMIK_3
+ - Mob: DIMIK_4_Z 
+   Sprite: DIMIK_4
+ - Mob: MONEMUS_Z 
+   Sprite: MONEMUS
+ - Mob: VENATU_Z 
+   Sprite: VENATU
+ - Mob: VENATU_1_Z 
+   Sprite: VENATU_1
+ - Mob: VENATU_2_Z 
+   Sprite: VENATU_2
+ - Mob: VENATU_3_Z 
+   Sprite: VENATU_3
+ - Mob: VENATU_4_Z 
+   Sprite: VENATU_4
+ - Mob: HILL_WIND_1_Z 
+   Sprite: HILL_WIND_1
+ - Mob: GEMINI_Z 
+   Sprite: GEMINI
+ - Mob: REMOVAL_Z 
+   Sprite: REMOVAL
+ - Mob: G_POTON_CANON_Z 
+   Sprite: G_POTON_CANON
+ - Mob: G_ARCHDAM_Z 
+   Sprite: G_ARCHDAM
+ - Mob: APOCALIPS_H_Z 
+   Sprite: APOCALIPS_H
+ - Mob: ORC_BABY_Z 
+   Sprite: ORC_BABY
+ - Mob: GREEN_IGUANA_Z 
+   Sprite: GREEN_IGUANA
+ - Mob: LADY_TANEE_Z 
+   Sprite: LADY_TANEE
+ - Mob: G_BACSOJIN_Z 
+   Sprite: G_BACSOJIN
+ - Mob: G_KRABEN_Z 
+   Sprite: G_KRABEN
+ - Mob: BREEZE_Z 
+   Sprite: BREEZE
+ - Mob: PLASMA_Y_Z 
+   Sprite: PLASMA_Y
+ - Mob: PLASMA_R_Z 
+   Sprite: PLASMA_R
+ - Mob: PLASMA_G_Z 
+   Sprite: PLASMA_G
+ - Mob: PLASMA_P_Z 
+   Sprite: PLASMA_P
+ - Mob: PLASMA_B_Z 
+   Sprite: PLASMA_B
+ - Mob: DEATHWORD_Z 
+   Sprite: DEATHWORD
+ - Mob: ANCIENT_MIMIC_Z 
+   Sprite: ANCIENT_MIMIC
+ - Mob: OBSERVATION_Z 
+   Sprite: OBSERVATION
+ - Mob: SHELTER_Z 
+   Sprite: SHELTER
+ - Mob: RETRIBUTION_Z 
+   Sprite: RETRIBUTION
+ - Mob: SOLACE_Z 
+   Sprite: SOLACE
+ - Mob: THA_ODIUM_Z 
+   Sprite: THA_ODIUM
+ - Mob: THA_DESPERO_Z 
+   Sprite: THA_DESPERO
+ - Mob: THA_MAERO_Z 
+   Sprite: THA_MAERO
+ - Mob: THA_DOLOR_Z 
+   Sprite: THA_DOLOR
+ - Mob: THANATOS_Z 
+   Sprite: THANATOS
+ - Mob: G_THA_ODIUM_Z 
+   Sprite: G_THA_ODIUM
+ - Mob: G_THA_DESPERO_Z 
+   Sprite: G_THA_DESPERO
+ - Mob: G_THA_MAERO_Z 
+   Sprite: G_THA_MAERO
+ - Mob: G_THA_DOLOR_Z 
+   Sprite: G_THA_DOLOR
+ - Mob: ACIDUS_Z 
+   Sprite: ACIDUS
+ - Mob: FERUS_Z 
+   Sprite: FERUS
+ - Mob: NOVUS_Z 
+   Sprite: NOVUS
+ - Mob: ACIDUS__Z 
+   Sprite: ACIDUS_
+ - Mob: FERUS__Z 
+   Sprite: FERUS_
+ - Mob: NOVUS__Z 
+   Sprite: NOVUS_
+ - Mob: DETALE_Z 
+   Sprite: DETALE
+ - Mob: HYDRO_Z 
+   Sprite: HYDRO
+ - Mob: DRAGON_EGG_Z 
+   Sprite: DRAGON_EGG
+ - Mob: EVENT_JAKK_Z 
+   Sprite: EVENT_JAKK
+ - Mob: A_SHECIL_Z 
+   Sprite: A_SHECIL
+ - Mob: A_POTON_CANON_Z 
+   Sprite: A_POTON_CANON
+ - Mob: R_PORING_Z 
+   Sprite: R_PORING
+ - Mob: R_LUNATIC_Z 
+   Sprite: R_LUNATIC
+ - Mob: R_SAVAGE_BABE_Z 
+   Sprite: R_SAVAGE_BABE
+ - Mob: R_DESERT_WOLF_B_Z 
+   Sprite: R_DESERT_WOLF_B
+ - Mob: R_BAPHOMET__Z 
+   Sprite: R_BAPHOMET_
+ - Mob: R_DEVIRUCHI_Z 
+   Sprite: R_DEVIRUCHI
+ - Mob: G_DOPPELGANGER_Z 
+   Sprite: G_DOPPELGANGER
+ - Mob: G_TREASURE_BOX_Z 
+   Sprite: G_TREASURE_BOX
+ - Mob: KIEL_Z 
+   Sprite: KIEL
+ - Mob: KIEL__Z 
+   Sprite: KIEL_
+ - Mob: ALICEL_Z 
+   Sprite: ALICEL
+ - Mob: ALIOT_Z 
+   Sprite: ALIOT
+ - Mob: ALIZA_Z 
+   Sprite: ALIZA
+ - Mob: CONSTANT_Z 
+   Sprite: CONSTANT
+ - Mob: G_ALICEL_Z 
+   Sprite: G_ALICEL
+ - Mob: G_ALIOT_Z 
+   Sprite: G_ALIOT
+ - Mob: G_COOKIE_XMAS_Z 
+   Sprite: G_COOKIE_XMAS
+ - Mob: G_CARAT_Z 
+   Sprite: G_CARAT
+ - Mob: G_MYSTCASE_Z 
+   Sprite: G_MYSTCASE
+ - Mob: G_WILD_ROSE_Z 
+   Sprite: G_WILD_ROSE
+ - Mob: G_CONSTANT_Z 
+   Sprite: G_CONSTANT
+ - Mob: G_ALIZA_Z 
+   Sprite: G_ALIZA
+ - Mob: G_SNAKE_Z 
+   Sprite: G_SNAKE
+ - Mob: G_ANACONDAQ_Z 
+   Sprite: G_ANACONDAQ
+ - Mob: G_MEDUSA_Z 
+   Sprite: G_MEDUSA
+ - Mob: G_RED_PLANT_Z 
+   Sprite: G_RED_PLANT
+ - Mob: RANDGRIS_Z 
+   Sprite: RANDGRIS
+ - Mob: SKOGUL_Z 
+   Sprite: SKOGUL
+ - Mob: FRUS_Z 
+   Sprite: FRUS
+ - Mob: SKEGGIOLD_Z 
+   Sprite: SKEGGIOLD
+ - Mob: SKEGGIOLD__Z 
+   Sprite: SKEGGIOLD_
+ - Mob: G_HYDRO_Z 
+   Sprite: G_HYDRO
+ - Mob: G_ACIDUS_Z 
+   Sprite: G_ACIDUS
+ - Mob: G_FERUS_Z 
+   Sprite: G_FERUS
+ - Mob: G_ACIDUS__Z 
+   Sprite: G_ACIDUS_
+ - Mob: G_FERUS__Z 
+   Sprite: G_FERUS_
+ - Mob: G_SKOGUL_Z 
+   Sprite: G_SKOGUL
+ - Mob: G_FRUS_Z 
+   Sprite: G_FRUS
+ - Mob: G_SKEGGIOLD_Z 
+   Sprite: G_SKEGGIOLD
+ - Mob: G_SKEGGIOLD__Z 
+   Sprite: G_SKEGGIOLD_
+ - Mob: G_RANDGRIS_Z 
+   Sprite: G_RANDGRIS
+ - Mob: EM_ANGELING_Z 
+   Sprite: EM_ANGELING
+ - Mob: EM_DEVILING_Z 
+   Sprite: EM_DEVILING
+ - Mob: GLOOMUNDERNIGHT_Z 
+   Sprite: GLOOMUNDERNIGHT
+ - Mob: AGAV_Z 
+   Sprite: AGAV
+ - Mob: ECHIO_Z 
+   Sprite: ECHIO
+ - Mob: VANBERK_Z 
+   Sprite: VANBERK
+ - Mob: ISILLA_Z 
+   Sprite: ISILLA
+ - Mob: HODREMLIN_Z 
+   Sprite: HODREMLIN
+ - Mob: SEEKER_Z 
+   Sprite: SEEKER
+ - Mob: SNOWIER_Z 
+   Sprite: SNOWIER
+ - Mob: SIROMA_Z 
+   Sprite: SIROMA
+ - Mob: ICE_TITAN_Z 
+   Sprite: ICE_TITAN
+ - Mob: GAZETI_Z 
+   Sprite: GAZETI
+ - Mob: KTULLANUX_Z 
+   Sprite: KTULLANUX
+ - Mob: MUSCIPULAR_Z 
+   Sprite: MUSCIPULAR
+ - Mob: DROSERA_Z 
+   Sprite: DROSERA
+ - Mob: ROWEEN_Z 
+   Sprite: ROWEEN
+ - Mob: GALION_Z 
+   Sprite: GALION
+ - Mob: STAPO_Z 
+   Sprite: STAPO
+ - Mob: ATROCE_Z 
+   Sprite: ATROCE
+ - Mob: G_AGAV_Z 
+   Sprite: G_AGAV
+ - Mob: G_ECHIO_Z 
+   Sprite: G_ECHIO
+ - Mob: G_ICE_TITAN_Z 
+   Sprite: G_ICE_TITAN
+ - Mob: ICEICLE_Z 
+   Sprite: ICEICLE
+ - Mob: G_RAFFLESIA_Z 
+   Sprite: G_RAFFLESIA
+ - Mob: G_GALION_Z 
+   Sprite: G_GALION
+ - Mob: G_MEGALITH_Z 
+   Sprite: G_MEGALITH
+ - Mob: G_ROWEEN_Z 
+   Sprite: G_ROWEEN
+ - Mob: BLOODY_KNIGHT__Z 
+   Sprite: BLOODY_KNIGHT_
+ - Mob: AUNOE_Z 
+   Sprite: AUNOE
+ - Mob: FANAT_Z 
+   Sprite: FANAT
+ - Mob: B_SEYREN__Z 
+   Sprite: B_SEYREN_
+ - Mob: B_EREMES__Z 
+   Sprite: B_EREMES_
+ - Mob: B_HARWORD__Z 
+   Sprite: B_HARWORD_
+ - Mob: B_MAGALETA__Z 
+   Sprite: B_MAGALETA_
+ - Mob: B_SHECIL__Z 
+   Sprite: B_SHECIL_
+ - Mob: B_KATRINN__Z 
+   Sprite: B_KATRINN_
+ - Mob: G_SMOKIE__Z 
+   Sprite: G_SMOKIE_
+ - Mob: EVENT_HYDRO_Z 
+   Sprite: EVENT_HYDRO
+ - Mob: EVENT_MOON_Z 
+   Sprite: EVENT_MOON
+ - Mob: EVENT_RICECAKE_Z 
+   Sprite: EVENT_RICECAKE
+ - Mob: EVENT_GOURD_Z 
+   Sprite: EVENT_GOURD
+ - Mob: EVENT_DETALE_Z 
+   Sprite: EVENT_DETALE
+ - Mob: EVENT_ALARM_Z 
+   Sprite: EVENT_ALARM
+ - Mob: EVENT_BATHORY_Z 
+   Sprite: EVENT_BATHORY
+ - Mob: EVENT_BIGFOOT_Z 
+   Sprite: EVENT_BIGFOOT
+ - Mob: EVENT_DESERT_WOLF_Z 
+   Sprite: EVENT_DESERT_WOLF
+ - Mob: EVENT_DEVIRUCHI_Z 
+   Sprite: EVENT_DEVIRUCHI
+ - Mob: EVENT_FREEZER_Z 
+   Sprite: EVENT_FREEZER
+ - Mob: EVENT_GARM_BABY_Z 
+   Sprite: EVENT_GARM_BABY
+ - Mob: EVENT_GOBLINE_XMAS_Z 
+   Sprite: EVENT_GOBLINE_XMAS
+ - Mob: EVENT_MYST_Z 
+   Sprite: EVENT_MYST
+ - Mob: EVENT_SASQUATCH_Z 
+   Sprite: EVENT_SASQUATCH
+ - Mob: SWORD_GUARDIAN_Z 
+   Sprite: SWORD_GUARDIAN
+ - Mob: BOW_GUARDIAN_Z 
+   Sprite: BOW_GUARDIAN
+ - Mob: SALAMANDER_Z 
+   Sprite: SALAMANDER
+ - Mob: IFRIT_Z 
+   Sprite: IFRIT
+ - Mob: KASA_Z 
+   Sprite: KASA
+ - Mob: G_SALAMANDER_Z 
+   Sprite: G_SALAMANDER
+ - Mob: G_KASA_Z 
+   Sprite: G_KASA
+ - Mob: MAGMARING_Z 
+   Sprite: MAGMARING
+ - Mob: IMP_Z 
+   Sprite: IMP
+ - Mob: KNOCKER_Z 
+   Sprite: KNOCKER
+ - Mob: BYORGUE_Z 
+   Sprite: BYORGUE
+ - Mob: GOLDEN_SAVAGE_Z 
+   Sprite: GOLDEN_SAVAGE
+ - Mob: G_TREASURE_BOX__Z 
+   Sprite: G_TREASURE_BOX_
+ - Mob: DREAMMETAL_Z 
+   Sprite: DREAMMETAL
+ - Mob: EVENT_PORING_Z 
+   Sprite: EVENT_PORING
+ - Mob: EVENT_BAPHOMET_Z 
+   Sprite: EVENT_BAPHOMET
+ - Mob: EVENT_OSIRIS_Z 
+   Sprite: EVENT_OSIRIS
+ - Mob: EVENT_ORCHERO_Z 
+   Sprite: EVENT_ORCHERO
+ - Mob: EVENT_MOBSTER_Z 
+   Sprite: EVENT_MOBSTER
+ - Mob: G_EM_ANGELING_Z 
+   Sprite: G_EM_ANGELING
+ - Mob: G_EM_DEVILING_Z 
+   Sprite: G_EM_DEVILING
+ - Mob: E_MUKA_Z 
+   Sprite: E_MUKA
+ - Mob: E_POISONSPORE_Z 
+   Sprite: E_POISONSPORE
+ - Mob: E_MAGNOLIA_Z 
+   Sprite: E_MAGNOLIA
+ - Mob: E_MARIN_Z 
+   Sprite: E_MARIN
+ - Mob: E_PLANKTON_Z 
+   Sprite: E_PLANKTON
+ - Mob: E_MANDRAGORA_Z 
+   Sprite: E_MANDRAGORA
+ - Mob: E_COCO_Z 
+   Sprite: E_COCO
+ - Mob: E_CHOCO_Z 
+   Sprite: E_CHOCO
+ - Mob: E_MARTIN_Z 
+   Sprite: E_MARTIN
+ - Mob: E_SPRING_RABBIT_Z 
+   Sprite: E_SPRING_RABBIT
+ - Mob: ZOMBIE_SLAUGHTER_Z 
+   Sprite: ZOMBIE_SLAUGHTER
+ - Mob: RAGGED_ZOMBIE_Z 
+   Sprite: RAGGED_ZOMBIE
+ - Mob: HELL_POODLE_Z 
+   Sprite: HELL_POODLE
+ - Mob: BANSHEE_Z 
+   Sprite: BANSHEE
+ - Mob: G_BANSHEE_Z 
+   Sprite: G_BANSHEE
+ - Mob: FLAME_SKULL_Z 
+   Sprite: FLAME_SKULL
+ - Mob: NECROMANCER_Z 
+   Sprite: NECROMANCER
+ - Mob: FALLINGBISHOP_Z 
+   Sprite: FALLINGBISHOP
+ - Mob: BEELZEBUB_FLY_Z 
+   Sprite: BEELZEBUB_FLY
+ - Mob: BEELZEBUB_Z 
+   Sprite: BEELZEBUB
+ - Mob: BEELZEBUB__Z 
+   Sprite: BEELZEBUB_
+ - Mob: TRISTAN_3RD_Z 
+   Sprite: TRISTAN_3RD
+ - Mob: ECLIPSE_P_Z 
+   Sprite: ECLIPSE_P
+ - Mob: WOOD_GOBLIN_Z 
+   Sprite: WOOD_GOBLIN
+ - Mob: LES_Z 
+   Sprite: LES
+ - Mob: VAVAYAGA_Z 
+   Sprite: VAVAYAGA
+ - Mob: UZHAS_Z 
+   Sprite: UZHAS
+ - Mob: MAVKA_Z 
+   Sprite: MAVKA
+ - Mob: GOPINICH_Z 
+   Sprite: GOPINICH
+ - Mob: G_MAVKA_Z 
+   Sprite: G_MAVKA
+ - Mob: FREEZER_R_Z 
+   Sprite: FREEZER_R
+ - Mob: GARM_BABY_R_Z 
+   Sprite: GARM_BABY_R
+ - Mob: GARM_R_Z 
+   Sprite: GARM_R
+ - Mob: GOPINICH_R_Z 
+   Sprite: GOPINICH_R
+ - Mob: G_RANDGRIS__Z 
+   Sprite: G_RANDGRIS_
+ - Mob: G_LOLI_RURI_Z 
+   Sprite: G_LOLI_RURI
+ - Mob: G_KNIGHT_OF_ABYSS_Z 
+   Sprite: G_KNIGHT_OF_ABYSS
+ - Mob: POURING_Z 
+   Sprite: POURING
+ - Mob: EVENT_SEYREN_Z 
+   Sprite: EVENT_SEYREN
+ - Mob: EVENT_KATRINN_Z 
+   Sprite: EVENT_KATRINN
+ - Mob: EVENT_BAPHOMET__Z 
+   Sprite: EVENT_BAPHOMET_
+ - Mob: EVENT_ZOMBIE_Z 
+   Sprite: EVENT_ZOMBIE
+ - Mob: SWORD_GUARDIAN__Z 
+   Sprite: SWORD_GUARDIAN_
+ - Mob: BOW_GUARDIAN__Z 
+   Sprite: BOW_GUARDIAN_
+ - Mob: BOMBPORING_Z 
+   Sprite: BOMBPORING
+ - Mob: BARRICADE_Z 
+   Sprite: BARRICADE
+ - Mob: BARRICADE__Z 
+   Sprite: BARRICADE_
+ - Mob: S_EMPEL_1_Z 
+   Sprite: S_EMPEL_1
+ - Mob: S_EMPEL_2_Z 
+   Sprite: S_EMPEL_2
+ - Mob: OBJ_A_Z 
+   Sprite: OBJ_A
+ - Mob: OBJ_B_Z 
+   Sprite: OBJ_B
+ - Mob: OBJ_NEUTRAL_Z 
+   Sprite: OBJ_NEUTRAL
+ - Mob: OBJ_FLAG_A_Z 
+   Sprite: OBJ_FLAG_A
+ - Mob: OBJ_FLAG_B_Z 
+   Sprite: OBJ_FLAG_B
+ - Mob: OBJ_A2_Z 
+   Sprite: OBJ_A2
+ - Mob: OBJ_B2_Z 
+   Sprite: OBJ_B2
+ - Mob: MOROCC_Z 
+   Sprite: MOROCC
+ - Mob: MOROCC__Z 
+   Sprite: MOROCC_
+ - Mob: MOROCC_1_Z 
+   Sprite: MOROCC_1
+ - Mob: MOROCC_2_Z 
+   Sprite: MOROCC_2
+ - Mob: MOROCC_3_Z 
+   Sprite: MOROCC_3
+ - Mob: MOROCC_4_Z 
+   Sprite: MOROCC_4
+ - Mob: G_MOROCC_1_Z 
+   Sprite: G_MOROCC_1
+ - Mob: G_MOROCC_2_Z 
+   Sprite: G_MOROCC_2
+ - Mob: G_MOROCC_3_Z 
+   Sprite: G_MOROCC_3
+ - Mob: G_MOROCC_4_Z 
+   Sprite: G_MOROCC_4
+ - Mob: JAKK_H_Z 
+   Sprite: JAKK_H
+ - Mob: WHISPER_H_Z 
+   Sprite: WHISPER_H
+ - Mob: DEVIRUCHI_H_Z 
+   Sprite: DEVIRUCHI_H
+ - Mob: BAPHOMET_I_Z 
+   Sprite: BAPHOMET_I
+ - Mob: PIAMETTE_Z 
+   Sprite: PIAMETTE
+ - Mob: WISH_MAIDEN_Z 
+   Sprite: WISH_MAIDEN
+ - Mob: GARDEN_KEEPER_Z 
+   Sprite: GARDEN_KEEPER
+ - Mob: GARDEN_WATCHER_Z 
+   Sprite: GARDEN_WATCHER
+ - Mob: BLUE_FLOWER_Z 
+   Sprite: BLUE_FLOWER
+ - Mob: RED_FLOWER_Z 
+   Sprite: RED_FLOWER
+ - Mob: YELL_FLOWER_Z 
+   Sprite: YELL_FLOWER
+ - Mob: CONSTANT__Z 
+   Sprite: CONSTANT_
+ - Mob: PIAMETTE__Z 
+   Sprite: PIAMETTE_
+ - Mob: G_YGNIZEM_Z 
+   Sprite: G_YGNIZEM
+ - Mob: B_S_GUARDIAN_Z 
+   Sprite: B_S_GUARDIAN
+ - Mob: B_B_GUARDIAN_Z 
+   Sprite: B_B_GUARDIAN
+ - Mob: NAGHT_SIEGER_Z 
+   Sprite: NAGHT_SIEGER
+ - Mob: ENTWEIHEN_Z 
+   Sprite: ENTWEIHEN
+ - Mob: G_ENTWEIHEN_R_Z 
+   Sprite: G_ENTWEIHEN_R
+ - Mob: G_ENTWEIHEN_H_Z 
+   Sprite: G_ENTWEIHEN_H
+ - Mob: G_ENTWEIHEN_M_Z 
+   Sprite: G_ENTWEIHEN_M
+ - Mob: G_ENTWEIHEN_S_Z 
+   Sprite: G_ENTWEIHEN_S
+ - Mob: P_CHUNG_E_Z 
+   Sprite: P_CHUNG_E
+ - Mob: NIGHTMARE_T_Z 
+   Sprite: NIGHTMARE_T
+ - Mob: M_WILD_ROSE_Z 
+   Sprite: M_WILD_ROSE
+ - Mob: M_DOPPELGANGER_Z 
+   Sprite: M_DOPPELGANGER
+ - Mob: M_YGNIZEM_Z 
+   Sprite: M_YGNIZEM
+ - Mob: E_STROUF_Z 
+   Sprite: E_STROUF
+ - Mob: E_MARC_Z 
+   Sprite: E_MARC
+ - Mob: E_OBEAUNE_Z 
+   Sprite: E_OBEAUNE
+ - Mob: E_VADON_Z 
+   Sprite: E_VADON
+ - Mob: E_MARINA_Z 
+   Sprite: E_MARINA
+ - Mob: E_PORING_Z 
+   Sprite: E_PORING
+ - Mob: BANSHEE_MASTER_Z 
+   Sprite: BANSHEE_MASTER
+ - Mob: BEHOLDER_MASTER_Z 
+   Sprite: BEHOLDER_MASTER
+ - Mob: COBALT_MINERAL_Z 
+   Sprite: COBALT_MINERAL
+ - Mob: HEAVY_METALING_Z 
+   Sprite: HEAVY_METALING
+ - Mob: HELL_APOCALIPS_Z 
+   Sprite: HELL_APOCALIPS
+ - Mob: ZAKUDAM_Z 
+   Sprite: ZAKUDAM
+ - Mob: KUBLIN_Z 
+   Sprite: KUBLIN
+ - Mob: I_HIGH_ORC_Z 
+   Sprite: I_HIGH_ORC
+ - Mob: I_ORC_ARCHER_Z 
+   Sprite: I_ORC_ARCHER
+ - Mob: I_ORC_SKELETON_Z 
+   Sprite: I_ORC_SKELETON
+ - Mob: I_ORC_LADY_Z 
+   Sprite: I_ORC_LADY
+ - Mob: DANDELION_Z 
+   Sprite: DANDELION
+ - Mob: TATACHO_Z 
+   Sprite: TATACHO
+ - Mob: CENTIPEDE_Z 
+   Sprite: CENTIPEDE
+ - Mob: NEPENTHES_Z 
+   Sprite: NEPENTHES
+ - Mob: HILLSRION_Z 
+   Sprite: HILLSRION
+ - Mob: HARDROCK_MOMMOTH_Z 
+   Sprite: HARDROCK_MOMMOTH
+ - Mob: TENDRILRION_Z 
+   Sprite: TENDRILRION
+ - Mob: CORNUS_Z 
+   Sprite: CORNUS
+ - Mob: NAGA_Z 
+   Sprite: NAGA
+ - Mob: LUCIOLA_VESPA_Z 
+   Sprite: LUCIOLA_VESPA
+ - Mob: PINGUICULA_Z 
+   Sprite: PINGUICULA
+ - Mob: G_TATACHO_Z 
+   Sprite: G_TATACHO
+ - Mob: G_HILLSRION_Z 
+   Sprite: G_HILLSRION
+ - Mob: CENTIPEDE_LARVA_Z 
+   Sprite: CENTIPEDE_LARVA
+ - Mob: M_GAMEMASTER_Z 
+   Sprite: M_GAMEMASTER
+ - Mob: F_GAMEMASTER_Z 
+   Sprite: F_GAMEMASTER
+ - Mob: T_SPRING_RABBIT_Z 
+   Sprite: T_SPRING_RABBIT
+ - Mob: T_BACSOJIN_Z 
+   Sprite: T_BACSOJIN
+ - Mob: T_WICKED_NYMPH_Z 
+   Sprite: T_WICKED_NYMPH
+ - Mob: T_PLASMA_B_Z 
+   Sprite: T_PLASMA_B
+ - Mob: T_PLASMA_P_Z 
+   Sprite: T_PLASMA_P
+ - Mob: T_PLASMA_R_Z 
+   Sprite: T_PLASMA_R
+ - Mob: WOOMAWANG_Z 
+   Sprite: WOOMAWANG
+ - Mob: WOOMAWANG__Z 
+   Sprite: WOOMAWANG_
+ - Mob: G_MAJORUROS_Z 
+   Sprite: G_MAJORUROS
+ - Mob: E_GHOUL_Z 
+   Sprite: E_GHOUL
+ - Mob: E_ZOMBIE_Z 
+   Sprite: E_ZOMBIE
+ - Mob: DRACO_Z 
+   Sprite: DRACO
+ - Mob: DRACO_EGG_Z 
+   Sprite: DRACO_EGG
+ - Mob: PINGUICULA_D_Z 
+   Sprite: PINGUICULA_D
+ - Mob: AQUA_ELEMENTAL_Z 
+   Sprite: AQUA_ELEMENTAL
+ - Mob: RATA_Z 
+   Sprite: RATA
+ - Mob: DUNEYRR_Z 
+   Sprite: DUNEYRR
+ - Mob: ANCIENT_TREE_Z 
+   Sprite: ANCIENT_TREE
+ - Mob: RHYNCHO_Z 
+   Sprite: RHYNCHO
+ - Mob: PHYLLA_Z 
+   Sprite: PHYLLA
+ - Mob: S_NYDHOG_Z 
+   Sprite: S_NYDHOG
+ - Mob: DARK_SHADOW_Z 
+   Sprite: DARK_SHADOW
+ - Mob: BRADIUM_GOLEM_Z 
+   Sprite: BRADIUM_GOLEM
+ - Mob: DANDELION__Z 
+   Sprite: DANDELION_
+ - Mob: G_DARK_SHADOW_Z 
+   Sprite: G_DARK_SHADOW
+ - Mob: HIDEN_PRIEST_Z 
+   Sprite: HIDEN_PRIEST
+ - Mob: DANDELION_H_Z 
+   Sprite: DANDELION_H
+ - Mob: GUARDIAN_FOREST_Z 
+   Sprite: GUARDIAN_FOREST
+ - Mob: GOLDEN_TULIP_Z 
+   Sprite: GOLDEN_TULIP
+ - Mob: NIHILITY_ZEM_Z 
+   Sprite: NIHILITY_ZEM
+ - Mob: VALKYRIE_N_Z 
+   Sprite: VALKYRIE_N
+ - Mob: EXECUTIONER_R_Z 
+   Sprite: EXECUTIONER_R
+ - Mob: TIRFING_R_Z 
+   Sprite: TIRFING_R
+ - Mob: MYSTELTAINN_R_Z 
+   Sprite: MYSTELTAINN_R
+ - Mob: SILVERSNIPER_Z 
+   Sprite: SILVERSNIPER
+ - Mob: MAGICDECOY_FIRE_Z 
+   Sprite: MAGICDECOY_FIRE
+ - Mob: MAGICDECOY_WATER_Z 
+   Sprite: MAGICDECOY_WATER
+ - Mob: MAGICDECOY_EARTH_Z 
+   Sprite: MAGICDECOY_EARTH
+ - Mob: MAGICDECOY_WIND_Z 
+   Sprite: MAGICDECOY_WIND
+ - Mob: W_NAGA_Z 
+   Sprite: W_NAGA
+ - Mob: W_PINGUICULA_D_Z 
+   Sprite: W_PINGUICULA_D
+ - Mob: W_BRADIUM_GOLEM_Z 
+   Sprite: W_BRADIUM_GOLEM
+ - Mob: W_AQUA_ELEMENTAL_Z 
+   Sprite: W_AQUA_ELEMENTAL
+ - Mob: E_DARK_LORD_Z 
+   Sprite: E_DARK_LORD
+ - Mob: E_CRAMP_Z 
+   Sprite: E_CRAMP
+ - Mob: E_ANOPHELES_Z 
+   Sprite: E_ANOPHELES
+ - Mob: E_ANOPHELES__Z 
+   Sprite: E_ANOPHELES_
+ - Mob: BOITATA_Z 
+   Sprite: BOITATA
+ - Mob: IARA_Z 
+   Sprite: IARA
+ - Mob: PIRANHA_Z 
+   Sprite: PIRANHA
+ - Mob: HEADLESS_MULE_Z 
+   Sprite: HEADLESS_MULE
+ - Mob: JAGUAR_Z 
+   Sprite: JAGUAR
+ - Mob: TOUCAN_Z 
+   Sprite: TOUCAN
+ - Mob: CURUPIRA_Z 
+   Sprite: CURUPIRA
+ - Mob: S_WIND_GHOST_Z 
+   Sprite: S_WIND_GHOST
+ - Mob: S_SKOGUL_Z 
+   Sprite: S_SKOGUL
+ - Mob: S_SUCCUBUS_Z 
+   Sprite: S_SUCCUBUS
+ - Mob: CRYSTAL_H_Z 
+   Sprite: CRYSTAL_H
+ - Mob: CRYSTAL_L_Z 
+   Sprite: CRYSTAL_L
+ - Mob: E_HYDRA_Z 
+   Sprite: E_HYDRA
+ - Mob: G_PIRANHA_Z 
+   Sprite: G_PIRANHA
+ - Mob: HORN_SCARABA_Z 
+   Sprite: HORN_SCARABA
+ - Mob: HORN_SCARABA2_Z 
+   Sprite: HORN_SCARABA2
+ - Mob: ANTLER_SCARABA_Z 
+   Sprite: ANTLER_SCARABA
+ - Mob: RAKE_SCARABA_Z 
+   Sprite: RAKE_SCARABA
+ - Mob: QUEEN_SCARABA_Z 
+   Sprite: QUEEN_SCARABA
+ - Mob: HORN_SCARABA_EGG_Z 
+   Sprite: HORN_SCARABA_EGG
+ - Mob: HORN_SCARABA2_EGG_Z 
+   Sprite: HORN_SCARABA2_EGG
+ - Mob: ANTLER_SCARABA_EGG_Z 
+   Sprite: ANTLER_SCARABA_EGG
+ - Mob: RAKE_SCARABA_EGG_Z 
+   Sprite: RAKE_SCARABA_EGG
+ - Mob: DOLOMEDES_Z 
+   Sprite: DOLOMEDES
+ - Mob: E_ORK_HERO2_Z 
+   Sprite: E_ORK_HERO2
+ - Mob: E_EDDGA_Z 
+   Sprite: E_EDDGA
+ - Mob: E_OSIRIS2_Z 
+   Sprite: E_OSIRIS2
+ - Mob: E_DRACULA_Z 
+   Sprite: E_DRACULA
+ - Mob: E_DOPPELGANGER_Z 
+   Sprite: E_DOPPELGANGER
+ - Mob: E_MISTRESS_Z 
+   Sprite: E_MISTRESS
+ - Mob: E_BAPHOMET2_Z 
+   Sprite: E_BAPHOMET2
+ - Mob: E_LORD_OF_DEATH2_Z 
+   Sprite: E_LORD_OF_DEATH2
+ - Mob: E_KTULLANUX_Z 
+   Sprite: E_KTULLANUX
+ - Mob: E_DARK_SNAKE_LORD_Z 
+   Sprite: E_DARK_SNAKE_LORD
+ - Mob: E_TURTLE_GENERAL_Z 
+   Sprite: E_TURTLE_GENERAL
+ - Mob: E_APOCALIPS_H_Z 
+   Sprite: E_APOCALIPS_H
+ - Mob: E_FALLINGBISHOP_Z 
+   Sprite: E_FALLINGBISHOP
+ - Mob: E_GLOOMUNDERNIGHT_Z 
+   Sprite: E_GLOOMUNDERNIGHT
+ - Mob: E_RANDGRIS_Z 
+   Sprite: E_RANDGRIS
+ - Mob: E_IFRIT_Z 
+   Sprite: E_IFRIT
+ - Mob: E_B_HARWORD_Z 
+   Sprite: E_B_HARWORD
+ - Mob: E_B_SEYREN_Z 
+   Sprite: E_B_SEYREN
+ - Mob: E_B_EREMES_Z 
+   Sprite: E_B_EREMES
+ - Mob: M_ANOPHELES_Z 
+   Sprite: M_ANOPHELES
+ - Mob: M_HORNET_Z 
+   Sprite: M_HORNET
+ - Mob: M_HORNET2_Z 
+   Sprite: M_HORNET2
+ - Mob: M_LUCIOLA_VESPA_Z 
+   Sprite: M_LUCIOLA_VESPA
+ - Mob: M_LUCIOLA_VESPA2_Z 
+   Sprite: M_LUCIOLA_VESPA2
+ - Mob: LOST_DRAGON_Z 
+   Sprite: LOST_DRAGON
+ - Mob: POM_SPIDER_Z 
+   Sprite: POM_SPIDER
+ - Mob: ANGRA_MANTIS_Z 
+   Sprite: ANGRA_MANTIS
+ - Mob: PARUS_Z 
+   Sprite: PARUS
+ - Mob: CREEPER_Z 
+   Sprite: CREEPER
+ - Mob: LITTLE_FATUM_Z 
+   Sprite: LITTLE_FATUM
+ - Mob: MIMING_Z 
+   Sprite: MIMING
+ - Mob: G_ANTLER_SCARABA_Z 
+   Sprite: G_ANTLER_SCARABA
+ - Mob: G_RAKE_SCARABA_Z 
+   Sprite: G_RAKE_SCARABA
+ - Mob: G_S_NYDHOG_Z 
+   Sprite: G_S_NYDHOG
+ - Mob: E_WHITE_PLANT_Z 
+   Sprite: E_WHITE_PLANT
+ - Mob: E_BLUE_PLANT_Z 
+   Sprite: E_BLUE_PLANT
+ - Mob: E_SAVAGE_BABE_Z 
+   Sprite: E_SAVAGE_BABE
+ - Mob: ALNOLDI_Z 
+   Sprite: ALNOLDI
+ - Mob: COMODO_Z 
+   Sprite: COMODO
+ - Mob: CENDRAWASIH_Z 
+   Sprite: CENDRAWASIH
+ - Mob: BANASPATY_Z 
+   Sprite: BANASPATY
+ - Mob: BUTOIJO_Z 
+   Sprite: BUTOIJO
+ - Mob: LEAK_Z 
+   Sprite: LEAK
+ - Mob: G_BANASPATY_Z 
+   Sprite: G_BANASPATY
+ - Mob: S_HORNET_Z 
+   Sprite: S_HORNET
+ - Mob: S_GIANT_HORNET_Z 
+   Sprite: S_GIANT_HORNET
+ - Mob: S_LUCIOLA_VESPA_Z 
+   Sprite: S_LUCIOLA_VESPA
+ - Mob: I_HORN_SCARABA_Z 
+   Sprite: I_HORN_SCARABA
+ - Mob: I_HORN_SCARABA2_Z 
+   Sprite: I_HORN_SCARABA2
+ - Mob: I_ANTLER_SCARABA_Z 
+   Sprite: I_ANTLER_SCARABA
+ - Mob: I_RAKE_SCARABA_Z 
+   Sprite: I_RAKE_SCARABA
+ - Mob: I_QUEEN_SCARABA_Z 
+   Sprite: I_QUEEN_SCARABA
+ - Mob: I_HORN_SCARABA_EGG_Z 
+   Sprite: I_HORN_SCARABA_EGG
+ - Mob: I_HORN_SCARABA2_EGG_Z 
+   Sprite: I_HORN_SCARABA2_EGG
+ - Mob: I_ANTLER_SCARABA_EGG_Z 
+   Sprite: I_ANTLER_SCARABA_EGG
+ - Mob: I_RAKE_SCARABA_EGG_Z 
+   Sprite: I_RAKE_SCARABA_EGG
+ - Mob: I_G_ANTLER_SCARABA_Z 
+   Sprite: I_G_ANTLER_SCARABA
+ - Mob: I_G_RAKE_SCARABA_Z 
+   Sprite: I_G_RAKE_SCARABA
+ - Mob: I_G_HORN_SCARABA_Z 
+   Sprite: I_G_HORN_SCARABA
+ - Mob: I_G_HORN_SCARABA2_Z 
+   Sprite: I_G_HORN_SCARABA2
+ - Mob: MD_VADON_Z 
+   Sprite: MD_VADON
+ - Mob: MD_MARSE_Z 
+   Sprite: MD_MARSE
+ - Mob: MD_CRAB_Z 
+   Sprite: MD_CRAB
+ - Mob: MD_CORNUTUS_Z 
+   Sprite: MD_CORNUTUS
+ - Mob: MD_SHELLFISH_Z 
+   Sprite: MD_SHELLFISH
+ - Mob: MD_KUKRE_Z 
+   Sprite: MD_KUKRE
+ - Mob: MD_STROUF_Z 
+   Sprite: MD_STROUF
+ - Mob: MD_SWORD_FISH_Z 
+   Sprite: MD_SWORD_FISH
+ - Mob: MD_MARC_Z 
+   Sprite: MD_MARC
+ - Mob: MD_ANOLIAN_Z 
+   Sprite: MD_ANOLIAN
+ - Mob: MD_OBEAUNE_Z 
+   Sprite: MD_OBEAUNE
+ - Mob: MD_KAPHA_Z 
+   Sprite: MD_KAPHA
+ - Mob: COELACANTH_N_E_Z 
+   Sprite: COELACANTH_N_E
+ - Mob: COELACANTH_N_A_Z 
+   Sprite: COELACANTH_N_A
+ - Mob: COELACANTH_N_M_Z 
+   Sprite: COELACANTH_N_M
+ - Mob: COELACANTH_H_M_Z 
+   Sprite: COELACANTH_H_M
+ - Mob: COELACANTH_H_A_Z 
+   Sprite: COELACANTH_H_A
+ - Mob: MD_SEAWEED_Z 
+   Sprite: MD_SEAWEED
+ - Mob: MD_OCTOPUS_Z 
+   Sprite: MD_OCTOPUS
+ - Mob: MD_OCTOPUS_LEG_Z 
+   Sprite: MD_OCTOPUS_LEG
+ - Mob: MD_GIANT_OCTOPUS_Z 
+   Sprite: MD_GIANT_OCTOPUS
+ - Mob: MD_G_KUKRE_Z 
+   Sprite: MD_G_KUKRE
+ - Mob: MD_G_STROUF_Z 
+   Sprite: MD_G_STROUF
+ - Mob: RED_ERUMA_Z 
+   Sprite: RED_ERUMA
+ - Mob: KING_DRAMOH_Z 
+   Sprite: KING_DRAMOH
+ - Mob: SIORAVA_Z 
+   Sprite: SIORAVA
+ - Mob: SROPHO_Z 
+   Sprite: SROPHO
+ - Mob: KRAKEN_Z 
+   Sprite: KRAKEN
+ - Mob: POT_DOFLE_Z 
+   Sprite: POT_DOFLE
+ - Mob: SEDORA_Z 
+   Sprite: SEDORA
+ - Mob: KRAKEN_LEG_Z 
+   Sprite: KRAKEN_LEG
+ - Mob: WILD_RIDER_Z 
+   Sprite: WILD_RIDER
+ - Mob: E_THIEF_BUG_Z 
+   Sprite: E_THIEF_BUG
+ - Mob: XMAS_LUNATIC_Z 
+   Sprite: XMAS_LUNATIC
+ - Mob: E_TEDDY_BEAR_Z 
+   Sprite: E_TEDDY_BEAR
+ - Mob: E_KNIGHT_OF_WINDSTORM_Z 
+   Sprite: E_KNIGHT_OF_WINDSTORM
+ - Mob: M_WANDER_MAN_Z 
+   Sprite: M_WANDER_MAN
+ - Mob: M_WICKED_NYMPH_Z 
+   Sprite: M_WICKED_NYMPH
+ - Mob: M_KASA_Z 
+   Sprite: M_KASA
+ - Mob: M_SALAMANDER_Z 
+   Sprite: M_SALAMANDER
+ - Mob: M_TEDDY_BEAR_Z 
+   Sprite: M_TEDDY_BEAR
+ - Mob: E_OCTOPUS_LEG_Z 
+   Sprite: E_OCTOPUS_LEG
+ - Mob: E_GIANT_OCTOPUS_Z 
+   Sprite: E_GIANT_OCTOPUS
+ - Mob: E_QUVE_Z 
+   Sprite: E_QUVE
+ - Mob: RANDEL_Z 
+   Sprite: RANDEL
+ - Mob: FLAMEL_Z 
+   Sprite: FLAMEL
+ - Mob: CELIA_Z 
+   Sprite: CELIA
+ - Mob: CHEN_Z 
+   Sprite: CHEN
+ - Mob: GERTIE_Z 
+   Sprite: GERTIE
+ - Mob: ALPHOCCIO_Z 
+   Sprite: ALPHOCCIO
+ - Mob: TRENTINI_Z 
+   Sprite: TRENTINI
+ - Mob: G_RANDEL_Z 
+   Sprite: G_RANDEL
+ - Mob: G_FLAMEL_Z 
+   Sprite: G_FLAMEL
+ - Mob: G_CELIA_Z 
+   Sprite: G_CELIA
+ - Mob: G_CHEN_Z 
+   Sprite: G_CHEN
+ - Mob: G_GERTIE_Z 
+   Sprite: G_GERTIE
+ - Mob: G_ALPHOCCIO_Z 
+   Sprite: G_ALPHOCCIO
+ - Mob: G_TRENTINI_Z 
+   Sprite: G_TRENTINI
+ - Mob: B_RANDEL_Z 
+   Sprite: B_RANDEL
+ - Mob: B_FLAMEL_Z 
+   Sprite: B_FLAMEL
+ - Mob: B_CELIA_Z 
+   Sprite: B_CELIA
+ - Mob: B_CHEN_Z 
+   Sprite: B_CHEN
+ - Mob: B_GERTIE_Z 
+   Sprite: B_GERTIE
+ - Mob: B_ALPHOCCIO_Z 
+   Sprite: B_ALPHOCCIO
+ - Mob: B_TRENTINI_Z 
+   Sprite: B_TRENTINI
+ - Mob: MD_DESERT_WOLF_Z 
+   Sprite: MD_DESERT_WOLF
+ - Mob: MD_DESERT_WOLF_B_Z 
+   Sprite: MD_DESERT_WOLF_B
+ - Mob: QUEST_CHEN_Z 
+   Sprite: QUEST_CHEN
+ - Mob: EXP_TEST_Z 
+   Sprite: EXP_TEST
+ - Mob: Q_WOOTAN_FIGHTER_Z 
+   Sprite: Q_WOOTAN_FIGHTER
+ - Mob: Q_INCREASE_SOIL_Z 
+   Sprite: Q_INCREASE_SOIL
+ - Mob: PYURIEL_Z 
+   Sprite: PYURIEL
+ - Mob: LORA_Z 
+   Sprite: LORA
+ - Mob: GIOIA_Z 
+   Sprite: GIOIA
+ - Mob: ELVIRA_Z 
+   Sprite: ELVIRA
+ - Mob: DAEHYON_Z 
+   Sprite: DAEHYON
+ - Mob: SOHEON_Z 
+   Sprite: SOHEON
+ - Mob: KADES_Z 
+   Sprite: KADES
+ - Mob: RUDO_Z 
+   Sprite: RUDO
+ - Mob: I_PIAMETTE_Z 
+   Sprite: I_PIAMETTE
+ - Mob: I_PIAMETTE__Z 
+   Sprite: I_PIAMETTE_
+ - Mob: I_GARDEN_KEEPER_Z 
+   Sprite: I_GARDEN_KEEPER
+ - Mob: G_GARDEN_KEEPER_Z 
+   Sprite: G_GARDEN_KEEPER
+ - Mob: I_GARDEN_WATCHER_Z 
+   Sprite: I_GARDEN_WATCHER
+ - Mob: G_GARDEN_WATCHER_Z 
+   Sprite: G_GARDEN_WATCHER
+ - Mob: I_WISH_MAIDEN_Z 
+   Sprite: I_WISH_MAIDEN
+ - Mob: I_ARMAIA_Z 
+   Sprite: I_ARMAIA
+ - Mob: I_ARMAIA__Z 
+   Sprite: I_ARMAIA_
+ - Mob: I_EREND_Z 
+   Sprite: I_EREND
+ - Mob: I_EREND__Z 
+   Sprite: I_EREND_
+ - Mob: I_KAVAC_Z 
+   Sprite: I_KAVAC
+ - Mob: I_KAVAC__Z 
+   Sprite: I_KAVAC_
+ - Mob: I_RAWREL_Z 
+   Sprite: I_RAWREL
+ - Mob: I_RAWREL__Z 
+   Sprite: I_RAWREL_
+ - Mob: I_WHIKEBAIN_Z 
+   Sprite: I_WHIKEBAIN
+ - Mob: I_WHIKEBAIN__Z 
+   Sprite: I_WHIKEBAIN_
+ - Mob: I_YGNIZEM_Z 
+   Sprite: I_YGNIZEM
+ - Mob: I_YGNIZEM__Z 
+   Sprite: I_YGNIZEM_
+ - Mob: I_DOPPELGANGER_Z 
+   Sprite: I_DOPPELGANGER
+ - Mob: G_LORA_Z 
+   Sprite: G_LORA
+ - Mob: G_ELVIRA_Z 
+   Sprite: G_ELVIRA
+ - Mob: G_SOHEON_Z 
+   Sprite: G_SOHEON
+ - Mob: G_RUDO_Z 
+   Sprite: G_RUDO
+ - Mob: GLD_DARK_SHADOW_Z 
+   Sprite: GLD_DARK_SHADOW
+ - Mob: GLD_DARK_FRAME_Z 
+   Sprite: GLD_DARK_FRAME
+ - Mob: GLD_DARK_PRIEST_Z 
+   Sprite: GLD_DARK_PRIEST
+ - Mob: GLD_KOBOLD_1_Z 
+   Sprite: GLD_KOBOLD_1
+ - Mob: GLD_KOBOLD_2_Z 
+   Sprite: GLD_KOBOLD_2
+ - Mob: GLD_KOBOLD_3_Z 
+   Sprite: GLD_KOBOLD_3
+ - Mob: GLD_KOBOLD_ARCHER_Z 
+   Sprite: GLD_KOBOLD_ARCHER
+ - Mob: E_FABRE_Z 
+   Sprite: E_FABRE
+ - Mob: J_THIEF_BUG_Z 
+   Sprite: J_THIEF_BUG
+ - Mob: E_HORNET_Z 
+   Sprite: E_HORNET
+ - Mob: E_HORN_Z 
+   Sprite: E_HORN
+ - Mob: E_KIND_OF_BEETLE_Z 
+   Sprite: E_KIND_OF_BEETLE
+ - Mob: E_ARGIOPE_Z 
+   Sprite: E_ARGIOPE
+ - Mob: E_GIANT_SPIDER_Z 
+   Sprite: E_GIANT_SPIDER
+ - Mob: E_KILLER_MANTIS_Z 
+   Sprite: E_KILLER_MANTIS
+ - Mob: E_GIANT_HONET_Z 
+   Sprite: E_GIANT_HONET
+ - Mob: E_DRAGON_TAIL_Z 
+   Sprite: E_DRAGON_TAIL
+ - Mob: E_STAINER_Z 
+   Sprite: E_STAINER
+ - Mob: E_CHONCHON_Z 
+   Sprite: E_CHONCHON
+ - Mob: E_STEEL_CHONCHON_Z 
+   Sprite: E_STEEL_CHONCHON
+ - Mob: E_HUNTER_FLY_Z 
+   Sprite: E_HUNTER_FLY
+ - Mob: E_MAYA_Z 
+   Sprite: E_MAYA
+ - Mob: E_QUEEN_SCARABA_Z 
+   Sprite: E_QUEEN_SCARABA
+ - Mob: E_UNGOLIANT_Z 
+   Sprite: E_UNGOLIANT
+ - Mob: J_MISTRESS_Z 
+   Sprite: J_MISTRESS
+ - Mob: BUNGISNGIS_Z 
+   Sprite: BUNGISNGIS
+ - Mob: ENGKANTO_Z 
+   Sprite: ENGKANTO
+ - Mob: MANANANGGAL_Z 
+   Sprite: MANANANGGAL
+ - Mob: MANGKUKULAM_Z 
+   Sprite: MANGKUKULAM
+ - Mob: TIKBALANG_Z 
+   Sprite: TIKBALANG
+ - Mob: TIYANAK_Z 
+   Sprite: TIYANAK
+ - Mob: WAKWAK_Z 
+   Sprite: WAKWAK
+ - Mob: JEJELING_Z 
+   Sprite: JEJELING
+ - Mob: BANGUNGOT_1_Z 
+   Sprite: BANGUNGOT_1
+ - Mob: BANGUNGOT_2_Z 
+   Sprite: BANGUNGOT_2
+ - Mob: BUWAYA_Z 
+   Sprite: BUWAYA
+ - Mob: BAKONAWA_1_Z 
+   Sprite: BAKONAWA_1
+ - Mob: BAKONAWA_2_Z 
+   Sprite: BAKONAWA_2
+ - Mob: BAKONAWA_3_Z 
+   Sprite: BAKONAWA_3
+ - Mob: EVENT_BOMB_Z 
+   Sprite: EVENT_BOMB
+ - Mob: EVENT_RANGE_Z 
+   Sprite: EVENT_RANGE
+ - Mob: M_BAPHOMET__Z 
+   Sprite: M_BAPHOMET_
+ - Mob: M_GALAPAGO_Z 
+   Sprite: M_GALAPAGO
+ - Mob: BANGUNGOT_3_Z 
+   Sprite: BANGUNGOT_3
+ - Mob: MA_DRUM_Z 
+   Sprite: MA_DRUM
+ - Mob: BUWAYA_EGG_Z 
+   Sprite: BUWAYA_EGG
+ - Mob: BUWAYA_SLAVE_Z 
+   Sprite: BUWAYA_SLAVE
+ - Mob: BUWAYA_GHOST_Z 
+   Sprite: BUWAYA_GHOST
+ - Mob: G_WAKWAK_Z 
+   Sprite: G_WAKWAK
+ - Mob: DOMOVOI_Z 
+   Sprite: DOMOVOI
+ - Mob: HIDDEN_MOB_Z 
+   Sprite: HIDDEN_MOB
+ - Mob: MD_MANANANGGAL_Z 
+   Sprite: MD_MANANANGGAL
+ - Mob: MD_MANGKUKULAM_Z 
+   Sprite: MD_MANGKUKULAM
+ - Mob: MD_TIYANAK_Z 
+   Sprite: MD_TIYANAK
+ - Mob: RWC_BOSS2011_Z 
+   Sprite: RWC_BOSS2011
+ - Mob: MER_DIABOLIC_Z 
+   Sprite: MER_DIABOLIC
+ - Mob: HIDDEN_MOB_W_Z 
+   Sprite: HIDDEN_MOB_W
+ - Mob: MER_WISH_MAIDEN_Z 
+   Sprite: MER_WISH_MAIDEN
+ - Mob: MER_ZHERLTHSH_Z 
+   Sprite: MER_ZHERLTHSH
+ - Mob: MER_KTULLANUX_Z 
+   Sprite: MER_KTULLANUX
+ - Mob: MER_EDDGA_Z 
+   Sprite: MER_EDDGA
+ - Mob: MER_CIVIL_SERVANT_Z 
+   Sprite: MER_CIVIL_SERVANT
+ - Mob: MER_LOLI_RURI_Z 
+   Sprite: MER_LOLI_RURI
+ - Mob: MER_SEDORA_Z 
+   Sprite: MER_SEDORA
+ - Mob: MER_CHEPET_Z 
+   Sprite: MER_CHEPET
+ - Mob: E_RSX_0805_Z 
+   Sprite: E_RSX_0805
+ - Mob: N_MINOROUS_Z 
+   Sprite: N_MINOROUS
+ - Mob: N_MUMMY_Z 
+   Sprite: N_MUMMY
+ - Mob: N_VERIT_Z 
+   Sprite: N_VERIT
+ - Mob: N_MIMIC_Z 
+   Sprite: N_MIMIC
+ - Mob: G_N_MIMIC_Z 
+   Sprite: G_N_MIMIC
+ - Mob: N_ARCLOUSE_Z 
+   Sprite: N_ARCLOUSE
+ - Mob: G_N_ARCLOUSE_Z 
+   Sprite: G_N_ARCLOUSE
+ - Mob: N_ANCIENT_MUMMY_Z 
+   Sprite: N_ANCIENT_MUMMY
+ - Mob: G_N_ANCIENT_MUMMY_Z 
+   Sprite: G_N_ANCIENT_MUMMY
+ - Mob: N_AMON_RA_Z 
+   Sprite: N_AMON_RA
+ - Mob: MENBLATT_Z 
+   Sprite: MENBLATT
+ - Mob: PETAL_Z 
+   Sprite: PETAL
+ - Mob: CENERE_Z 
+   Sprite: CENERE
+ - Mob: ANTIQUE_BOOK_Z 
+   Sprite: ANTIQUE_BOOK
+ - Mob: LICHTERN_B_Z 
+   Sprite: LICHTERN_B
+ - Mob: LICHTERN_Y_Z 
+   Sprite: LICHTERN_Y
+ - Mob: LICHTERN_R_Z 
+   Sprite: LICHTERN_R
+ - Mob: LICHTERN_G_Z 
+   Sprite: LICHTERN_G
+ - Mob: FAITHFUL_MANAGER_Z 
+   Sprite: FAITHFUL_MANAGER
+ - Mob: MOROCC_4_142_Z 
+   Sprite: MOROCC_4_142
+ - Mob: MOROCC_2_142_Z 
+   Sprite: MOROCC_2_142
+ - Mob: MER_ANTLER_SCARABA_Z 
+   Sprite: MER_ANTLER_SCARABA
+ - Mob: G_PORING_Z 
+   Sprite: G_PORING
+ - Mob: POPORING_IMMUNE_M_Z 
+   Sprite: POPORING_IMMUNE_M
+ - Mob: POPORING_IMMUNE_A_Z 
+   Sprite: POPORING_IMMUNE_A
+ - Mob: DEAD_PLANKTON_Z 
+   Sprite: DEAD_PLANKTON
+ - Mob: WEAK_SKELETON_Z 
+   Sprite: WEAK_SKELETON
+ - Mob: WEAK_SKEL_SOLDIER_Z 
+   Sprite: WEAK_SKEL_SOLDIER
+ - Mob: SAILOR_SKELETON_Z 
+   Sprite: SAILOR_SKELETON
+ - Mob: L_SEYREN_Z 
+   Sprite: L_SEYREN
+ - Mob: L_EREMES_Z 
+   Sprite: L_EREMES
+ - Mob: L_HARWORD_Z 
+   Sprite: L_HARWORD
+ - Mob: L_SHECIL_Z 
+   Sprite: L_SHECIL
+ - Mob: L_KATRINN_Z 
+   Sprite: L_KATRINN
+ - Mob: L_MAGALETA_Z 
+   Sprite: L_MAGALETA
+ - Mob: L_YGNIZEM_Z 
+   Sprite: L_YGNIZEM
+ - Mob: L_WHIKEBAIN_Z 
+   Sprite: L_WHIKEBAIN
+ - Mob: L_ARMAIA_Z 
+   Sprite: L_ARMAIA
+ - Mob: L_KAVAC_Z 
+   Sprite: L_KAVAC
+ - Mob: L_DANCER_Z 
+   Sprite: L_DANCER
+ - Mob: L_RAWREL_Z 
+   Sprite: L_RAWREL
+ - Mob: L_EREND_Z 
+   Sprite: L_EREND
+ - Mob: G_L_SEYREN_Z 
+   Sprite: G_L_SEYREN
+ - Mob: G_L_EREMES_Z 
+   Sprite: G_L_EREMES
+ - Mob: G_L_HARWORD_Z 
+   Sprite: G_L_HARWORD
+ - Mob: G_L_SHECIL_Z 
+   Sprite: G_L_SHECIL
+ - Mob: G_L_KATRINN_Z 
+   Sprite: G_L_KATRINN
+ - Mob: G_L_MAGALETA_Z 
+   Sprite: G_L_MAGALETA
+ - Mob: G_L_YGNIZEM_Z 
+   Sprite: G_L_YGNIZEM
+ - Mob: G_L_WHIKEBAIN_Z 
+   Sprite: G_L_WHIKEBAIN
+ - Mob: G_L_ARMAIA_Z 
+   Sprite: G_L_ARMAIA
+ - Mob: G_L_KAVAC_Z 
+   Sprite: G_L_KAVAC
+ - Mob: G_L_DANCER_Z 
+   Sprite: G_L_DANCER
+ - Mob: G_L_RAWREL_Z 
+   Sprite: G_L_RAWREL
+ - Mob: G_L_EREND_Z 
+   Sprite: G_L_EREND
+ - Mob: B_NOVICE_Z 
+   Sprite: B_NOVICE
+ - Mob: B_SUPERNOVICE_Z 
+   Sprite: B_SUPERNOVICE
+ - Mob: AIRA_Z 
+   Sprite: AIRA
+ - Mob: KULUNA_Z 
+   Sprite: KULUNA
+ - Mob: MALLINA_Z 
+   Sprite: MALLINA
+ - Mob: EZELLA_Z 
+   Sprite: EZELLA
+ - Mob: LUNE_Z 
+   Sprite: LUNE
+ - Mob: MORIN_Z 
+   Sprite: MORIN
+ - Mob: NASARIN_Z 
+   Sprite: NASARIN
+ - Mob: MG_ZOMBIE_Z 
+   Sprite: MG_ZOMBIE
+ - Mob: MG_WRAITH_Z 
+   Sprite: MG_WRAITH
+ - Mob: MG_GHOUL_Z 
+   Sprite: MG_GHOUL
+ - Mob: MG_ARCLOUSE_Z 
+   Sprite: MG_ARCLOUSE
+ - Mob: MG_RAYDRIC_Z 
+   Sprite: MG_RAYDRIC
+ - Mob: MG_RAYDRIC_ARCHER_Z 
+   Sprite: MG_RAYDRIC_ARCHER
+ - Mob: MG_KNIGHT_OF_ABYSS_Z 
+   Sprite: MG_KNIGHT_OF_ABYSS
+ - Mob: MG_KHALITZBURG_Z 
+   Sprite: MG_KHALITZBURG
+ - Mob: MG_BLOODY_KNIGHT_Z 
+   Sprite: MG_BLOODY_KNIGHT
+ - Mob: MG_M_UNDEAD_KNIGHT_Z 
+   Sprite: MG_M_UNDEAD_KNIGHT
+ - Mob: MG_F_UNDEAD_KNIGHT_Z 
+   Sprite: MG_F_UNDEAD_KNIGHT
+ - Mob: MG_CORRUPTION_ROOT_Z 
+   Sprite: MG_CORRUPTION_ROOT
+ - Mob: MG_AMDARAIS_Z 
+   Sprite: MG_AMDARAIS
+ - Mob: NG_WANDER_MAN_Z 
+   Sprite: NG_WANDER_MAN
+ - Mob: NG_RIDEWORD_Z 
+   Sprite: NG_RIDEWORD
+ - Mob: NG_MIMIC_Z 
+   Sprite: NG_MIMIC
+ - Mob: NG_EVIL_DRUID_Z 
+   Sprite: NG_EVIL_DRUID
+ - Mob: NG_WRAITH_DEAD_Z 
+   Sprite: NG_WRAITH_DEAD
+ - Mob: NG_BAPHOMET_Z 
+   Sprite: NG_BAPHOMET
+ - Mob: G_NG_BAPHOMET__Z 
+   Sprite: G_NG_BAPHOMET_
+ - Mob: NG_CHIMERA_Z 
+   Sprite: NG_CHIMERA
+ - Mob: FACEWORM_Z 
+   Sprite: FACEWORM
+ - Mob: FACEWORM_DARK_Z 
+   Sprite: FACEWORM_DARK
+ - Mob: VENOM_BUG_Z 
+   Sprite: VENOM_BUG
+ - Mob: HIDDEN_MOB3_Z 
+   Sprite: HIDDEN_MOB3
+ - Mob: HIDDEN_MOB4_Z 
+   Sprite: HIDDEN_MOB4
+ - Mob: HIDDEN_MOB5_Z 
+   Sprite: HIDDEN_MOB5
+ - Mob: FACEWORM_LARVA_Z 
+   Sprite: FACEWORM_LARVA
+ - Mob: IRENE_ELDER_Z 
+   Sprite: IRENE_ELDER
+ - Mob: PAYONSOLDIER_Z 
+   Sprite: PAYONSOLDIER
+ - Mob: PAYONSOLDIER2_Z 
+   Sprite: PAYONSOLDIER2
+ - Mob: GUARDDOG_Z 
+   Sprite: GUARDDOG
+ - Mob: GUARDDOG2_Z 
+   Sprite: GUARDDOG2
+ - Mob: GEFFEN_MAGE_1_Z 
+   Sprite: GEFFEN_MAGE_1
+ - Mob: GEFFEN_MAGE_2_Z 
+   Sprite: GEFFEN_MAGE_2
+ - Mob: GEFFEN_MAGE_3_1_Z 
+   Sprite: GEFFEN_MAGE_3_1
+ - Mob: GEFFEN_MAGE_3_2_Z 
+   Sprite: GEFFEN_MAGE_3_2
+ - Mob: GEFFEN_MAGE_3_3_Z 
+   Sprite: GEFFEN_MAGE_3_3
+ - Mob: GEFFEN_MAGE_4_Z 
+   Sprite: GEFFEN_MAGE_4
+ - Mob: GEFFEN_MAGE_5_Z 
+   Sprite: GEFFEN_MAGE_5
+ - Mob: GEFFEN_MAGE_6_Z 
+   Sprite: GEFFEN_MAGE_6
+ - Mob: GEFFEN_MAGE_7_Z 
+   Sprite: GEFFEN_MAGE_7
+ - Mob: GEFFEN_MAGE_8_Z 
+   Sprite: GEFFEN_MAGE_8
+ - Mob: GEFFEN_MAGE_9_Z 
+   Sprite: GEFFEN_MAGE_9
+ - Mob: GEFFEN_MAGE_10_Z 
+   Sprite: GEFFEN_MAGE_10
+ - Mob: GEFFEN_MAGE_11_Z 
+   Sprite: GEFFEN_MAGE_11
+ - Mob: GEFFEN_MAGE_12_Z 
+   Sprite: GEFFEN_MAGE_12
+ - Mob: FEI_KANABIAN_Z 
+   Sprite: FEI_KANABIAN
+ - Mob: GEFFEN_FENRIR_Z 
+   Sprite: GEFFEN_FENRIR
+ - Mob: ALPHONSE_Z 
+   Sprite: ALPHONSE
+ - Mob: ALPHONSE_JR_Z 
+   Sprite: ALPHONSE_JR
+ - Mob: E_GEFFEN_MAGE_3_2_Z 
+   Sprite: E_GEFFEN_MAGE_3_2
+ - Mob: E_GEFFEN_MAGE_3_3_Z 
+   Sprite: E_GEFFEN_MAGE_3_3
+ - Mob: C1_ZOMBIE_SLAUGHTER_Z 
+   Sprite: C1_ZOMBIE_SLAUGHTER
+ - Mob: C2_ZOMBIE_PRISONER_Z 
+   Sprite: C2_ZOMBIE_PRISONER
+ - Mob: C3_ZOMBIE_MASTER_Z 
+   Sprite: C3_ZOMBIE_MASTER
+ - Mob: C4_ZOMBIE_Z 
+   Sprite: C4_ZOMBIE
+ - Mob: C5_ZAKUDAM_Z 
+   Sprite: C5_ZAKUDAM
+ - Mob: C1_YOYO_Z 
+   Sprite: C1_YOYO
+ - Mob: C2_YOYO_Z 
+   Sprite: C2_YOYO
+ - Mob: C3_WORM_TAIL_Z 
+   Sprite: C3_WORM_TAIL
+ - Mob: C4_WOOTAN_FIGHTER_Z 
+   Sprite: C4_WOOTAN_FIGHTER
+ - Mob: C5_WOOD_GOBLIN_Z 
+   Sprite: C5_WOOD_GOBLIN
+ - Mob: C1_WOLF_Z 
+   Sprite: C1_WOLF
+ - Mob: C2_WIND_GHOST_Z 
+   Sprite: C2_WIND_GHOST
+ - Mob: C3_WILOW_Z 
+   Sprite: C3_WILOW
+ - Mob: C4_WILD_ROSE_Z 
+   Sprite: C4_WILD_ROSE
+ - Mob: C5_WICKED_NYMPH_Z 
+   Sprite: C5_WICKED_NYMPH
+ - Mob: C2_WHISPER_Z 
+   Sprite: C2_WHISPER
+ - Mob: C3_WEAK_SKELETON_Z 
+   Sprite: C3_WEAK_SKELETON
+ - Mob: C4_WANDER_MAN_Z 
+   Sprite: C4_WANDER_MAN
+ - Mob: C5_VIOLY_Z 
+   Sprite: C5_VIOLY
+ - Mob: C1_VIOLY_Z 
+   Sprite: C1_VIOLY
+ - Mob: C2_VIOLY_Z 
+   Sprite: C2_VIOLY
+ - Mob: C3_VENOMOUS_Z 
+   Sprite: C3_VENOMOUS
+ - Mob: C4_VENATU_1_Z 
+   Sprite: C4_VENATU_1
+ - Mob: C5_VAVAYAGA_Z 
+   Sprite: C5_VAVAYAGA
+ - Mob: C1_VANBERK_Z 
+   Sprite: C1_VANBERK
+ - Mob: C2_VADON_Z 
+   Sprite: C2_VADON
+ - Mob: C3_UNGOLIANT_Z 
+   Sprite: C3_UNGOLIANT
+ - Mob: C4_TOUCAN_Z 
+   Sprite: C4_TOUCAN
+ - Mob: C5_TIYANAK_Z 
+   Sprite: C5_TIYANAK
+ - Mob: C2_THIEF_BUG_Z 
+   Sprite: C2_THIEF_BUG
+ - Mob: C3_THIEF_BUG_Z 
+   Sprite: C3_THIEF_BUG
+ - Mob: C4_THIEF_BUG_Z 
+   Sprite: C4_THIEF_BUG
+ - Mob: C5_THARA_FROG_Z 
+   Sprite: C5_THARA_FROG
+ - Mob: C1_TEDDY_BEAR_Z 
+   Sprite: C1_TEDDY_BEAR
+ - Mob: C2_TATACHO_Z 
+   Sprite: C2_TATACHO
+ - Mob: C3_TAROU_Z 
+   Sprite: C3_TAROU
+ - Mob: C4_TAMRUAN_Z 
+   Sprite: C4_TAMRUAN
+ - Mob: C5_STING_Z 
+   Sprite: C5_STING
+ - Mob: C1_STEM_WORM_Z 
+   Sprite: C1_STEM_WORM
+ - Mob: C2_STEEL_CHONCHON_Z 
+   Sprite: C2_STEEL_CHONCHON
+ - Mob: C3_STAPO_Z 
+   Sprite: C3_STAPO
+ - Mob: C4_STALACTIC_GOLEM_Z 
+   Sprite: C4_STALACTIC_GOLEM
+ - Mob: C5_STAINER_Z 
+   Sprite: C5_STAINER
+ - Mob: C1_SPORE_Z 
+   Sprite: C1_SPORE
+ - Mob: C2_SOLIDER_Z 
+   Sprite: C2_SOLIDER
+ - Mob: C3_SOLDIER_SKELETON_Z 
+   Sprite: C3_SOLDIER_SKELETON
+ - Mob: C4_SOLDIER_SKELETON_Z 
+   Sprite: C4_SOLDIER_SKELETON
+ - Mob: C5_SOLACE_Z 
+   Sprite: C5_SOLACE
+ - Mob: C1_SOHEE_Z 
+   Sprite: C1_SOHEE
+ - Mob: C2_SNOWIER_Z 
+   Sprite: C2_SNOWIER
+ - Mob: C3_SNAKE_Z 
+   Sprite: C3_SNAKE
+ - Mob: C4_SMOKIE_Z 
+   Sprite: C4_SMOKIE
+ - Mob: C5_SLEEPER_Z 
+   Sprite: C5_SLEEPER
+ - Mob: C1_SLEEPER_Z 
+   Sprite: C1_SLEEPER
+ - Mob: C2_SKOGUL_Z 
+   Sprite: C2_SKOGUL
+ - Mob: C3_SKELETON_GENERAL_Z 
+   Sprite: C3_SKELETON_GENERAL
+ - Mob: C4_SKELETON_GENERAL_Z 
+   Sprite: C4_SKELETON_GENERAL
+ - Mob: C5_SKEL_WORKER_Z 
+   Sprite: C5_SKEL_WORKER
+ - Mob: C1_SIROMA_Z 
+   Sprite: C1_SIROMA
+ - Mob: C2_SIDE_WINDER_Z 
+   Sprite: C2_SIDE_WINDER
+ - Mob: C3_SIDE_WINDER_Z 
+   Sprite: C3_SIDE_WINDER
+ - Mob: C4_SHINOBI_Z 
+   Sprite: C4_SHINOBI
+ - Mob: C5_SHELTER_Z 
+   Sprite: C5_SHELTER
+ - Mob: C1_SHELLFISH_Z 
+   Sprite: C1_SHELLFISH
+ - Mob: C2_SHECIL_Z 
+   Sprite: C2_SHECIL
+ - Mob: C3_SEE_OTTER_Z 
+   Sprite: C3_SEE_OTTER
+ - Mob: C4_SEDORA_Z 
+   Sprite: C4_SEDORA
+ - Mob: C5_SCORPION_Z 
+   Sprite: C5_SCORPION
+ - Mob: C1_SAVAGE_BABE_Z 
+   Sprite: C1_SAVAGE_BABE
+ - Mob: C2_SAVAGE_Z 
+   Sprite: C2_SAVAGE
+ - Mob: C3_SAVAGE_Z 
+   Sprite: C3_SAVAGE
+ - Mob: C4_SAND_MAN_Z 
+   Sprite: C4_SAND_MAN
+ - Mob: C5_SALAMANDER_Z 
+   Sprite: C5_SALAMANDER
+ - Mob: C1_SAILOR_SKELETON_Z 
+   Sprite: C1_SAILOR_SKELETON
+ - Mob: C2_ROWEEN_Z 
+   Sprite: C2_ROWEEN
+ - Mob: C3_RODA_FROG_Z 
+   Sprite: C3_RODA_FROG
+ - Mob: C4_RODA_FROG_Z 
+   Sprite: C4_RODA_FROG
+ - Mob: C5_ROCKER_Z 
+   Sprite: C5_ROCKER
+ - Mob: C1_RIDEWORD_Z 
+   Sprite: C1_RIDEWORD
+ - Mob: C2_RIDEWORD_Z 
+   Sprite: C2_RIDEWORD
+ - Mob: C3_RICE_CAKE_BOY_Z 
+   Sprite: C3_RICE_CAKE_BOY
+ - Mob: C4_RETRIBUTION_Z 
+   Sprite: C4_RETRIBUTION
+ - Mob: C5_RETRIBUTION_Z 
+   Sprite: C5_RETRIBUTION
+ - Mob: C1_RETRIBUTION_Z 
+   Sprite: C1_RETRIBUTION
+ - Mob: C2_REQUIEM_Z 
+   Sprite: C2_REQUIEM
+ - Mob: C3_REMOVAL_Z 
+   Sprite: C3_REMOVAL
+ - Mob: C5_RED_ERUMA_Z 
+   Sprite: C5_RED_ERUMA
+ - Mob: C1_RAYDRIC_Z 
+   Sprite: C1_RAYDRIC
+ - Mob: C2_RAYDRIC_Z 
+   Sprite: C2_RAYDRIC
+ - Mob: C3_RAWREL_Z 
+   Sprite: C3_RAWREL
+ - Mob: C4_RAKE_SCARABA_Z 
+   Sprite: C4_RAKE_SCARABA
+ - Mob: C5_RAGGLER_Z 
+   Sprite: C5_RAGGLER
+ - Mob: C1_RAFFLESIA_Z 
+   Sprite: C1_RAFFLESIA
+ - Mob: C3_PORING_Z 
+   Sprite: C3_PORING
+ - Mob: C4_PORING_Z 
+   Sprite: C4_PORING
+ - Mob: C5_PORING_Z 
+   Sprite: C5_PORING
+ - Mob: C1_PORING_Z 
+   Sprite: C1_PORING
+ - Mob: C2_PORCELLIO_Z 
+   Sprite: C2_PORCELLIO
+ - Mob: C3_POPORING_Z 
+   Sprite: C3_POPORING
+ - Mob: C4_POPORING_Z 
+   Sprite: C4_POPORING
+ - Mob: C5_POPORING_Z 
+   Sprite: C5_POPORING
+ - Mob: C1_POISON_TOAD_Z 
+   Sprite: C1_POISON_TOAD
+ - Mob: C2_POISON_SPORE_Z 
+   Sprite: C2_POISON_SPORE
+ - Mob: C3_PLASMA_Y_Z 
+   Sprite: C3_PLASMA_Y
+ - Mob: C4_PLANKTON_Z 
+   Sprite: C4_PLANKTON
+ - Mob: C5_PITMAN_Z 
+   Sprite: C5_PITMAN
+ - Mob: C1_PIRANHA_Z 
+   Sprite: C1_PIRANHA
+ - Mob: C2_PINGUICULA_D_Z 
+   Sprite: C2_PINGUICULA_D
+ - Mob: C3_PINGUICULA_Z 
+   Sprite: C3_PINGUICULA
+ - Mob: C4_PICKY__Z 
+   Sprite: C4_PICKY_
+ - Mob: C5_PHEN_Z 
+   Sprite: C5_PHEN
+ - Mob: C1_PETIT_Z 
+   Sprite: C1_PETIT
+ - Mob: C2_PETIT_Z 
+   Sprite: C2_PETIT
+ - Mob: C3_PENOMENA_Z 
+   Sprite: C3_PENOMENA
+ - Mob: C4_PENOMENA_Z 
+   Sprite: C4_PENOMENA
+ - Mob: C5_PECOPECO_Z 
+   Sprite: C5_PECOPECO
+ - Mob: C1_PASANA_Z 
+   Sprite: C1_PASANA
+ - Mob: C2_PARASITE_Z 
+   Sprite: C2_PARASITE
+ - Mob: C3_OWL_DUKE_Z 
+   Sprite: C3_OWL_DUKE
+ - Mob: C4_ORK_WARRIOR_Z 
+   Sprite: C4_ORK_WARRIOR
+ - Mob: C5_ORC_ZOMBIE_Z 
+   Sprite: C5_ORC_ZOMBIE
+ - Mob: C1_ORC_SKELETON_Z 
+   Sprite: C1_ORC_SKELETON
+ - Mob: C2_ORC_LADY_Z 
+   Sprite: C2_ORC_LADY
+ - Mob: C3_OBSERVATION_Z 
+   Sprite: C3_OBSERVATION
+ - Mob: C4_NOXIOUS_Z 
+   Sprite: C4_NOXIOUS
+ - Mob: C5_NOVUS_Z 
+   Sprite: C5_NOVUS
+ - Mob: C1_NOVUS_Z 
+   Sprite: C1_NOVUS
+ - Mob: C2_NOVUS_Z 
+   Sprite: C2_NOVUS
+ - Mob: C3_NOVUS_Z 
+   Sprite: C3_NOVUS
+ - Mob: C4_NIGHTMARE_TERROR_Z 
+   Sprite: C4_NIGHTMARE_TERROR
+ - Mob: C5_NG_WRAITH_DEAD_Z 
+   Sprite: C5_NG_WRAITH_DEAD
+ - Mob: C1_NG_WANDER_MAN_Z 
+   Sprite: C1_NG_WANDER_MAN
+ - Mob: C2_NEPENTHES_Z 
+   Sprite: C2_NEPENTHES
+ - Mob: C3_NECROMANCER_Z 
+   Sprite: C3_NECROMANCER
+ - Mob: C4_MYSTCASE_Z 
+   Sprite: C4_MYSTCASE
+ - Mob: C5_MUSCIPULAR_Z 
+   Sprite: C5_MUSCIPULAR
+ - Mob: C1_MUMMY_Z 
+   Sprite: C1_MUMMY
+ - Mob: C2_MUMMY_Z 
+   Sprite: C2_MUMMY
+ - Mob: C3_MUKA_Z 
+   Sprite: C3_MUKA
+ - Mob: C4_MOROCC_1_Z 
+   Sprite: C4_MOROCC_1
+ - Mob: C5_MOROCC_1_Z 
+   Sprite: C5_MOROCC_1
+ - Mob: C1_MOROCC_1_Z 
+   Sprite: C1_MOROCC_1
+ - Mob: C2_MOLE_Z 
+   Sprite: C2_MOLE
+ - Mob: C3_MIYABI_NINGYO_Z 
+   Sprite: C3_MIYABI_NINGYO
+ - Mob: C4_MINOROUS_Z 
+   Sprite: C4_MINOROUS
+ - Mob: C5_MINOROUS_Z 
+   Sprite: C5_MINOROUS
+ - Mob: C1_MINOROUS_Z 
+   Sprite: C1_MINOROUS
+ - Mob: C2_MINERAL_Z 
+   Sprite: C2_MINERAL
+ - Mob: C3_MIMING_Z 
+   Sprite: C3_MIMING
+ - Mob: C4_MIMIC_Z 
+   Sprite: C4_MIMIC
+ - Mob: C5_MIMIC_Z 
+   Sprite: C5_MIMIC
+ - Mob: C1_METALLER_Z 
+   Sprite: C1_METALLER
+ - Mob: C2_METALING_Z 
+   Sprite: C2_METALING
+ - Mob: C3_METALING_Z 
+   Sprite: C3_METALING
+ - Mob: C4_MERMAN_Z 
+   Sprite: C4_MERMAN
+ - Mob: C5_MENBLATT_Z 
+   Sprite: C5_MENBLATT
+ - Mob: C1_MEDUSA_Z 
+   Sprite: C1_MEDUSA
+ - Mob: C2_MARTIN_Z 
+   Sprite: C2_MARTIN
+ - Mob: C3_MARIONETTE_Z 
+   Sprite: C3_MARIONETTE
+ - Mob: C4_MARIN_Z 
+   Sprite: C4_MARIN
+ - Mob: C5_MARDUK_Z 
+   Sprite: C5_MARDUK
+ - Mob: C1_MANTIS_Z 
+   Sprite: C1_MANTIS
+ - Mob: C2_MANDRAGORA_Z 
+   Sprite: C2_MANDRAGORA
+ - Mob: C3_MANANANGGAL_Z 
+   Sprite: C3_MANANANGGAL
+ - Mob: C4_MAJORUROS_Z 
+   Sprite: C4_MAJORUROS
+ - Mob: C5_MAGNOLIA_Z 
+   Sprite: C5_MAGNOLIA
+ - Mob: C1_MAGMARING_Z 
+   Sprite: C1_MAGMARING
+ - Mob: C2_LUNATIC_Z 
+   Sprite: C2_LUNATIC
+ - Mob: C3_LUNATIC_Z 
+   Sprite: C3_LUNATIC
+ - Mob: C4_LUDE_Z 
+   Sprite: C4_LUDE
+ - Mob: C5_LUCIOLA_VESPA_Z 
+   Sprite: C5_LUCIOLA_VESPA
+ - Mob: C1_LOLI_RURI_Z 
+   Sprite: C1_LOLI_RURI
+ - Mob: C2_LIVE_PEACH_TREE_Z 
+   Sprite: C2_LIVE_PEACH_TREE
+ - Mob: C3_LITTLE_PORING_Z 
+   Sprite: C3_LITTLE_PORING
+ - Mob: C4_LITTLE_FATUM_Z 
+   Sprite: C4_LITTLE_FATUM
+ - Mob: C5_LI_ME_MANG_RYANG_Z 
+   Sprite: C5_LI_ME_MANG_RYANG
+ - Mob: C1_LES_Z 
+   Sprite: C1_LES
+ - Mob: C2_LEIB_OLMAI_Z 
+   Sprite: C2_LEIB_OLMAI
+ - Mob: C3_LEAF_CAT_Z 
+   Sprite: C3_LEAF_CAT
+ - Mob: C1_KOBOLD_ARCHER_Z 
+   Sprite: C1_KOBOLD_ARCHER
+ - Mob: C2_KOBOLD_1_Z 
+   Sprite: C2_KOBOLD_1
+ - Mob: C3_KNOCKER_Z 
+   Sprite: C3_KNOCKER
+ - Mob: C4_KIND_OF_BEETLE_Z 
+   Sprite: C4_KIND_OF_BEETLE
+ - Mob: C5_KASA_Z 
+   Sprite: C5_KASA
+ - Mob: C1_KARAKASA_Z 
+   Sprite: C1_KARAKASA
+ - Mob: C2_ISIS_Z 
+   Sprite: C2_ISIS
+ - Mob: C3_ISILLA_Z 
+   Sprite: C3_ISILLA
+ - Mob: C4_INJUSTICE_Z 
+   Sprite: C4_INJUSTICE
+ - Mob: C5_INCREASE_SOIL_Z 
+   Sprite: C5_INCREASE_SOIL
+ - Mob: C1_ICE_TITAN_Z 
+   Sprite: C1_ICE_TITAN
+ - Mob: C2_IARA_Z 
+   Sprite: C2_IARA
+ - Mob: C3_HYEGUN_Z 
+   Sprite: C3_HYEGUN
+ - Mob: C4_HUNTER_FLY_Z 
+   Sprite: C4_HUNTER_FLY
+ - Mob: C5_HORNET_Z 
+   Sprite: C5_HORNET
+ - Mob: C1_HORN_SCARABA_Z 
+   Sprite: C1_HORN_SCARABA
+ - Mob: C2_HORN_Z 
+   Sprite: C2_HORN
+ - Mob: C3_HODREMLIN_Z 
+   Sprite: C3_HODREMLIN
+ - Mob: C4_HODE_Z 
+   Sprite: C4_HODE
+ - Mob: C5_HILL_WIND_1_Z 
+   Sprite: C5_HILL_WIND_1
+ - Mob: C1_HILL_WIND_1_Z 
+   Sprite: C1_HILL_WIND_1
+ - Mob: C2_HIGH_ORC_Z 
+   Sprite: C2_HIGH_ORC
+ - Mob: C3_HARPY_Z 
+   Sprite: C3_HARPY
+ - Mob: C4_HARPY_Z 
+   Sprite: C4_HARPY
+ - Mob: C5_GREEN_IGUANA_Z 
+   Sprite: C5_GREEN_IGUANA
+ - Mob: C1_GREATEST_GENERAL_Z 
+   Sprite: C1_GREATEST_GENERAL
+ - Mob: C2_GRAND_PECO_Z 
+   Sprite: C2_GRAND_PECO
+ - Mob: C3_GRAND_PECO_Z 
+   Sprite: C3_GRAND_PECO
+ - Mob: C4_GOLEM_Z 
+   Sprite: C4_GOLEM
+ - Mob: C5_GOBLIN_1_Z 
+   Sprite: C5_GOBLIN_1
+ - Mob: C1_GOBLIN_1_Z 
+   Sprite: C1_GOBLIN_1
+ - Mob: C2_GOAT_Z 
+   Sprite: C2_GOAT
+ - Mob: C3_GOAT_Z 
+   Sprite: C3_GOAT
+ - Mob: C4_GLD_KOBOLD_2_Z 
+   Sprite: C4_GLD_KOBOLD_2
+ - Mob: C5_GLD_KOBOLD_2_Z 
+   Sprite: C5_GLD_KOBOLD_2
+ - Mob: C1_GLD_DARK_SHADOW_Z 
+   Sprite: C1_GLD_DARK_SHADOW
+ - Mob: C2_GLD_DARK_SHADOW_Z 
+   Sprite: C2_GLD_DARK_SHADOW
+ - Mob: C3_GIANT_HONET_Z 
+   Sprite: C3_GIANT_HONET
+ - Mob: C4_GHOUL_Z 
+   Sprite: C4_GHOUL
+ - Mob: C5_GHOUL_Z 
+   Sprite: C5_GHOUL
+ - Mob: C1_GEOGRAPHER_Z 
+   Sprite: C1_GEOGRAPHER
+ - Mob: C2_GEOGRAPHER_Z 
+   Sprite: C2_GEOGRAPHER
+ - Mob: C3_GARGOYLE_Z 
+   Sprite: C3_GARGOYLE
+ - Mob: C4_GARGOYLE_Z 
+   Sprite: C4_GARGOYLE
+ - Mob: C5_GALION_Z 
+   Sprite: C5_GALION
+ - Mob: C1_FUR_SEAL_Z 
+   Sprite: C1_FUR_SEAL
+ - Mob: C2_FREEZER_Z 
+   Sprite: C2_FREEZER
+ - Mob: C3_FREEZER_Z 
+   Sprite: C3_FREEZER
+ - Mob: C4_FERUS__Z 
+   Sprite: C4_FERUS_
+ - Mob: C5_FARMILIAR_Z 
+   Sprite: C5_FARMILIAR
+ - Mob: C1_FAKE_ANGEL_Z 
+   Sprite: C1_FAKE_ANGEL
+ - Mob: C2_FABRE_Z 
+   Sprite: C2_FABRE
+ - Mob: C3_FABRE_Z 
+   Sprite: C3_FABRE
+ - Mob: C4_EXPLOSION_Z 
+   Sprite: C4_EXPLOSION
+ - Mob: C5_EVIL_DRUID_Z 
+   Sprite: C5_EVIL_DRUID
+ - Mob: C1_ELDER_WILOW_Z 
+   Sprite: C1_ELDER_WILOW
+ - Mob: C2_ELDER_WILOW_Z 
+   Sprite: C2_ELDER_WILOW
+ - Mob: C3_ECHIO_Z 
+   Sprite: C3_ECHIO
+ - Mob: C4_DUSTINESS_Z 
+   Sprite: C4_DUSTINESS
+ - Mob: C1_DRYAD_Z 
+   Sprite: C1_DRYAD
+ - Mob: C2_DROSERA_Z 
+   Sprite: C2_DROSERA
+ - Mob: C3_DROPS_Z 
+   Sprite: C3_DROPS
+ - Mob: C4_DRILLER_Z 
+   Sprite: C4_DRILLER
+ - Mob: C5_DRAINLIAR_Z 
+   Sprite: C5_DRAINLIAR
+ - Mob: C1_DRAGON_TAIL_Z 
+   Sprite: C1_DRAGON_TAIL
+ - Mob: C2_DRACO_Z 
+   Sprite: C2_DRACO
+ - Mob: C3_DOLOMEDES_Z 
+   Sprite: C3_DOLOMEDES
+ - Mob: C4_DOKEBI_Z 
+   Sprite: C4_DOKEBI
+ - Mob: C5_DISGUISE_Z 
+   Sprite: C5_DISGUISE
+ - Mob: C1_DIMIK_1_Z 
+   Sprite: C1_DIMIK_1
+ - Mob: C2_DEVIRUCHI_Z 
+   Sprite: C2_DEVIRUCHI
+ - Mob: C3_DESERT_WOLF_B_Z 
+   Sprite: C3_DESERT_WOLF_B
+ - Mob: C4_DESERT_WOLF_B_Z 
+   Sprite: C4_DESERT_WOLF_B
+ - Mob: C5_DENIRO_Z 
+   Sprite: C5_DENIRO
+ - Mob: C1_DEATHWORD_Z 
+   Sprite: C1_DEATHWORD
+ - Mob: C2_DEATHWORD_Z 
+   Sprite: C2_DEATHWORD
+ - Mob: C3_DEATHWORD_Z 
+   Sprite: C3_DEATHWORD
+ - Mob: C4_DARK_PRIEST_Z 
+   Sprite: C4_DARK_PRIEST
+ - Mob: C5_DANCING_DRAGON_Z 
+   Sprite: C5_DANCING_DRAGON
+ - Mob: C1_CREAMY_Z 
+   Sprite: C1_CREAMY
+ - Mob: C2_CORNUTUS_Z 
+   Sprite: C2_CORNUTUS
+ - Mob: C3_COOKIE_Z 
+   Sprite: C3_COOKIE
+ - Mob: C4_CONSTANT_Z 
+   Sprite: C4_CONSTANT
+ - Mob: C5_COMODO_Z 
+   Sprite: C5_COMODO
+ - Mob: C1_COCO_Z 
+   Sprite: C1_COCO
+ - Mob: C2_COCO_Z 
+   Sprite: C2_COCO
+ - Mob: C3_CLOCK_Z 
+   Sprite: C3_CLOCK
+ - Mob: C4_CLOCK_Z 
+   Sprite: C4_CLOCK
+ - Mob: C5_CHONCHON_Z 
+   Sprite: C5_CHONCHON
+ - Mob: C1_CENTIPEDE_Z 
+   Sprite: C1_CENTIPEDE
+ - Mob: C2_CENERE_Z 
+   Sprite: C2_CENERE
+ - Mob: C3_CELIA_Z 
+   Sprite: C3_CELIA
+ - Mob: C4_CATERPILLAR_Z 
+   Sprite: C4_CATERPILLAR
+ - Mob: C5_CARAT_Z 
+   Sprite: C5_CARAT
+ - Mob: C1_CARAMEL_Z 
+   Sprite: C1_CARAMEL
+ - Mob: C2_BUNGISNGIS_Z 
+   Sprite: C2_BUNGISNGIS
+ - Mob: C3_BREEZE_Z 
+   Sprite: C3_BREEZE
+ - Mob: C4_BREEZE_Z 
+   Sprite: C4_BREEZE
+ - Mob: C5_BRADIUM_GOLEM_Z 
+   Sprite: C5_BRADIUM_GOLEM
+ - Mob: C1_BLOOD_BUTTERFLY_Z 
+   Sprite: C1_BLOOD_BUTTERFLY
+ - Mob: C3_BIGFOOT_Z 
+   Sprite: C3_BIGFOOT
+ - Mob: C4_BATHORY_Z 
+   Sprite: C4_BATHORY
+ - Mob: C5_BANSHEE_MASTER_Z 
+   Sprite: C5_BANSHEE_MASTER
+ - Mob: C1_BANSHEE_Z 
+   Sprite: C1_BANSHEE
+ - Mob: C2_BANASPATY_Z 
+   Sprite: C2_BANASPATY
+ - Mob: C3_ASSULTER_Z 
+   Sprite: C3_ASSULTER
+ - Mob: C4_ARGOS_Z 
+   Sprite: C4_ARGOS
+ - Mob: C5_ARGIOPE_Z 
+   Sprite: C5_ARGIOPE
+ - Mob: C1_ARGIOPE_Z 
+   Sprite: C1_ARGIOPE
+ - Mob: C2_ARCLOUSE_Z 
+   Sprite: C2_ARCLOUSE
+ - Mob: C3_ARCLOUSE_Z 
+   Sprite: C3_ARCLOUSE
+ - Mob: C4_APOCALIPS_Z 
+   Sprite: C4_APOCALIPS
+ - Mob: C5_ANTLER_SCARABA_Z 
+   Sprite: C5_ANTLER_SCARABA
+ - Mob: C1_ANTIQUE_BOOK_Z 
+   Sprite: C1_ANTIQUE_BOOK
+ - Mob: C2_ANTIQUE_BOOK_Z 
+   Sprite: C2_ANTIQUE_BOOK
+ - Mob: C4_ANOLIAN_Z 
+   Sprite: C4_ANOLIAN
+ - Mob: C5_ANGRA_MANTIS_Z 
+   Sprite: C5_ANGRA_MANTIS
+ - Mob: C1_ANGRA_MANTIS_Z 
+   Sprite: C1_ANGRA_MANTIS
+ - Mob: C2_ANDRE_Z 
+   Sprite: C2_ANDRE
+ - Mob: C3_ANCIENT_MIMIC_Z 
+   Sprite: C3_ANCIENT_MIMIC
+ - Mob: C4_ANACONDAQ_Z 
+   Sprite: C4_ANACONDAQ
+ - Mob: C5_AMBERNITE_Z 
+   Sprite: C5_AMBERNITE
+ - Mob: C1_ALNOLDI_Z 
+   Sprite: C1_ALNOLDI
+ - Mob: C2_ALLIGATOR_Z 
+   Sprite: C2_ALLIGATOR
+ - Mob: C3_ALIZA_Z 
+   Sprite: C3_ALIZA
+ - Mob: C4_ALICEL_Z 
+   Sprite: C4_ALICEL
+ - Mob: C5_ALARM_Z 
+   Sprite: C5_ALARM
+ - Mob: C1_AGAV_Z 
+   Sprite: C1_AGAV
+ - Mob: C2_ACIDUS__Z 
+   Sprite: C2_ACIDUS_
+ - Mob: C3_ACIDUS__Z 
+   Sprite: C3_ACIDUS_
+ - Mob: E_GEFFEN_MAGE_3_1_Z 
+   Sprite: E_GEFFEN_MAGE_3_1
+ - Mob: BIG_BEN_Z 
+   Sprite: BIG_BEN
+ - Mob: BIG_BELL_Z 
+   Sprite: BIG_BELL
+ - Mob: TIME_KEEPER_Z 
+   Sprite: TIME_KEEPER
+ - Mob: NEO_PUNK_Z 
+   Sprite: NEO_PUNK
+ - Mob: ARC_ELDER_Z 
+   Sprite: ARC_ELDER
+ - Mob: OWL_VISCOUNT_Z 
+   Sprite: OWL_VISCOUNT
+ - Mob: G_OWL_VISCOUNT_Z 
+   Sprite: G_OWL_VISCOUNT
+ - Mob: OWL_MARQUEES_Z 
+   Sprite: OWL_MARQUEES
+ - Mob: T_ELDER_WILOW_Z 
+   Sprite: T_ELDER_WILOW
+ - Mob: T_WILOW_Z 
+   Sprite: T_WILOW
+ - Mob: T_HARPY_Z 
+   Sprite: T_HARPY
+ - Mob: T_MINERAL_Z 
+   Sprite: T_MINERAL
+ - Mob: T_GIBBET_Z 
+   Sprite: T_GIBBET
+ - Mob: T_PLASMA_G_Z 
+   Sprite: T_PLASMA_G
+ - Mob: T_SOLACE_Z 
+   Sprite: T_SOLACE
+ - Mob: T_METALING_Z 
+   Sprite: T_METALING
+ - Mob: T_POPORING_Z 
+   Sprite: T_POPORING
+ - Mob: T_DEVILING_Z 
+   Sprite: T_DEVILING
+ - Mob: T_ARCHANGELING_Z 
+   Sprite: T_ARCHANGELING
+ - Mob: T_EVIL_CLOUD_HERMIT_Z 
+   Sprite: T_EVIL_CLOUD_HERMIT
+ - Mob: MM_MAGIC_SEAL_Z 
+   Sprite: MM_MAGIC_SEAL
+ - Mob: MM_EVIL_SHADOW1_Z 
+   Sprite: MM_EVIL_SHADOW1
+ - Mob: MM_EVIL_SHADOW2_Z 
+   Sprite: MM_EVIL_SHADOW2
+ - Mob: MM_EVIL_SHADOW3_Z 
+   Sprite: MM_EVIL_SHADOW3
+ - Mob: MM_EVIL_FANATICS_Z 
+   Sprite: MM_EVIL_FANATICS
+ - Mob: MM_ICE_MINE_Z 
+   Sprite: MM_ICE_MINE
+ - Mob: CURSED_SOLDIER_Z 
+   Sprite: CURSED_SOLDIER
+ - Mob: CURSED_SENTINEL_Z 
+   Sprite: CURSED_SENTINEL
+ - Mob: BROKEN_MIND_Z 
+   Sprite: BROKEN_MIND
+ - Mob: FLOATING_WORD_Z 
+   Sprite: FLOATING_WORD
+ - Mob: LIKE_LOVE_Z 
+   Sprite: LIKE_LOVE
+ - Mob: CURSED_MEMORY_Z 
+   Sprite: CURSED_MEMORY
+ - Mob: COLORLESS_VOW_Z 
+   Sprite: COLORLESS_VOW
+ - Mob: OLD_FRIENDSHIP_Z 
+   Sprite: OLD_FRIENDSHIP
+ - Mob: SWEET_SLAUGHTER_Z 
+   Sprite: SWEET_SLAUGHTER
+ - Mob: FORGOTTEN_NAME_Z 
+   Sprite: FORGOTTEN_NAME
+ - Mob: FATAL_DAYS_Z 
+   Sprite: FATAL_DAYS
+ - Mob: TORTUROUS_REDEEMER_Z 
+   Sprite: TORTUROUS_REDEEMER
+ - Mob: MM_FLAMECROSS_Z 
+   Sprite: MM_FLAMECROSS
+ - Mob: E_TORTUROUS_REDEEMER_Z 
+   Sprite: E_TORTUROUS_REDEEMER
+ - Mob: XM_TREE_Z 
+   Sprite: XM_TREE
+ - Mob: XM_COOKIE_Z 
+   Sprite: XM_COOKIE
+ - Mob: XM_CRUISER_Z 
+   Sprite: XM_CRUISER
+ - Mob: XM_MYSTCASE_Z 
+   Sprite: XM_MYSTCASE
+ - Mob: XM_LUDE_Z 
+   Sprite: XM_LUDE
+ - Mob: XM_HYLOZOIST_Z 
+   Sprite: XM_HYLOZOIST
+ - Mob: XM_MARIONETTE_Z 
+   Sprite: XM_MARIONETTE
+ - Mob: XM_TEDDY_BEAR_Z 
+   Sprite: XM_TEDDY_BEAR
+ - Mob: EP14_MORS_EVENT_Z 
+   Sprite: EP14_MORS_EVENT
+ - Mob: EP14_MORS_BOSSA_Z 
+   Sprite: EP14_MORS_BOSSA
+ - Mob: EP14_MORS_MOB1_Z 
+   Sprite: EP14_MORS_MOB1
+ - Mob: EP14_MORS_MOB2_Z 
+   Sprite: EP14_MORS_MOB2
+ - Mob: EP14_MORS_MOB3_Z 
+   Sprite: EP14_MORS_MOB3
+ - Mob: EP14_MORS_MOB4_Z 
+   Sprite: EP14_MORS_MOB4
+ - Mob: EP14_MORS_MOB5_Z 
+   Sprite: EP14_MORS_MOB5
+ - Mob: EP14_MORS_MOB6_Z 
+   Sprite: EP14_MORS_MOB6
+ - Mob: EP14_MORS_HIDDEN_Z 
+   Sprite: EP14_MORS_HIDDEN
+ - Mob: EP14_3_DEATH_A_MOB1_Z 
+   Sprite: EP14_3_DEATH_A_MOB1
+ - Mob: EP14_3_DEATH_A_MOB2_Z 
+   Sprite: EP14_3_DEATH_A_MOB2
+ - Mob: EP14_3_DEATH_A_MOB3_Z 
+   Sprite: EP14_3_DEATH_A_MOB3
+ - Mob: EP14_3_DEATH_B_MOB1_Z 
+   Sprite: EP14_3_DEATH_B_MOB1
+ - Mob: EP14_3_DEATH_B_MOB2_Z 
+   Sprite: EP14_3_DEATH_B_MOB2
+ - Mob: EP14_3_DEATH_B_MOB3_Z 
+   Sprite: EP14_3_DEATH_B_MOB3
+ - Mob: EP14_3_DEATH_C_MOB1_Z 
+   Sprite: EP14_3_DEATH_C_MOB1
+ - Mob: EP14_3_DEATH_C_MOB2_Z 
+   Sprite: EP14_3_DEATH_C_MOB2
+ - Mob: EP14_3_DEATH_C_MOB3_Z 
+   Sprite: EP14_3_DEATH_C_MOB3
+ - Mob: FIRE_CONDOR_Z 
+   Sprite: FIRE_CONDOR
+ - Mob: FIRE_SAND_MAN_Z 
+   Sprite: FIRE_SAND_MAN
+ - Mob: FIRE_FRILLDORA_Z 
+   Sprite: FIRE_FRILLDORA
+ - Mob: FIRE_GOLEM_Z 
+   Sprite: FIRE_GOLEM
+ - Mob: FULBUK_Z 
+   Sprite: FULBUK
+ - Mob: HIDDEN_MOB7_Z 
+   Sprite: HIDDEN_MOB7
+ - Mob: B_MOROCC_1_Z 
+   Sprite: B_MOROCC_1
+ - Mob: B_MOROCC_2_Z 
+   Sprite: B_MOROCC_2
+ - Mob: B_MOROCC_4_Z 
+   Sprite: B_MOROCC_4
+ - Mob: PERE1_Z 
+   Sprite: PERE1
+ - Mob: PERE2_Z 
+   Sprite: PERE2
+ - Mob: PERE3_Z 
+   Sprite: PERE3
+ - Mob: PERE4_Z 
+   Sprite: PERE4
+ - Mob: GRAND_PERE_Z 
+   Sprite: GRAND_PERE
+ - Mob: JITTERBUG1_Z 
+   Sprite: JITTERBUG1
+ - Mob: JITTERBUG2_Z 
+   Sprite: JITTERBUG2
+ - Mob: STEP_Z 
+   Sprite: STEP
+ - Mob: EXCAVATOR_ROBOT_Z 
+   Sprite: EXCAVATOR_ROBOT
+ - Mob: RECON_ROBOT_Z 
+   Sprite: RECON_ROBOT
+ - Mob: REPAIR_ROBOT_Z 
+   Sprite: REPAIR_ROBOT
+ - Mob: EXPLORATION_ROVER_Z 
+   Sprite: EXPLORATION_ROVER
+ - Mob: RUIN_BELIEVER1_Z 
+   Sprite: RUIN_BELIEVER1
+ - Mob: RUIN_BELIEVER2_Z 
+   Sprite: RUIN_BELIEVER2
+ - Mob: E1_ROTAR_ZAIRO_Z 
+   Sprite: E1_ROTAR_ZAIRO
+ - Mob: E1_GREMLIN_Z 
+   Sprite: E1_GREMLIN
+ - Mob: E1_BEHOLDER_Z 
+   Sprite: E1_BEHOLDER
+ - Mob: E1_ACIDUS_Z 
+   Sprite: E1_ACIDUS
+ - Mob: E1_ACIDUS__Z 
+   Sprite: E1_ACIDUS_
+ - Mob: E1_G_S_NYDHOG_Z 
+   Sprite: E1_G_S_NYDHOG
+ - Mob: E1_FELOCK_Z 
+   Sprite: E1_FELOCK
+ - Mob: MM_M_GIGAN1_Z 
+   Sprite: MM_M_GIGAN1
+ - Mob: MM_M_GIGAN2_Z 
+   Sprite: MM_M_GIGAN2
+ - Mob: MM_M_GIGAN3_Z 
+   Sprite: MM_M_GIGAN3
+ - Mob: MM_L_GIGAN1_Z 
+   Sprite: MM_L_GIGAN1
+ - Mob: MM_L_GIGAN2_Z 
+   Sprite: MM_L_GIGAN2
+ - Mob: MM_L_GIGAN3_Z 
+   Sprite: MM_L_GIGAN3
+ - Mob: MM_M_GARGOYLE_Z 
+   Sprite: MM_M_GARGOYLE
+ - Mob: MM_M_GALION_Z 
+   Sprite: MM_M_GALION
+ - Mob: MM_M_MUTANT_DRAGON_Z 
+   Sprite: MM_M_MUTANT_DRAGON
+ - Mob: MM_M_CHIMERA_Z 
+   Sprite: MM_M_CHIMERA
+ - Mob: V_EREMES_Z 
+   Sprite: V_EREMES
+ - Mob: V_MAGALETA_Z 
+   Sprite: V_MAGALETA
+ - Mob: V_KATRINN_Z 
+   Sprite: V_KATRINN
+ - Mob: V_SHECIL_Z 
+   Sprite: V_SHECIL
+ - Mob: V_HARWORD_Z 
+   Sprite: V_HARWORD
+ - Mob: V_SEYREN_Z 
+   Sprite: V_SEYREN
+ - Mob: V_G_EREMES_Z 
+   Sprite: V_G_EREMES
+ - Mob: V_G_MAGALETA_Z 
+   Sprite: V_G_MAGALETA
+ - Mob: V_G_KATRINN_Z 
+   Sprite: V_G_KATRINN
+ - Mob: V_G_SHECIL_Z 
+   Sprite: V_G_SHECIL
+ - Mob: V_G_HARWORD_Z 
+   Sprite: V_G_HARWORD
+ - Mob: V_G_SEYREN_Z 
+   Sprite: V_G_SEYREN
+ - Mob: V_B_EREMES_Z 
+   Sprite: V_B_EREMES
+ - Mob: V_B_MAGALETA_Z 
+   Sprite: V_B_MAGALETA
+ - Mob: V_B_SHECIL_Z 
+   Sprite: V_B_SHECIL
+ - Mob: V_B_HARWORD_Z 
+   Sprite: V_B_HARWORD
+ - Mob: V_B_KATRINN_Z 
+   Sprite: V_B_KATRINN
+ - Mob: V_B_SEYREN_Z 
+   Sprite: V_B_SEYREN
+ - Mob: V_RANDEL_Z 
+   Sprite: V_RANDEL
+ - Mob: V_FLAMEL_Z 
+   Sprite: V_FLAMEL
+ - Mob: V_CELIA_Z 
+   Sprite: V_CELIA
+ - Mob: V_CHEN_Z 
+   Sprite: V_CHEN
+ - Mob: V_GERTIE_Z 
+   Sprite: V_GERTIE
+ - Mob: V_ALPHOCCIO_Z 
+   Sprite: V_ALPHOCCIO
+ - Mob: V_TRENTINI_Z 
+   Sprite: V_TRENTINI
+ - Mob: V_G_RANDEL_Z 
+   Sprite: V_G_RANDEL
+ - Mob: V_G_FLAMEL_Z 
+   Sprite: V_G_FLAMEL
+ - Mob: V_G_CELIA_Z 
+   Sprite: V_G_CELIA
+ - Mob: V_G_CHEN_Z 
+   Sprite: V_G_CHEN
+ - Mob: V_G_GERTIE_Z 
+   Sprite: V_G_GERTIE
+ - Mob: V_G_ALPHOCCIO_Z 
+   Sprite: V_G_ALPHOCCIO
+ - Mob: V_G_TRENTINI_Z 
+   Sprite: V_G_TRENTINI
+ - Mob: V_B_RANDEL_Z 
+   Sprite: V_B_RANDEL
+ - Mob: V_B_FLAMEL_Z 
+   Sprite: V_B_FLAMEL
+ - Mob: V_B_CELIA_Z 
+   Sprite: V_B_CELIA
+ - Mob: V_B_CHEN_Z 
+   Sprite: V_B_CHEN
+ - Mob: V_B_GERTIE_Z 
+   Sprite: V_B_GERTIE
+ - Mob: V_B_ALPHOCCIO_Z 
+   Sprite: V_B_ALPHOCCIO
+ - Mob: V_B_TRENTINI_Z 
+   Sprite: V_B_TRENTINI
+ - Mob: CENERE_G_Z 
+   Sprite: CENERE_G
+ - Mob: REPAIR_ROBOT_T_Z 
+   Sprite: REPAIR_ROBOT_T
+ - Mob: EXPLORATION_ROVER_T_Z 
+   Sprite: EXPLORATION_ROVER_T
+ - Mob: GC109_Z 
+   Sprite: GC109
+ - Mob: DR815_Z 
+   Sprite: DR815
+ - Mob: SYS_MSG_Z 
+   Sprite: SYS_MSG
+ - Mob: GHOUL_H_Z 
+   Sprite: GHOUL_H
+ - Mob: ZOMBIE_H_Z 
+   Sprite: ZOMBIE_H
+ - Mob: FROZENWOLF_Z 
+   Sprite: FROZENWOLF
+ - Mob: TAFFY_Z 
+   Sprite: TAFFY
+ - Mob: WATCHER_Z 
+   Sprite: WATCHER
+ - Mob: P_ARCHER_SKELETON_Z 
+   Sprite: P_ARCHER_SKELETON
+ - Mob: P_SKELETON_Z 
+   Sprite: P_SKELETON
+ - Mob: P_SOLDIER_SKELETON_Z 
+   Sprite: P_SOLDIER_SKELETON
+ - Mob: P_AMDARAIS_Z 
+   Sprite: P_AMDARAIS
+ - Mob: G_P_AMDARAIS_Z 
+   Sprite: G_P_AMDARAIS
+ - Mob: BIJOU_Z 
+   Sprite: BIJOU
+ - Mob: IMMOTAL_CORPS_Z 
+   Sprite: IMMOTAL_CORPS
+ - Mob: ZOMBIE_GUARD_Z 
+   Sprite: ZOMBIE_GUARD
+ - Mob: HEART_HUNTER_N_Z 
+   Sprite: HEART_HUNTER_N
+ - Mob: IMMORTAL_CORPS1_Z 
+   Sprite: IMMORTAL_CORPS1
+ - Mob: IMMORTAL_CORPS2_Z 
+   Sprite: IMMORTAL_CORPS2
+ - Mob: IMMORTAL_CORPS3_Z 
+   Sprite: IMMORTAL_CORPS3
+ - Mob: IMMORTAL_CO_CMDER_Z 
+   Sprite: IMMORTAL_CO_CMDER
+ - Mob: DR_EGGRING_Z 
+   Sprite: DR_EGGRING
+ - Mob: DR_FABRE_Z 
+   Sprite: DR_FABRE
+ - Mob: DR_HORNET_Z 
+   Sprite: DR_HORNET
+ - Mob: DR_RODA_FROG_Z 
+   Sprite: DR_RODA_FROG
+ - Mob: DR_DESERT_WOLF_B_Z 
+   Sprite: DR_DESERT_WOLF_B
+ - Mob: DR_SPORE_Z 
+   Sprite: DR_SPORE
+ - Mob: DR_BASILISK1_Z 
+   Sprite: DR_BASILISK1
+ - Mob: DR_BASILISK2_Z 
+   Sprite: DR_BASILISK2
+ - Mob: DR_BASILISK3_Z 
+   Sprite: DR_BASILISK3
+ - Mob: DR_BIG_EGGRING_Z 
+   Sprite: DR_BIG_EGGRING
+ - Mob: DR_MANDRAGORA_Z 
+   Sprite: DR_MANDRAGORA
+ - Mob: DR_POM_SPIDER_Z 
+   Sprite: DR_POM_SPIDER
+ - Mob: DR_EGGRING_G_Z 
+   Sprite: DR_EGGRING_G
+ - Mob: LITTLE_ISIS_Z 
+   Sprite: LITTLE_ISIS
+ - Mob: DIABOLIC2_Z 
+   Sprite: DIABOLIC2
+ - Mob: DELETER_2_Z 
+   Sprite: DELETER_2
+ - Mob: COWRAIDERS1_Z 
+   Sprite: COWRAIDERS1
+ - Mob: COWRAIDERS2_Z 
+   Sprite: COWRAIDERS2
+ - Mob: COWRAIDERS3_Z 
+   Sprite: COWRAIDERS3
+ - Mob: COYOTE_Z 
+   Sprite: COYOTE
+ - Mob: GASTER_Z 
+   Sprite: GASTER
+ - Mob: MECHASPIDER_Z 
+   Sprite: MECHASPIDER
+ - Mob: G_COWRAIDERS1_Z 
+   Sprite: G_COWRAIDERS1
+ - Mob: G_COWRAIDERS2_Z 
+   Sprite: G_COWRAIDERS2
+ - Mob: G_COWRAIDERS3_Z 
+   Sprite: G_COWRAIDERS3
+ - Mob: E_COWRAIDERS1_Z 
+   Sprite: E_COWRAIDERS1
+ - Mob: E_COWRAIDERS2_Z 
+   Sprite: E_COWRAIDERS2
+ - Mob: E_COWRAIDERS3_Z 
+   Sprite: E_COWRAIDERS3
+ - Mob: RR_ARCLOUSE_Z 
+   Sprite: RR_ARCLOUSE
+ - Mob: RR_CRAMP_Z 
+   Sprite: RR_CRAMP

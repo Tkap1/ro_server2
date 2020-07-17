@@ -10,6 +10,7 @@
 Thumbs.db
 
 subnet_athena.conf
+data_paths.json
 
 # /
 /*_fifo
