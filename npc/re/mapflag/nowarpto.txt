@@ -52,8 +52,8 @@ moc_prydn2	mapflag	nowarpto
 // Glast Heim Memorial Dungeon ===
 1@gl_k	mapflag	nowarpto
 2@gl_k	mapflag	nowarpto
-gl_chyard_	mapflag	nowarpto
-gl_cas02_	mapflag	nowarpto
+//gl_chyard_	mapflag	nowarpto
+//gl_cas02_	mapflag	nowarpto
 
 // Wave Mode Memorial Dungeon ====
 1@def01	mapflag	nowarpto
@@ -124,7 +124,7 @@ prt_cas_q	mapflag	nowarpto
 prt_pri00	mapflag	nowarpto
 prt_lib	mapflag	nowarpto
 prt_lib_q	mapflag	nowarpto
-prt_q	mapflag	nowarpto
+//prt_q	mapflag	nowarpto
 prt_prison	mapflag	nowarpto
 rebel_in	mapflag	nowarpto
 slabw01	mapflag	nowarpto

@@ -20361,7 +20361,7 @@ Body:
       - Level: 4
         Time: 150000
       - Level: 5
-        Time: 180000
+        Time: 3600000
     FixedCastTime: 2000
     CastTimeFlags:
       IgnoreDex: true

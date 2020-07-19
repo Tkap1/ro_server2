@@ -32,7 +32,7 @@ OnTimer5000:
 		getunitdata(.gid[.@dupid],.@d);
 		.@diff = (.mhp[.@dupid] - .@d[UMOB_HP]);
 		if(.@diff > 0){
-			npctalk "Punching Bag : I've taken " + (.@diff/5) + " DPS in last 5 seconds.";
+			npctalk (.@diff/5) + " DPS";
 			setunitdata .gid[.@dupid],UMOB_HP,.mhp[.@dupid];
 			specialeffect EF_HEAL;
 		}
